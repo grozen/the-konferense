@@ -1,0 +1,19 @@
+
+<div class="row section">
+  <h1>The Team</h1>
+
+<% data.speakers.each do |handle, speaker| %>
+    <div class="vcard">
+      <img class="vcard__img" src="<%= image_path speaker.image %>"/>
+      <div class="vcard__body">
+        <div class="vcard__title">
+          <%= speaker.name %>
+        </div>
+        <p>
+          <%= markdown speaker.bio %>
+        </p>
+      </div>
+  </div>
+<% end %>
+
+</div>

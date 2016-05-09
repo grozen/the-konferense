@@ -1,0 +1,69 @@
+times:
+  - start: "08:00"
+    end: "09:00"
+
+  - start: "09:00"
+    end: "09:40"
+
+  - start: "09:00"
+    end: "10:40"
+
+  - start: "12:00"
+    end: "13:30"
+
+rooms:
+  "room-1": 'Red Room'
+  "room-2": 'Blue Room'
+  "room-3": 'Green Room'
+
+tracks:
+  "room-1":
+    - type: break
+      icon: barcode
+      title: Registration
+    - type: talk
+      speaker: jondot
+      title: Hiring Developers, with Science!
+      abstract: some strange things that you
+    - type: talk
+      speaker: unativ
+      title: 'Internships: Good for the intern, Great for the team'
+      abstract: oo cool things.
+    - type: talk
+      speaker: jondot
+      title: 'Booting Up: Hiring and Growing Boot Camp Graduates'
+
+  "room-2":
+    - type: break
+      icon: barcode
+      title: Registration
+    - type: talk
+      speaker: unativ
+      title: Your First Legacy Codebase
+      abstract: everything is an app
+    - type: talk
+      speaker: jondot
+      title: Pat Packet Visits Ruby Rails
+      abstract: null
+    - type: talk
+      speaker: unativ
+      talk: 'Level-up Your ActiveRecord Skills: Learn SQL!'
+      abstract: null
+
+  "room-3":
+    - type: break
+      title: Registration
+      icon: barcode
+    - type: talk
+      speaker: jondot
+      title: 'I Can’t Believe It’s Not A Queue: Using Kafka with Rails'
+      abstract: null
+    - type: talk
+      speaker: unativ
+      title: The Rails Boot Process
+      abstract: null
+    - type: talk
+      speaker: jondot
+      title: How We Deploy Shopify
+      abstract: null
+

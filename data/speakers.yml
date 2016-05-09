@@ -1,0 +1,20 @@
+jondot:
+  name: Dotan Nahum
+  image: jondot.jpg
+  work: 
+    company: Klarna
+  bio: Some Bio
+       adasd
+  social:
+    twitter: jondot
+    github: jondot
+
+unativ:
+  name: Uri Nativ
+  image: unativ.jpg
+  work:
+    company: Klarna
+  bio: hello
+       world **bold** _italic_
+  social:
+    twitter: unativ

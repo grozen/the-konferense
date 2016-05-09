@@ -1,0 +1,11 @@
+.bundle
+.sass-cache
+.cache
+build
+vendor/bundle
+dummy.*
+credentials.rb
+.idea/node_modules
+.tmp/
+node_modules/
+build/

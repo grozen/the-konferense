@@ -1,0 +1,42 @@
+.logo{
+  height:20px;
+  margin-top:6px;
+}
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+
+.top-bar{
+  a, a:link, a:visited, a:hover{
+    color:$fg;
+  }
+}
+
+.top-bar-left{
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
+.sticky{
+  width:100%;
+  background:transparent;
+}
+
+.menu li {
+   white-space:nowrap;
+}
+.menu li a.active {
+  background: $menuitembg;
+}
+
