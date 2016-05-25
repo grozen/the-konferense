@@ -1,5 +1,9 @@
 ---
-language: ruby
+language: node_js
+node_js:
+  - "5"
+before_install:
+  - rvm install 2.3.0
 before_script: ./s.sh
 script: ./p.sh
 
