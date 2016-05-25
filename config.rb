@@ -76,4 +76,5 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
+  deploy.remote = 'git@github.com:klarna/the-konferense.git'
 end

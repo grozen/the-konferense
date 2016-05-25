@@ -9,7 +9,7 @@ before_install:
 - eval `ssh-agent -s`
 - ssh-add travis_konference_id_rsa
 - git config user.name "Travis CI"
-- git config user.email "$COMMIT_AUTHOR_EMAIL"
+- git config user.email "travis@foobar.com"
 - rvm install 2.3.0
 before_script: "./s.sh"
 script: "./p.sh"
