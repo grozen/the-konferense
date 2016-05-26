@@ -19,8 +19,8 @@ event:
   lanyrd: http://lanyrd.com/2016/thekonferense
 
 meta:
-  description: a conference
-  keywords: a, b, c
+  description: The KonferenSE - Klarna's Engineering Conference
+  keywords: Klarna, Engineering, Conference, Meetup
 
 debug: false
 
