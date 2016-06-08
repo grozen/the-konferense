@@ -10,7 +10,36 @@
 
 body {
   color:$fg;
-  background: $bg url('/images/herobg.jpg') no-repeat;
+  background: $bg;
+
+  background: url(/images/konferense-bg.png) no-repeat center center, linear-gradient(to left,  #fb0097 0%,#05b6c3 100%);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+#hero-logo {
+  height: 100vh;
+}
+
+#hero-logo .konferense-logo {
+  background: url(/images/konferense-logo.png) no-repeat center center;
+  height: 80vh;
+  background-size: contain;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+#hero-logo h3 {
+  position: absolute;
+  bottom: 5vh;
+  left: calc(50% - 300px);
+  width: 600px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .hero {
@@ -95,7 +124,6 @@ body {
 
 
 #the-konferense{
-  padding: 8em 0em;
   position:relative;
 
   @include breakpoint(small only) {

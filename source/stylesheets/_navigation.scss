@@ -34,7 +34,7 @@
 
 .sticky{
   width:100%;
-  background:transparent;
+  background: rgba(0,0,0,0.5);
 }
 
 .menu li {
@@ -42,5 +42,11 @@
 }
 .menu li a.active {
   background: $menuitembg;
+  color: #000;
 }
 
+.sticky-container {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
