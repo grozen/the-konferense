@@ -1,7 +1,6 @@
 @import 'vars';
 @import 'settings';
 @import 'foundation-sites/scss/foundation';
-
 @include foundation-everything;
 
 
@@ -73,26 +72,50 @@ body {
 }
 
 .session{
-  margin: 2em 0;
 }
 .session__title{
+  font-weight: 500;
 }
+.abstract__body-full{
+  display:none;
+
+  &.abstract__body-toggled{
+    display:block;
+  }
+}
+.abstract__body-tldr{
+  display:block;
+  &.abstract__body-toggled{
+    display:none;
+  }
+}
+.abstract__toggler{
+   text-align:center;
+   font-size:1.5em;
+}
+
 .hcard{
+  margin-bottom:1em;
 }
 .hcard-top{
-  margin-top:2em;
 }
 .hcard__img{
   float:left;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-top:-3px;
 }
 .hcard__body{
   margin-left: 40px;
 }
 .hcard__title{
-  padding-top:3px;
+}
+.hcard__bio{
+  display:none;
+}
+.hcard__bio-show{
+  display:block;
 }
 
 
@@ -149,6 +172,7 @@ body {
   table{
     margin:0
   }
+
 }
 
 .agenda__small{
@@ -159,6 +183,13 @@ body {
 }
 .agenda__slot{
    vertical-align:top;
+   white-space:nowrap;
+}
+td{
+   vertical-align:top;
+}
+.agenda__track{
+   width:33%
 }
 
 #venue{
@@ -181,12 +212,29 @@ body {
   }
 }
 
+.tabs-panel{
+   padding:0;
+}
+.tabs-content,.tabs{
+  border:none;
+}
+
 #speakers{
   background: $fg;
   color:$bg;
   position:relative;
 }
 
+ul.tabs {
+    text-align: center;
+    li.tabs-title {
+        float: none;
+        display: inline-block;
+        &>a{
+           font-size:1em;
+        }
+    }
+}
 
 #why{
   /* background: url('/images/astbg.png') no-repeat; */

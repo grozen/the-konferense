@@ -1,6 +1,165 @@
+blank:
+  name: TBD
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
+tomeralon:
+  name: Tomer Alon
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    "Tomer Alon started working at the Klarna Tel Aviv office as soon as it opened in September 2011.
+    With computer engineering background, Tomer spent a few years as a developer and a team lead, working on various products, including: merchants on-boarding website, Review GUI for risk agents and SLOT sms ticketing system for SL and Skanetrafiken.
+    Shifting from engineering to product, Tomer has been a product manager in the On-Demand and Digital Goods area for about 2 years."
+  social:
+    twitter: tbd
+
+niehoff:
+  name: Christian Niehoff
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+sergey:
+  name: Sergey Evstifeev
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+engstorm:
+  name: Martin Engström
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+gruter:
+  name: What is this RaaS thing, anyway?
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+ivan:
+  name: Ivan Dyachkov
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+bohm:
+  name: Sebastian Böhm
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+lilach:
+  name: Lilach Adir
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+daniellange:
+  name: Daniel Lange
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+filipe:
+  name: Filipe Cristóvão
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: 
+    TBD
+  social:
+    twitter: tbd
+
+perul:
+  name: Per Ullberg
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio:
+    "```echo \"Per Ullberg is tech lead for Klarna's data infrastructure teams Bill&Bull. The last 3.5 years these Uppsala based teams have introduced and implemented the Lambda architecture at Klarna using the Hadoop Eco system. 
+    Prior to joining Klarna, Per was a consultant of financial as well as gaming and betting industry working with both front and back end applications. 
+    Per is interested in test driven development and continuous integration and is the inventor of HiveRunner, an open source HiveQL unit testing framework.\" | sed s/Per/Pelle/g # Per is rather called Pelle.```"
+  social:
+    twitter: tbd
+
+davef:
+  name: Dave Farley
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
+vilhelm:
+  name: Vilhelm von Ehrenheim
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
+georgios:
+  name: Georgios Kryparos
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
+fernando:
+  name: Fernando Canel
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
 jondot:
   name: Dotan Nahum
-  image: jondot.jpg
+  image: avatars/jondot.jpg
   work: 
     company: Klarna
   bio: Some Bio
@@ -11,10 +170,12 @@ jondot:
 
 unativ:
   name: Uri Nativ
-  image: unativ.jpg
+  image: avatars/unativ.jpg
   work:
     company: Klarna
   bio: hello
        world **bold** _italic_
   social:
     twitter: unativ
+
+

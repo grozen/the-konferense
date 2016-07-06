@@ -3,67 +3,349 @@ times:
     end: "09:00"
 
   - start: "09:00"
-    end: "09:40"
+    end: "09:20"
 
-  - start: "09:00"
+  - start: "09:20"
+    end: "10:10"
+
+  - start: "10:10"
     end: "10:40"
 
-  - start: "12:00"
-    end: "13:30"
+  - start: "10:40"
+    end: "11:25"
+
+  - start: "11:25"
+    end: "11:30"
+
+  - start: "11:30"
+    end: "12:15"
+
+  - start: "12:15"
+    end: "13:15"
+
+  - start: "13:15"
+    end: "13:45"
+
+  - start: "13:45"
+    end: "13:50"
+
+  - start: "13:50"
+    end: "14:20"
+
+  - start: "14:20"
+    end: "14:25"
+
+  - start: "14:25"
+    end: "14:55"
+
+  - start: "14:55"
+    end: "15:25"
+
+  - start: "15:25"
+    end: "16:05"
+
+  - start: "16:05"
+    end: "16:10"
+
+  - start: "16:10"
+    end: "17:05"
+
+  - start: "17:05"
+    end: "18:00"
 
 rooms:
-  "room-1": 'Red Room'
-  "room-2": 'Blue Room'
-  "room-3": 'Green Room'
+  "room-1": 'B12'
+  "room-2": 'B3'
+  "room-3": 'C4'
+
 
 tracks:
   "room-1":
     - type: break
       icon: barcode
-      title: Registration
-    - type: talk
-      speaker: jondot
-      title: Hiring Developers, with Science!
-      abstract: some strange things that you
-    - type: talk
+      title: Breakfast + Registration
+    - type: span
       speaker: unativ
-      title: 'Internships: Good for the intern, Great for the team'
-      abstract: oo cool things.
+      title: Opening Words
+      abstract:
+    - type: span
+      speaker: davef
+      title: Keynote
+    - type: break
+      icon: barcode
+      title: Fika
     - type: talk
-      speaker: jondot
-      title: 'Booting Up: Hiring and Growing Boot Camp Graduates'
+      speaker: vilhelm
+      title: Predicting Customer Behaviour with Machine Learn at Klarna
+      abstract:
+        Understanding customer payment behaviour is central to the business model of
+        Klarna as part of credit underwriting.$MORE$ Even with great collection it would be
+        very expensive and immoral to grant anyone who asks credit. Therefore,
+        knowing beforehand if a customer is likely to pay their invoice is of great
+        importance to us so that we can choose to reject those that will not be able
+        to, or otherwise lack intent to pay. But how do we do this more specifically?
+        How do we estimate the probability of default and what do we do with it? How
+        can we identify and stop fraudulent purchase attempts automatically?   
+
+
+        In this talk I will take you through the whole process of decision model
+        development. This includes everything from root cause analysis and
+        data-mining to feature engineering, training and validation of machine
+        learning models and designing decision policies.. I will introduce you to the
+        specific problems we encounter in credit underwriting and how we try to solve
+        these problems in an automated way. 
+        
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: tomeralon
+      title: Product Management - best practices and what happened when I didn't follow them when building Digital Goods
+      abstract:
+        TBD
+
+    - type: span
+      title: Lunch
+
+    - type: talk
+      speaker: daniellange
+      title: How User Tests extrapolate cultural differences and similarities
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: niehoff
+      title: Sofort through the ages
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: sergey
+      title: "The many ways to do DevOps: A Journey"
+      abstract:
+        TBD
+
+    - type: span
+      title: Fika
+
+    - type: talk
+      speaker: engstrom
+      title: Eight years living with Kred
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: span
+      title: "Lightning Talks &rarr;"
+
+    - type: span
+      title: Closing words + Drinks
+
 
   "room-2":
     - type: break
       icon: barcode
-      title: Registration
+      title: Breakfast + Registration
     - type: talk
       speaker: unativ
-      title: Your First Legacy Codebase
-      abstract: everything is an app
+      title: Opening Words
     - type: talk
-      speaker: jondot
-      title: Pat Packet Visits Ruby Rails
-      abstract: null
+      speaker: davef
+      title: Keynote
+    - type: break
+      icon: barcode
+      title: Fika
     - type: talk
-      speaker: unativ
-      talk: 'Level-up Your ActiveRecord Skills: Learn SQL!'
-      abstract: null
+      speaker: georgios
+      title: Weekend at Bernie's (Security)
+      abstract: 
+        We will explore the landscape of client side
+        attacks with a pinch of user awareness.$MORE$
+
+
+        We will walk you through (even dare to demo)
+        different attack scenarios which differ in
+        nature but they can all eventually link up
+        to be used in a chain. These scenarios range
+        from semi-targeted phishing campaigns and
+        leakage of wireless-related information to
+        man in the middle attacks and full
+        exploitation of workstations. We will try to
+        make all this relevant to Klarna's
+        environment and attack surface. 
+
+
+        This is a talk about every day hacking and
+        exploitation techniques that are simple
+        enough to explain to your parents but
+        technical enough to visit stackoverflow
+        after we are done. We will build on last
+        year's lightning talk, but don't worry if
+        you missed it, we will recap quite fast.
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: perul
+      title: Lambda and Kappa - Durable, accurate, low latency application serving layers
+      abstract:
+        TBD
+
+    - type: break
+      title: Lunch
+
+    - type: talk
+      speaker: filipe
+      title: "PSP Integrations: The good, the bad, and the ugly"
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: lilach
+      title: Fika Factory - Let's Build a Mobile App
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: bohm
+      title: Decode the magic - The SOFORT Payment-Wizard
+      abstract:
+        TBD
+
+    - type: span
+      title: Fika
+
+    - type: talk
+      speaker: ivan
+      title: "Running Kafka in production: lessons learned"
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      title: Lightning Talks
+      abstract:
+        "Agile Retro Games - _Hannes Renn_
+
+
+        The Wild World of Platform Integrations - _Melissa Thobe_
+
+
+        It’s the little things that make me happy - _Inbal Gilai_
+
+
+        We’ve been water my friend - _G Davie_
+
+
+        What is PKI? - _Alexander Lindholm_
+
+
+        How hackers destroyed Mat Honan’s digital live in an hour - _Moria Ahi-Mordehai_
+
+
+        Xiaowang: Data Anonymization and Generation tool - _Ilija Prince_
+
+
+        How to write hello world in 100 lines of code? - _Ilona Shub_
+
+
+        Embrace procrastination - _Matthias Grüter_"
+
+    - type: talk
+      title: Closing words + Drinks
+
+
 
   "room-3":
     - type: break
-      title: Registration
       icon: barcode
-    - type: talk
-      speaker: jondot
-      title: 'I Can’t Believe It’s Not A Queue: Using Kafka with Rails'
-      abstract: null
-    - type: talk
+      title: Breakfast + Registration
+    - type: span
       speaker: unativ
-      title: The Rails Boot Process
-      abstract: null
+      title: Opening Words
+    - type: span
+      speaker: davef
+      title: Keynote
+    - type: break
+      icon: barcode
+      title: Fika
+
     - type: talk
-      speaker: jondot
-      title: How We Deploy Shopify
-      abstract: null
+      speaker: fernando
+      title: UI Components Workshop
+      abstract:
+
+    - type: break
+      icon: barcode
+      title: ""
+
+    - type: talk
+      title: ""
+
+    - type: span
+      title: Lunch
+
+    - type: talk
+      speaker: blank
+      title: Workshop 2
+      abstract: TBD
+
+    - type: break
+      icon: barcode
+      title: ""
+
+    - type: talk
+      title: ""
+
+    - type: break
+      icon: barcode
+      title: ""
+
+    - type: talk
+      title: ""
+
+    - type: span
+      title: Fika
+
+    - type: talk
+      speaker: gruter
+      title: What is this RaaS thing, anyway?
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: span
+      title: "&larr; Lightning Talks"
+      abstract:
+
+    - type: span
+      title: Closing words + Drinks
 
