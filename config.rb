@@ -76,10 +76,12 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  if ENV['STAGING']
+
+   if `git rev-parse --abbrev-ref HEAD`.chomp != 'master'
+    puts 'ATTENTION: not master, pushing to throwaway git repo'
     deploy.remote = 'git@github.com:jondot/the-konferense.git'
   else
+    puts 'ATTENTION: master, pushing to klarna repo'
     deploy.remote = 'git@github.com:klarna/the-konferense.git'
   end
-
 end
