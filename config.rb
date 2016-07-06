@@ -76,9 +76,8 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
-  if ENV['HEROKU']
-    deploy.branch = 'master'
-    deploy.remote = 'https://git.heroku.com/radiant-atoll-57007.git'
+  if ENV['STAGING']
+    deploy.remote = 'git@github.com:jondot/the-konferense.git'
   else
     deploy.remote = 'git@github.com:klarna/the-konferense.git'
   end
