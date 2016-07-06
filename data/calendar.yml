@@ -141,7 +141,20 @@ tracks:
       speaker: engstrom
       title: Eight years living with Kred
       abstract:
-        TBD
+        Kreditor started out as a factoring business specifically geared
+        towards e-commerce. Kred, therefore, started as, and at heart still is,
+        a factoring support system. This, along with a few other crucial
+        business decisions, developments and accidents has shaped and continues
+        to affect the system as it stands today.$MORE$
+
+
+        This talk will present a few of those developments, along with some of
+        their consequences that are still visible today, in code, data
+        structures, workflows and business procedures. This will in turn
+        develop into a few key learnings about how Klarna got to be where it is
+        today, what baggage it is carrying with it, what mistakes we may not
+        want to make again, and what traits and properties of Klarna and its
+        systems that we may want to develop, maintain and preserve.
 
     - type: break
       icon: barcode
@@ -203,7 +216,21 @@ tracks:
       speaker: perul
       title: Lambda and Kappa - Durable, accurate, low latency application serving layers
       abstract:
-        TBD
+        Klarna live applications require near real time data latency as well as
+        vast data history depth from multiple sources. Combined with
+        requirements of horizontal application scalability and statelessness, a
+        traditional data serving solution (e.g. centralised RDBMS) does not cut
+        the cheese. $MORE$
+        
+        
+        For the past three years Klarna has implemented the Lambda
+        Architecture serving applications with data for real time decisions.
+        Since then, new architectural proposals has emerged in the BigData
+        community. One upriser is the Kappa architecture. In this talk we look
+        at Klarnas current Lambda architecture, then we look at the Kappa
+        proposal including a case study. Finally we discuss how Kappa could
+        replace our current Lambda architecture and what would have to change.
+        
 
     - type: break
       title: Lunch
@@ -336,7 +363,15 @@ tracks:
       speaker: gruter
       title: What is this RaaS thing, anyway?
       abstract:
-        TBD
+        Have you ever wondered what the coding monkeys at Risk Engineering are
+        up to? As a recent newbie at Risk Engineering I'll open up the black
+        box that is RaaS and together we will look at the many moving parts
+        that make up RaaS. $MORE$
+        
+
+        At the end of this talk you will have retraced my
+        steps from RaaS noob to becoming proficient enough to know whatever
+        RaaS is all about.
 
     - type: break
       icon: barcode
