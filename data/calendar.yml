@@ -54,119 +54,12 @@ times:
     end: "18:00"
 
 rooms:
-  "room-1": 'B12'
   "room-2": 'B3'
+  "room-1": 'B12'
   "room-3": 'C4'
 
 
 tracks:
-  "room-1":
-    - type: break
-      icon: barcode
-      title: Breakfast + Registration
-    - type: span
-      speaker: unativ
-      title: Opening Words
-      abstract:
-    - type: span
-      speaker: davef
-      title: Keynote
-    - type: break
-      icon: barcode
-      title: Fika
-    - type: talk
-      speaker: vilhelm
-      title: Predicting Customer Behaviour with Machine Learn at Klarna
-      abstract:
-        Understanding customer payment behaviour is central to the business model of
-        Klarna as part of credit underwriting.$MORE$ Even with great collection it would be
-        very expensive and immoral to grant anyone who asks credit. Therefore,
-        knowing beforehand if a customer is likely to pay their invoice is of great
-        importance to us so that we can choose to reject those that will not be able
-        to, or otherwise lack intent to pay. But how do we do this more specifically?
-        How do we estimate the probability of default and what do we do with it? How
-        can we identify and stop fraudulent purchase attempts automatically?   
-
-
-        In this talk I will take you through the whole process of decision model
-        development. This includes everything from root cause analysis and
-        data-mining to feature engineering, training and validation of machine
-        learning models and designing decision policies.. I will introduce you to the
-        specific problems we encounter in credit underwriting and how we try to solve
-        these problems in an automated way. 
-        
-    - type: break
-      icon: barcode
-      title: Transition
-
-    - type: talk
-      speaker: tomeralon
-      title: Product Management - best practices and what happened when I didn't follow them when building Digital Goods
-      abstract:
-        TBD
-
-    - type: span
-      title: Lunch
-
-    - type: talk
-      speaker: daniellange
-      title: How User Tests extrapolate cultural differences and similarities
-      abstract:
-        TBD
-
-    - type: break
-      icon: barcode
-      title: Transition
-
-    - type: talk
-      speaker: niehoff
-      title: Sofort through the ages
-      abstract:
-        TBD
-
-    - type: break
-      icon: barcode
-      title: Transition
-
-    - type: talk
-      speaker: sergey
-      title: "The many ways to do DevOps: A Journey"
-      abstract:
-        TBD
-
-    - type: span
-      title: Fika
-
-    - type: talk
-      speaker: engstrom
-      title: Eight years living with Kred
-      abstract:
-        Kreditor started out as a factoring business specifically geared
-        towards e-commerce. Kred, therefore, started as, and at heart still is,
-        a factoring support system. This, along with a few other crucial
-        business decisions, developments and accidents has shaped and continues
-        to affect the system as it stands today.$MORE$
-
-
-        This talk will present a few of those developments, along with some of
-        their consequences that are still visible today, in code, data
-        structures, workflows and business procedures. This will in turn
-        develop into a few key learnings about how Klarna got to be where it is
-        today, what baggage it is carrying with it, what mistakes we may not
-        want to make again, and what traits and properties of Klarna and its
-        systems that we may want to develop, maintain and preserve.
-
-    - type: break
-      icon: barcode
-      title: Transition
-
-    - type: span
-      title: "Lightning Talks &rarr;"
-
-    - type: span
-      title: Closing words + Drinks
-
-
   "room-2":
     - type: break
       icon: barcode
@@ -307,6 +200,113 @@ tracks:
       title: Closing words + Drinks
 
 
+  "room-1":
+    - type: break
+      icon: barcode
+      title: Breakfast + Registration
+    - type: span
+      speaker: unativ
+      title: (B3) Opening Words
+      abstract:
+    - type: span
+      speaker: davef
+      title: (B3) Keynote
+    - type: break
+      icon: barcode
+      title: Fika
+    - type: talk
+      speaker: vilhelm
+      title: Predicting Customer Behaviour with Machine Learn at Klarna
+      abstract:
+        Understanding customer payment behaviour is central to the business model of
+        Klarna as part of credit underwriting.$MORE$ Even with great collection it would be
+        very expensive and immoral to grant anyone who asks credit. Therefore,
+        knowing beforehand if a customer is likely to pay their invoice is of great
+        importance to us so that we can choose to reject those that will not be able
+        to, or otherwise lack intent to pay. But how do we do this more specifically?
+        How do we estimate the probability of default and what do we do with it? How
+        can we identify and stop fraudulent purchase attempts automatically?   
+
+
+        In this talk I will take you through the whole process of decision model
+        development. This includes everything from root cause analysis and
+        data-mining to feature engineering, training and validation of machine
+        learning models and designing decision policies.. I will introduce you to the
+        specific problems we encounter in credit underwriting and how we try to solve
+        these problems in an automated way. 
+        
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: tomeralon
+      title: Product Management - best practices and what happened when I didn't follow them when building Digital Goods
+      abstract:
+        TBD
+
+    - type: span
+      title: Lunch
+
+    - type: talk
+      speaker: daniellange
+      title: How User Tests extrapolate cultural differences and similarities
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: niehoff
+      title: Sofort through the ages
+      abstract:
+        TBD
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: talk
+      speaker: sergey
+      title: "The many ways to do DevOps: A Journey"
+      abstract:
+        TBD
+
+    - type: span
+      title: Fika
+
+    - type: talk
+      speaker: engstrom
+      title: Eight years living with Kred
+      abstract:
+        Kreditor started out as a factoring business specifically geared
+        towards e-commerce. Kred, therefore, started as, and at heart still is,
+        a factoring support system. This, along with a few other crucial
+        business decisions, developments and accidents has shaped and continues
+        to affect the system as it stands today.$MORE$
+
+
+        This talk will present a few of those developments, along with some of
+        their consequences that are still visible today, in code, data
+        structures, workflows and business procedures. This will in turn
+        develop into a few key learnings about how Klarna got to be where it is
+        today, what baggage it is carrying with it, what mistakes we may not
+        want to make again, and what traits and properties of Klarna and its
+        systems that we may want to develop, maintain and preserve.
+
+    - type: break
+      icon: barcode
+      title: Transition
+
+    - type: span
+      title: "Lightning Talks &rarr;"
+
+    - type: span
+      title: Closing words + Drinks
+
+
 
   "room-3":
     - type: break
@@ -314,10 +314,10 @@ tracks:
       title: Breakfast + Registration
     - type: span
       speaker: unativ
-      title: Opening Words
+      title: (B3) Opening Words
     - type: span
       speaker: davef
-      title: Keynote
+      title: (B3) Keynote
     - type: break
       icon: barcode
       title: Fika

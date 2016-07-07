@@ -33,12 +33,10 @@ body {
 #hero-logo h3 {
   position: absolute;
   bottom: 5vh;
-  left: calc(50% - 300px);
-  width: 600px;
+  width: 100%;
   text-align: center;
   background: rgba(0,0,0,0.5);
   padding: 20px;
-  border-radius: 5px;
 }
 
 .hero {
