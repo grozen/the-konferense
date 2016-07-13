@@ -31,11 +31,12 @@ niehoff:
 
 sergey:
   name: Sergey Evstifeev
-  image: avatars/blank.png
+  image: avatars/s.evstifeev.png
   work:
     company: Klarna
   bio: 
-    TBD
+    I'm working as a software engineer at Klarna for more than 5 years, having worked with Erlang, Java and Ruby. I'm developing product features but tend to also focus a lot on the infrastructure. Among the things I like are continuous delivery, Docker and immutable infrastructure.
+    Previously I worked with mobile Java implementations at Sun Microsystems.
   social:
     twitter: tbd
 

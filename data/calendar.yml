@@ -136,7 +136,8 @@ tracks:
       speaker: sergey
       title: "The many ways to do DevOps: A Journey"
       abstract:
-        TBD
+        We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna".
+        In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.
 
     - type: break
       title: Fika
