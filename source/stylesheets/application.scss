@@ -10,11 +10,16 @@
 body {
   color:$fg;
   background: $bg;
+  font-family: 'Share', cursive;
 
   background: url(/images/konferense-bg.png) no-repeat center center, linear-gradient(to left,  #fb0097 0%,#05b6c3 100%);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fugaz One', cursive;
 }
 
 #hero-logo {
