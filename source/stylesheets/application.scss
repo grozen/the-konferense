@@ -227,7 +227,6 @@ table tr, table tbody tr:nth-child(even) {
 
 #agenda{
 
-  color: white;
 }
 .agenda__large{
   display:block;
@@ -285,6 +284,7 @@ td{
    padding:0;
 }
 .tabs-content,.tabs{
+  background: transparent;
   border:none;
 }
 
