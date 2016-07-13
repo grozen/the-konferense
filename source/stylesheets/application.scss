@@ -44,9 +44,25 @@ h1, h2, h3, h4, h5 {
   padding: 20px;
 }
 
+@keyframes pulse {
+  0% {
+    background-color: $buttonbg;
+    box-shadow: 0px 0px 10px 5px darken($buttonbg, 30%);
+  }
+  50% {
+    background-color: lighten($buttonbg, 25%);
+    box-shadow: 0px 0px 10px 5px darken($buttonbg, 10%);
+  }
+  100% {
+    background-color: $buttonbg;
+    box-shadow: 0px 0px 10px 5px darken($buttonbg, 30%);
+  }
+}
+
 #hero-logo a {
   background-color: $buttonbg;
   color: #000;
+  animation: pulse 2s infinite;
   font-size: 20px;
   display: inline-block;
   padding: 5px 25px;
