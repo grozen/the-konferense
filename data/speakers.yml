@@ -21,11 +21,11 @@ tomeralon:
 
 niehoff:
   name: Christian Niehoff
-  image: avatars/blank.png
+  image: avatars/c.niehoff.jpg
   work:
     company: Klarna
   bio: 
-    TBD
+    Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.
   social:
     twitter: tbd
 
@@ -45,37 +45,47 @@ engstorm:
   work:
     company: Klarna
   bio: 
-    TBD
+    Martin has been dabbling in Erlang for fun since 2004, and has kept dabbling for Klarna since 2008. From the start as a junior developer in the only engineering team that existed at the time, and from then on either with dunning related development, or with the beards in the Kred Core team. He has no beard, but a student of many diverse subjects, he has an MSc in psychology from Gothenburg University, something he has found both highly useful and pretty annoying in many situations at Klarna.
   social:
     twitter: tbd
 
 gruter:
-  name: What is this RaaS thing, anyway?
+  name: Matthias Grüter
   image: avatars/blank.png
   work:
     company: Klarna
   bio: 
-    TBD
+    Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.
+  social:
+    twitter: tbd
+
+colucci:
+  name: Thiago Rodrigues Colucci
+  image: avatars/t.colluci.jpg
+  work:
+    company: Klarna
+  bio:
+    Thiago is a crazy developer that learned how to code going to Coding Dojos and pairing with TDD experts. During his last "gig" he has been through lot's of different exercises and agile practices. This time he will present Code Whispers, a game where we'll find together how hard can it be to work in "legacy systems".
   social:
     twitter: tbd
 
 ivan:
   name: Ivan Dyachkov
-  image: avatars/blank.png
+  image: avatars/i.dyachkov.png
   work:
     company: Klarna
   bio: 
-    TBD
+    Before starting at Klarna Ivan was developing C++/MFC desktop applications for Windows, Java applications and web services, .NET applications and some Ruby on Rails web sites. Last few years he’s been working primarily with Erlang, and also recently started playing with Elixir and Go as well as doing a lot of devops.
   social:
     twitter: tbd
 
 bohm:
   name: Sebastian Böhm
-  image: avatars/blank.png
+  image: avatars/s.boehm.jpg
   work:
     company: Klarna
   bio: 
-    TBD
+    Product Owner and (former) Senior Developer at SOFORTs Team "Myrddin", which is responsible for the consumer facing payment forms (the so called SOFORT "Wizard") and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.
   social:
     twitter: tbd
 
@@ -111,13 +121,13 @@ filipe:
 
 perul:
   name: Per Ullberg
-  image: avatars/blank.png
+  image: avatars/p.ullberg.png
   work:
     company: Klarna
   bio:
-    "```echo \"Per Ullberg is tech lead for Klarna's data infrastructure teams Bill&Bull. The last 3.5 years these Uppsala based teams have introduced and implemented the Lambda architecture at Klarna using the Hadoop Eco system. 
+    Per Ullberg is tech lead for Klarna's data infrastructure teams Bill&Bull. The last 3.5 years these Uppsala based teams have introduced and implemented the Lambda architecture at Klarna using the Hadoop Eco system.
     Prior to joining Klarna, Per was a consultant of financial as well as gaming and betting industry working with both front and back end applications. 
-    Per is interested in test driven development and continuous integration and is the inventor of HiveRunner, an open source HiveQL unit testing framework.\" | sed s/Per/Pelle/g # Per is rather called Pelle.```"
+    Per is interested in test driven development and continuous integration and is the inventor of HiveRunner, an open source HiveQL unit testing framework.
   social:
     twitter: tbd
 
@@ -132,10 +142,10 @@ davef:
 
 vilhelm:
   name: Vilhelm von Ehrenheim
-  image: avatars/blank.png
+  image: avatars/v.ehrenheim.jpg
   work:
     company: Klarna
-  bio: TBD
+  bio: Vilhelm is the Lead Data Scientist of the Predictive modeling team and has been working as a Data Scientist at the Klarna Credit Risk department since 2013. He has a MSc in Engineering physics from LTH specializing in Machine learning and is an avid programmer and open source lover. He currently lives in Stockholm with his wife and 1yr old daughter.
   social:
     twitter: tbd
 
@@ -144,7 +154,7 @@ georgios:
   image: avatars/blank.png
   work:
     company: Klarna
-  bio: TBD
+  bio: Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade…
   social:
     twitter: tbd
 
@@ -157,24 +167,12 @@ fernando:
   social:
     twitter: tbd
 
-jondot:
-  name: Dotan Nahum
-  image: avatars/jondot.jpg
-  work: 
-    company: Klarna
-  bio: Some Bio
-       adasd
-  social:
-    twitter: jondot
-    github: jondot
-
 unativ:
   name: Uri Nativ
-  image: avatars/unativ.jpg
+  image: avatars/u.nativ.jpg
   work:
     company: Klarna
-  bio: hello
-       world **bold** _italic_
+  bio: TBD
   social:
     twitter: unativ
 
