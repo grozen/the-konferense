@@ -23,20 +23,29 @@ body {
 
 #hero-logo .konferense-logo {
   background: url(/images/konferense-logo.png) no-repeat center center;
-  height: 80vh;
+  height: 75vh;
   background-size: contain;
   max-width: 1300px;
   margin: 0 auto;
 }
 
 
-#hero-logo h3 {
+#hero-logo .tagline {
   position: absolute;
   bottom: 5vh;
   width: 100%;
   text-align: center;
   background: rgba(0,0,0,0.5);
   padding: 20px;
+}
+
+#hero-logo a {
+  background-color: $buttonbg;
+  color: #000;
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 3px;
 }
 
 .hero {
