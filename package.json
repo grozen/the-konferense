@@ -43,6 +43,7 @@
     "jquery": "^2.2.3",
     "jquery.scrollto": "^2.1.2",
     "lodash": "^4.11.2",
-    "script-loader": "^0.7.0"
+    "script-loader": "^0.7.0",
+    "soundcloud": "^3.1.2"
   }
 }
