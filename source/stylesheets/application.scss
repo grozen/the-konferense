@@ -178,57 +178,22 @@ table tr, table tbody tr:nth-child(even) {
    font-size:1.5em;
 }
 
-.hcard{
-  margin-bottom:1em;
+.speaker {
+  text-align: center;
+  margin-bottom: 20px;
 }
-.hcard-top{
-}
-.hcard__img{
-  float:left;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-top:-3px;
-}
-.hcard__body{
-  margin-left: 40px;
-}
-.hcard__title{
-}
-.hcard__bio{
+
+.speaker__bio{
   display:none;
 }
-.hcard__bio-show{
+.speaker__bio-show{
   display:block;
 }
 
-
-
-
-.vcard{
-  text-align: center;
-  width: 13rem;
-  height: 18rem;
-  border: 3px solid $fg;
-  padding: 2em 3em;
-  float: left;
-  margin:1em;
-}
-.vcard-light{
-  border: 3px solid $bg;
-}
-.vcard__img{
-  width: 60px;
-  height: 60px;
+.speaker__head {
   border-radius: 50%;
-  margin-bottom:1em;
+  height: 150px;
 }
-.vcard__body{
-}
-.vcard__title{
-}
-
-
 
 #the-konferense{
   position:relative;
