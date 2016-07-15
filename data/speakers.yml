@@ -9,7 +9,7 @@ blank:
 
 tomeralon:
   name: Tomer Alon
-  image: avatars/blank.png
+  image: avatars/t.alon.png
   work:
     company: Klarna
   bio: 
@@ -42,7 +42,7 @@ sergey:
 
 engstorm:
   name: Martin Engström
-  image: avatars/blank.png
+  image: avatars/m.engstrom.jpg
   work:
     company: Klarna
   bio: 
@@ -52,7 +52,7 @@ engstorm:
 
 gruter:
   name: Matthias Grüter
-  image: avatars/blank.png
+  image: avatars/m.gruter.jpg
   work:
     company: Klarna
   bio: 
@@ -92,7 +92,7 @@ bohm:
 
 lilach:
   name: Lilach Adir
-  image: avatars/blank.png
+  image: avatars/l.adir.jpg
   work:
     company: Klarna
   bio: 
@@ -102,7 +102,7 @@ lilach:
 
 daniellange:
   name: Daniel Lange
-  image: avatars/blank.png
+  image: avatars/d.lange.jpg
   work:
     company: Klarna
   bio: 
@@ -152,7 +152,7 @@ vilhelm:
 
 georgios:
   name: Georgios Kryparos
-  image: avatars/blank.png
+  image: avatars/g.kryparos.jpg
   work:
     company: Klarna
   bio: Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade…
@@ -160,8 +160,8 @@ georgios:
     twitter: tbd
 
 fernando:
-  name: Fernando Canel
-  image: avatars/blank.png
+  name: Fernando via Canel
+  image: avatars/f.via.canel.jpg
   work:
     company: Klarna
   bio: TBD
