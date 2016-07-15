@@ -17,8 +17,17 @@ SC.initialize({
 });
 var playing = true;
 var playerButton = $('.musicplayer');
+var volume = 1;
 SC.stream('/tracks/52693751').then(function(player){
     player.play();
+    player.setVolume(0);
+    var makeLouder = function() {
+        player.setVolume((volume++)/100);
+        if (volume < 100) {
+            setTimeout(makeLouder, 150);
+        }
+    };
+    makeLouder();
 
     playerButton.on('click', function(e) {
         if (playing) {
