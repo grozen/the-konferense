@@ -136,7 +136,7 @@ tracks:
       speaker: sergey
       title: "The many ways to do DevOps: A Journey"
       abstract:
-        We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna".
+        We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). $MORE$ What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna".
         In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.
 
     - type: break
@@ -151,8 +151,6 @@ tracks:
         a factoring support system. This, along with a few other crucial
         business decisions, developments and accidents has shaped and continues
         to affect the system as it stands today.$MORE$
-
-
         This talk will present a few of those developments, along with some of
         their consequences that are still visible today, in code, data
         structures, workflows and business procedures. This will in turn
@@ -194,21 +192,17 @@ tracks:
       title: Weekend at Bernie's (Security)
       abstract: 
         We will explore the landscape of client side
-        attacks with a pinch of user awareness.$MORE$
-
-
+        attacks with a pinch of user awareness.
         We will walk you through (even dare to demo)
         different attack scenarios which differ in
         nature but they can all eventually link up
-        to be used in a chain. These scenarios range
+        to be used in a chain. $MORE$ These scenarios range
         from semi-targeted phishing campaigns and
         leakage of wireless-related information to
         man in the middle attacks and full
         exploitation of workstations. We will try to
         make all this relevant to Klarna's
-        environment and attack surface. 
-
-
+        environment and attack surface.
         This is a talk about every day hacking and
         exploitation techniques that are simple
         enough to explain to your parents but
@@ -230,8 +224,6 @@ tracks:
         requirements of horizontal application scalability and statelessness, a
         traditional data serving solution (e.g. centralised RDBMS) does not cut
         the cheese. $MORE$
-        
-        
         For the past three years Klarna has implemented the Lambda
         Architecture serving applications with data for real time decisions.
         Since then, new architectural proposals has emerged in the BigData
