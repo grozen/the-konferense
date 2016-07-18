@@ -107,7 +107,7 @@ tracks:
       speaker: tomeralon
       title: Product Management - best practices and what happened when I didn't follow them when building Digital Goods
       abstract:
-        TBD
+        Walking through the product management process for Digital Goods, discussing basic "by the book" product management processes - and showing how not following them resulted in a bad product.
 
     - type: span
       title: Lunch
@@ -116,7 +116,7 @@ tracks:
       speaker: daniellange
       title: How User Tests extrapolate cultural differences and similarities
       abstract:
-        TBD
+        Why user tests are important, what they can teach us (and what they can't), a little insight into Klarna Credit and the thinking around presentation and naming.
 
     - type: break
       icon: barcode
@@ -240,7 +240,7 @@ tracks:
       speaker: filipe
       title: "PSP Integrations: The good, the bad, and the ugly"
       abstract:
-        TBD
+        PSP and bank integrations - The challenges of dealing with services that have file-based communication, and the PSP/Banking industry in general
 
     - type: break
       icon: barcode
@@ -250,7 +250,7 @@ tracks:
       speaker: lilach
       title: Fika Factory - Let's Build a Mobile App
       abstract:
-        TBD
+        In this session we will build an app using React Native.
 
     - type: break
       icon: barcode
@@ -269,7 +269,7 @@ tracks:
       speaker: ivan
       title: "Running Kafka in production: lessons learned"
       abstract:
-        TBD
+        In this session we will talk about how Kafka clusters are currently set up in Klarna,  evolution of the setup and deployment pipelines, tools we've build to support Kafka users, and lessons learned since we launched KaaS.
 
     - type: break
       icon: barcode
@@ -328,6 +328,8 @@ tracks:
       speaker: fernando
       title: UI Components Workshop
       abstract:
+        How do to fast prototyping using the Klarna UI React Components. Hands-on workshop to learn the tooling, the conventions, the practices and the available components.
+        Prototyping with React, understanding what the UI Components are about, seeing the styleguide in action
 
     - type: break
       icon: barcode
@@ -346,7 +348,7 @@ tracks:
         Have you ever played Chinese Whispers, or maybe telephone game, or even Viskleken... =]
         Today you will engage in a similar experience, but with code! <o>    \o/
         We'll solve a nice problem step by step together, but you never know from who's code your next step will continue!
-        Join us in this fully hands on workshop. Bring your laptop with a running Git and Ruby [or Java, if majority prefers] and enjoy!
+        Join us in this fully hands on workshop. Bring your laptop with a running Git and Ruby or Java and enjoy!
 
     - type: break
       icon: barcode

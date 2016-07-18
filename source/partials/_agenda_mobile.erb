@@ -24,21 +24,15 @@
                 <% tldr, rest = (session.abstract || '').split('$MORE$') %>
                 <td>
                   <% if speaker %>
-                    <div class="hcard hcard-top">
-                      <img class="hcard__img" src="<%=image_path(speaker.image)%>">
-                      <div class="hcard__body">
-
-                        <div class="hcard__title">
-                          <a data-toggle="<%= "#{speaker_key}-bio-mob" %>">
-                            <%= speaker.name %>
-                          </a>
-
-                          <div class="hcard__bio" id="<%= "#{speaker_key}-bio-mob" %>" data-toggler=".hcard__bio-show">
-                            <%= markdown speaker.bio %>
-                          </div>
+                        <div class="speaker">
+                            <img class="speaker__head" src="<%=image_path(speaker.image)%>"><br>
+                            <a data-toggle="<%= "#{speaker_key}-bio" %>">
+                                <%= speaker.name %>
+                            </a>
                         </div>
-                      </div>
-                    </div>
+                        <div class="speaker__bio" id="<%= "#{speaker_key}-bio" %>" data-toggler=".speaker__bio-show">
+                            <%= markdown speaker.bio %>
+                        </div>
                   <% end %>
                   <div class="session__title">
                     <%= session.title || "NA" %>
