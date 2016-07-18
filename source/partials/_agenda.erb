@@ -22,6 +22,7 @@
                 <% speaker = data.speakers[session.speaker] %>
                 <% speaker_key = "#{session.speaker}-#{index}-#{room}" %>
                 <% session_key = "#{room}-#{index}" %>
+                <% is_lightning_talks = session.abstract == '$$LIGHTNING_TALKS$$' %>
                 <% tldr, rest = (session.abstract || '').split('$MORE$') %>
                 <div class="session">
                   <% unless session.type == 'span' %>
@@ -42,21 +43,25 @@
                       <%= session.title || "NA" %>
                     </div>
                     <div class="session__abstract">
-                      <% if tldr %>
-                        <div class="abstract__body-full" id="<%= "#{session_key}-abstract-full-mob" %>" data-toggler=".abstract__body-toggled">
-                            <%= markdown [tldr, rest].join("\n") %>
-                            <div class="abstract__toggler">
-                              <a data-toggle="<%= "#{session_key}-abstract-full-mob" %> <%= "#{session_key}-abstract-tldr-mob" %>"><i class="fa fa-icon fa-chevron-up"></i></a>
-                            </div>
-                        </div>
-                        <div class="abstract__body-tldr" id="<%= "#{session_key}-abstract-tldr-mob" %>" data-toggler=".abstract__body-toggled">
-                          <%= markdown tldr %>
-                          <% if rest %>
-                            <div class="abstract__toggler">
-                              <a data-toggle="<%= "#{session_key}-abstract-full-mob" %> <%= "#{session_key}-abstract-tldr-mob" %>"><i class="fa fa-icon fa-chevron-down"></i></a>
-                            </div>
-                          <% end %>
-                        </div>
+                      <% if is_lightning_talks %>
+                        <%= partial "partials/_agenda_lightning_talks" %>
+                      <% else %>
+                        <% if tldr %>
+                          <div class="abstract__body-full" id="<%= "#{session_key}-abstract-full-mob" %>" data-toggler=".abstract__body-toggled">
+                              <%= markdown [tldr, rest].join("\n") %>
+                              <div class="abstract__toggler">
+                                <a data-toggle="<%= "#{session_key}-abstract-full-mob" %> <%= "#{session_key}-abstract-tldr-mob" %>"><i class="fa fa-icon fa-chevron-up"></i></a>
+                              </div>
+                          </div>
+                          <div class="abstract__body-tldr" id="<%= "#{session_key}-abstract-tldr-mob" %>" data-toggler=".abstract__body-toggled">
+                            <%= markdown tldr %>
+                            <% if rest %>
+                              <div class="abstract__toggler">
+                                <a data-toggle="<%= "#{session_key}-abstract-full-mob" %> <%= "#{session_key}-abstract-tldr-mob" %>"><i class="fa fa-icon fa-chevron-down"></i></a>
+                              </div>
+                            <% end %>
+                          </div>
+                        <% end %>
                       <% end %>
                     </div>
                     <% end %>

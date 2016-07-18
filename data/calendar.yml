@@ -190,7 +190,7 @@ tracks:
     - type: talk
       speaker: georgios
       title: Weekend at Bernie's (Security)
-      abstract: 
+      abstract:
         We will explore the landscape of client side
         attacks with a pinch of user awareness.
         We will walk you through (even dare to demo)
@@ -231,7 +231,7 @@ tracks:
         at Klarnas current Lambda architecture, then we look at the Kappa
         proposal including a case study. Finally we discuss how Kappa could
         replace our current Lambda architecture and what would have to change.
-        
+
 
     - type: break
       title: Lunch
@@ -277,32 +277,7 @@ tracks:
 
     - type: talk
       title: Lightning Talks
-      abstract:
-        "Agile Retro Games - _Hannes Renn_
-
-
-        The Wild World of Platform Integrations - _Melissa Thobe_
-
-
-        It’s the little things that make me happy - _Inbal Gilai_
-
-
-        We’ve been water my friend - _G Davie_
-
-
-        What is PKI? - _Alexander Lindholm_
-
-
-        How hackers destroyed Mat Honan’s digital live in an hour - _Moria Ahi-Mordehai_
-
-
-        Xiaowang: Data Anonymization and Generation tool - _Ilija Prince_
-
-
-        How to write hello world in 100 lines of code? - _Ilona Shub_
-
-
-        Embrace procrastination - _Matthias Grüter_"
+      abstract: $$LIGHTNING_TALKS$$
 
     - type: talk
       title: Closing words + Drinks
@@ -375,7 +350,7 @@ tracks:
         up to? As a recent newbie at Risk Engineering I'll open up the black
         box that is RaaS and together we will look at the many moving parts
         that make up RaaS. $MORE$
-        
+
 
         At the end of this talk you will have retraced my
         steps from RaaS noob to becoming proficient enough to know whatever
@@ -391,4 +366,3 @@ tracks:
 
     - type: span
       title: Closing words + Drinks
-
