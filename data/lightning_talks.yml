@@ -1,11 +1,31 @@
-- speaker: georgeparksdavie
-  title: We've been water my friend
+- speaker: hannesrenn
+  title: Agile Retro Games
   abstract:
-    This is a follow up to last years talk "Be Water My Friend". What has been
-    done and how did we process after exploring new ways to pay with SOFORT on a
-    mobile device in our hackathon. From theory to market and what have been our
-    obstacles from a technical and a product perspective. Where are we today
-    after a long year.
+    In this Talk I want to share the advantage of "Retro Games" compared to
+    normal retrospectives and give a humour oriented view of past retrospectives
+    so that SCRUM Masters who haven't thought about or done them yet might think
+    about it in the future, and tell the "victims" of the games why they are
+    useful.
+
+- speaker: melissathobe
+  title: The Wild World of Platform Integrations
+  abstract:
+    Klarna products are integrated in many platforms across the
+    supported markets. The process of integrating the products is often
+    completed by vendors outside of Klarna.
+
+
+    This session will take a look at how these efforts are approached
+    differently across the platforms based on platform type (open source vs.
+    SaaS), size of merchants on the platforms, setup of the relationship with
+    the platform and/or vendor completing the work and the numerous other
+    factors that impact the final build of the integration.
+
+
+    We will also explore steps being taken to improve the time and quality to
+    market for the platforms across all Klarna markets as well as involvement of
+    market resources throughout the process to ensure the integration meets each
+    market's needs.
 
 - speaker: inbalgilai
   title: It's the little things that make me happy
@@ -16,7 +36,52 @@
     "The Principle of The Bigger Smile”; design with great attention paid to
     whatever would make developers smile more and broader.
 
+
     What does that even mean? Lots of examples in this fun lightning talk!
+
+- speaker: georgeparksdavie
+  title: We've been water my friend
+  abstract:
+    This is a follow up to last years talk "Be Water My Friend". What has been
+    done and how did we process after exploring new ways to pay with SOFORT on a
+    mobile device in our hackathon. From theory to market and what have been our
+    obstacles from a technical and a product perspective. Where are we today
+    after a long year.
+
+- speaker: alexanderlindholm
+  title: What is PKI?
+  abstract:
+    TBD
+
+- speaker: moriamordehai
+  title: How hackers destroyed Mat Honan's digital life in an hour
+  abstract:
+    A fascinating story about reporter Mat Honan, who fell victim to an
+    attack by hackers who easily obtained his sensitive details.
+
+- speaker: ilijaprince
+  title: 'Xiaowang: Data Anonymization and Generation tool'
+  abstract:
+    While executing performance tests, we want to reuse production data to keep
+    the correct data distribution. For privacy reason, we have implemented a
+    tool which can obfuscate the data while keeping the relations and
+    distribution between the fields as in the original production data. Using
+    this approach, we can also test for future growth by running the same
+    process several times (for example generating 100M rows of test data from
+    1M rows of production data). The tool supports multiple data types like
+    uuid, datetime, text, email, ip, numeric and custom functions.
+
+
+    Xiaowang is a simple ruby script which is very easy to start and use
+    (tested with Linux/Mac, Ruby 2.0.0/2.2.2)
+
+- speaker: ilonashub
+  title: Do you really know what this is?
+  abstract:
+    If you've ever written in Javascript - you probably noticed some
+    weird parts in it. Does THIS cross your mind? If you’re a beginner and even
+    if you're not - THIS is confusing! Let's figure out how it works in
+    Javascript.
 
 - speaker: gruter
   title: '@todo'
@@ -26,39 +91,8 @@
     for the 3rd time this week? We software people are all too often plagued by
     procrastination.
 
+
     In this talk I'll argue that instead of fighting one's weaker
     self, or more adequately said in German, one's "innerer Schweinehund" one
     should start embracing the ability to procrastinate as a valuable strength.
     Let's all put off things together!
-
-- speaker: melissathobe
-  title: The Wild World of Platform Integrations
-  abstract:
-    Klarna products are integrated in many platforms across the
-    supported markets. The process of integrating the products is often
-    completed by vendors outside of Klarna.
-
-    This session will take a look at how these efforts are approached
-    differently across the platforms based on platform type (open source vs.
-    SaaS), size of merchants on the platforms, setup of the relationship with
-    the platform and/or vendor completing the work and the numerous other
-    factors that impact the final build of the integration.
-
-    We will also explore steps being taken to improve the time and quality to
-    market for the platforms across all Klarna markets as well as involvement of
-    market resources throughout the process to ensure the integration meets each
-    market's needs.
-
-- speaker: moriamordehai
-  title: How hackers destroyed Mat Honan's digital life in an hour
-  abstract:
-    A fascinating story about reporter Mat Honan, who fell victim to an
-    attack by hackers who easily obtained his sensitive details.
-
-- speaker: ilonashub
-  title: Do you really know what this is?
-  abstract:
-    If you've ever written in Javascript - you probably noticed some
-    weird parts in it. Does THIS cross your mind? If you’re a beginner and even
-    if you're not - THIS is confusing! Let's figure out how it works in
-    Javascript.
