@@ -12,7 +12,7 @@ tomeralon:
   image: avatars/t.alon.png
   work:
     company: Klarna
-  bio: 
+  bio:
     "Tomer Alon started working at the Klarna Tel Aviv office as soon as it opened in September 2011.
     With computer engineering background, Tomer spent a few years as a developer and a team lead, working on various products, including: merchants on-boarding website, Review GUI for risk agents and SLOT sms ticketing system for SL and Skanetrafiken.
     Shifting from engineering to product, Tomer has been a product manager in the On-Demand and Digital Goods area for about 2 years."
@@ -24,7 +24,7 @@ niehoff:
   image: avatars/c.niehoff.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.
   social:
     twitter: tbd
@@ -34,9 +34,29 @@ sergey:
   image: avatars/s.evstifeev.png
   work:
     company: Klarna
-  bio: 
+  bio:
     I'm working as a software engineer at Klarna for more than 5 years, having worked with Erlang, Java and Ruby. I'm developing product features but tend to also focus a lot on the infrastructure. Among the things I like are continuous delivery, Docker and immutable infrastructure.
     Previously I worked with mobile Java implementations at Sun Microsystems.
+  social:
+    twitter: tbd
+
+hannesrenn:
+  name: Hannes Renn
+  image: avatars/h.renn.jpg
+  work:
+    company: SOFORT
+  bio:
+    Hannes is working at SOFORT for one year now and loves agile methods. As part of the merchant team "Das Kartell" he develops the merchant and admin CRM system and some of the banking logics. He wanted to be a part of the conference team since he attended the first one in 2015 and hopes to bring some of his 10+ years of working into the planning. In his leisure Hannes likes to read books of Terry Pratchett and Stephen King, plays mostly RPG games (and some shooters) on the computer and loves to cycle.
+  social:
+    twitter: tbd
+
+melissathobe:
+  name: Melissa Thobe
+  image: avatars/m.thobe.jpg
+  work:
+    company: Klarna
+  bio:
+    TBD
   social:
     twitter: tbd
 
@@ -45,8 +65,21 @@ engstorm:
   image: avatars/m.engstrom.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     Martin has been dabbling in Erlang for fun since 2004, and has kept dabbling for Klarna since 2008. From the start as a junior developer in the only engineering team that existed at the time, and from then on either with dunning related development, or with the beards in the Kred Core team. He has no beard, but a student of many diverse subjects, he has an MSc in psychology from Gothenburg University, something he has found both highly useful and pretty annoying in many situations at Klarna.
+  social:
+    twitter: tbd
+
+inbalgilai:
+  name: Inbal Gilai
+  image: avatars/i.gilai.jpg
+  work:
+    company: Klarna
+  bio:
+    "Software developer for about 10 years.
+    I started off at the age of 18 as a developer in the Israeli army (top secret!). A few years later I started working for a start-up company in the field of online fraud detection, which was acquired by PayPal shortly after and so I worked for PayPal for a while.
+    From there I moved from sin-city Tel Aviv to the holy-land of Jerusalem, to study Computer Science and Cognitive Science in the Hebrew University. After graduating I found my way to Klarna, where I’ve been for over 3 years, during which I had the privilege to co-found Rails Girls events in Israel.
+    I’m very passionate about traveling around the world (just recently completed my 30-countries-before-30 challenge!), and also passionate about puzzles in general and puzzle-rooms in particular"
   social:
     twitter: tbd
 
@@ -55,7 +88,7 @@ gruter:
   image: avatars/m.gruter.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.
   social:
     twitter: tbd
@@ -75,7 +108,7 @@ ivan:
   image: avatars/i.dyachkov.png
   work:
     company: Klarna
-  bio: 
+  bio:
     Before starting at Klarna Ivan was developing C++/MFC desktop applications for Windows, Java applications and web services, .NET applications and some Ruby on Rails web sites. Last few years he’s been working primarily with Erlang, and also recently started playing with Elixir and Go as well as doing a lot of devops.
   social:
     twitter: tbd
@@ -85,7 +118,7 @@ bohm:
   image: avatars/s.boehm.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     Product Owner and (former) Senior Developer at SOFORTs Team "Myrddin", which is responsible for the consumer facing payment forms (the so called SOFORT "Wizard") and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.
   social:
     twitter: tbd
@@ -95,8 +128,31 @@ lilach:
   image: avatars/l.adir.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     TBD
+  social:
+    twitter: tbd
+
+ilijaprince:
+  name: Ilija Prince
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio:
+    I have been with Klarna since May 2015 in my role as a team lead of the Performance Team. My earlier experience involving working for Skype, Vonage, Telefonica and several startups; touching many different technologies and disciplines.
+    I like solving complex problems, math and physics. Outside of work I am spending most of my time with my family, I have two sons ages 2.5 and one year old so not much time left for anything else.
+  social:
+    twitter: tbd
+
+ilonashub:
+  name: Ilona Shub
+  image: avatars/i.shub.jpg
+  work:
+    company: Klarna
+  bio:
+    Started learning Pascal at school when she was 12 years old.
+    After high school she moved to a University in the desert to study Information Systems Engineer, and after 4 years moved to Tel-Aviv and started working in the Intelligence corps in the Army, first as a product manager and later got back to what she really loved doing - programming. So Klarna is her first after-the-army work place - which she have been with for the last 2 years and had the opportunity to really learn frontend development.
+    Besides work she loves diving, hiking, photographing - and doing all those things while traveling around the world.
   social:
     twitter: tbd
 
@@ -105,7 +161,7 @@ daniellange:
   image: avatars/d.lange.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     TBD
   social:
     twitter: tbd
@@ -115,7 +171,7 @@ filipe:
   image: avatars/p.cristovao.jpg
   work:
     company: Klarna
-  bio: 
+  bio:
     TBD
   social:
     twitter: tbd
@@ -127,16 +183,25 @@ perul:
     company: Klarna
   bio:
     Per Ullberg is tech lead for Klarna's data infrastructure teams Bill&Bull. The last 3.5 years these Uppsala based teams have introduced and implemented the Lambda architecture at Klarna using the Hadoop Eco system.
-    Prior to joining Klarna, Per was a consultant of financial as well as gaming and betting industry working with both front and back end applications. 
+    Prior to joining Klarna, Per was a consultant of financial as well as gaming and betting industry working with both front and back end applications.
     Per is interested in test driven development and continuous integration and is the inventor of HiveRunner, an open source HiveQL unit testing framework.
   social:
     twitter: tbd
 
 davef:
   name: Dave Farley
-  image: avatars/blank.png
+  image: avatars/d.farley.jpg
   work:
     company: Klarna
+  bio: TBD
+  social:
+    twitter: tbd
+
+georgeparksdavie:
+  name: George Parks Davie
+  image: avatars/g.davie.jpg
+  work:
+    company: SOFORT
   bio: TBD
   social:
     twitter: tbd
@@ -150,12 +215,32 @@ vilhelm:
   social:
     twitter: tbd
 
+alexanderlindholm:
+  name: Alexander Lindholm
+  image: avatars/a.lindholm.jpg
+  work:
+    company: Klarna
+  bio: Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.
+  social:
+    twitter: tbd
+
 georgios:
   name: Georgios Kryparos
   image: avatars/g.kryparos.jpg
   work:
     company: Klarna
   bio: Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade…
+  social:
+    twitter: tbd
+
+moriamordehai:
+  name: Moria Ahi-Mordehai
+  image: avatars/m.mordehai.png
+  work:
+    company: Klarna
+  bio: Moria joined Klarna a year ago and quickly became a passionate web developer. She believes that good code should be written for human beings.
+       Moria has experience with GIS technologies, the gaming industry and Fintech.
+       In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).
   social:
     twitter: tbd
 
@@ -177,5 +262,3 @@ unativ:
   bio: TBD
   social:
     twitter: unativ
-
-

@@ -198,6 +198,26 @@ table tr, table tbody tr:nth-child(even) {
   height: 150px;
 }
 
+.lightning-speaker {
+  display: flex;
+}
+.lightning-speaker__head {
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 20px 20px 0;
+}
+.lightning-session__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+.lightning-session__abstract {
+  display: none;
+  &-show {
+    display: block;
+  }
+}
+
 #the-konferense{
   position:relative;
 
@@ -265,6 +285,20 @@ td{
     display:inline-block;
     padding: 0.2em;
   }
+}
+
+ul.tabs li.tabs-title {
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  border-radius: 2px;
+  border: rgba(0, 0, 0, 0.5) 2px solid;
+  a {
+    color: #000;
+  }
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+  background: $menuitembg;
 }
 
 .tabs-panel{
