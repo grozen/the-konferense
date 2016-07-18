@@ -164,7 +164,8 @@ fernando:
   image: avatars/f.via.canel.jpg
   work:
     company: Klarna
-  bio: TBD
+  bio: I started programming at age 9, tweaking assembler code to move pixels on the screen. I eventually passed through Visual Basic and Java. I worked for a while in an inventory management application built in Java and I thought about quitting programming; instead, I found Rails, and I since then I'm fascinated by the possibilities.
+       I believe programming is, overall, a form of communication.
   social:
     twitter: tbd
 

@@ -328,8 +328,8 @@ tracks:
       speaker: fernando
       title: UI Components Workshop
       abstract:
-        How do to fast prototyping using the Klarna UI React Components. Hands-on workshop to learn the tooling, the conventions, the practices and the available components.
-        Prototyping with React, understanding what the UI Components are about, seeing the styleguide in action
+        "The purpose of the workshop is to learn how to use the UI Components. If you are interested in the UI Components but never used them, this workshop is for you. The technical requirements are minimal: basic familiarity with HTML, CSS and any programming language will do.
+        The components are not just for official products of Klarna. They are there to make your life easier if you happen to be building interfaces. Come join us!"
 
     - type: break
       icon: barcode
