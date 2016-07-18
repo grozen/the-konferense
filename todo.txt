@@ -11,7 +11,6 @@
 [X] travis auto publish hook
 
 
-
 organizational
 
 [ ] event ticketing provider
@@ -20,4 +19,3 @@ organizational
 [ ] talks (obviously)
 [ ] final copy
 [ ] og meta, favicon
-
