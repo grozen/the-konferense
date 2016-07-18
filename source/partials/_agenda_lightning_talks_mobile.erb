@@ -1,9 +1,23 @@
-I am so mobile
 <% data.lightning_talks.each_with_index do |talk, index| %>
-  <%= markdown talk.title %>
-  <%= markdown talk.abstract %>
-  <% speaker = data.speakers[talk.speaker] %>
-  <%= speaker.name %>
-  <%= markdown speaker.bio %>
-  <%= speaker.image %>
+    <% speaker = data.speakers[talk.speaker] %>
+    <% speaker_key = "lightning-#{index}" %>
+
+    <div class="lightning-speaker">
+        <img class="lightning-speaker__head" src="<%=image_path(speaker.image)%>"><br>
+        <div>
+            <a data-toggle="<%= "#{speaker_key}-bio" %>">
+                <%= speaker.name %>
+            </a>
+            <div class="speaker__bio" id="<%= "#{speaker_key}-bio" %>" data-toggler=".speaker__bio-show">
+                <%= markdown speaker.bio %>
+            </div>
+
+            <a class="lightning-session__title" data-toggle="<%= "#{speaker_key}-abstract" %>">
+                <%= markdown talk.title %>
+            </a>
+            <div class="lightning-session__abstract" id="<%= "#{speaker_key}-abstract" %>" data-toggler=".lightning-session__abstract-show">
+                <%= markdown talk.abstract %>
+            </div>
+        </div>
+    </div>
 <% end %>
