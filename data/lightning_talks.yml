@@ -49,9 +49,14 @@
     after a long year.
 
 - speaker: alexanderlindholm
-  title: What is PKI?
+  title: 'PKI: Common pitfalls and configuration'
   abstract:
-    TBD
+    "Have you ever wondered what the java error message
+    sun.security.provider.certpath.SunCertPathBuilderException: unable to find
+    valid certification path to requested target means? Or have you struggled
+    with key stores and trust stores and what they are? This talk will focus on
+    how to solve these common pitfalls and how to make a common java
+    configuration to secure your http endpoints"
 
 - speaker: moriamordehai
   title: How hackers destroyed Mat Honan's digital life in an hour
@@ -65,15 +70,9 @@
     While executing performance tests, we want to reuse production data to keep
     the correct data distribution. For privacy reason, we have implemented a
     tool which can obfuscate the data while keeping the relations and
-    distribution between the fields as in the original production data. Using
-    this approach, we can also test for future growth by running the same
-    process several times (for example generating 100M rows of test data from
-    1M rows of production data). The tool supports multiple data types like
-    uuid, datetime, text, email, ip, numeric and custom functions.
-
-
-    Xiaowang is a simple ruby script which is very easy to start and use
-    (tested with Linux/Mac, Ruby 2.0.0/2.2.2)
+    distribution between the fields as in the original production set. Using
+    the same approach, we also test for future growth by running the same
+    process multiple times.
 
 - speaker: ilonashub
   title: Do you really know what this is?
