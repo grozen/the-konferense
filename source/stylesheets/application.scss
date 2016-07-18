@@ -287,6 +287,20 @@ td{
   }
 }
 
+ul.tabs li.tabs-title {
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  border-radius: 2px;
+  border: rgba(0, 0, 0, 0.5) 2px solid;
+  a {
+    color: #000;
+  }
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+  background: $menuitembg;
+}
+
 .tabs-panel{
    padding:0;
 }
