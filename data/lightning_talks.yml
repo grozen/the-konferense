@@ -1,14 +1,39 @@
-- speaker: gruter
-  title: What is this RaaS thing, anyway?
+- speaker: georgeparksdavie
+  title: We've been water my friend
   abstract:
-    Have you ever wondered what the coding monkeys at Risk Engineering are
-    up to? As a recent newbie at Risk Engineering I'll open up the black
-    box that is RaaS and together we will look at the many moving parts
-    that make up RaaS.
-- speaker: gruter
-  title: What is this RaaS thing, anyway?
+    This is a follow up to last years talk "Be Water My Friend". What has been
+    done and how did we process after exploring new ways to pay with SOFORT on a
+    mobile device in our hackathon. From theory to market and what have been our
+    obstacles from a technical and a product perspective. Where are we today
+    after a long year.
+
+- speaker: inbalgilai
+  title: It's the little things that make me happy
   abstract:
-    Have you ever wondered what the coding monkeys at Risk Engineering are
-    up to? As a recent newbie at Risk Engineering I'll open up the black
-    box that is RaaS and together we will look at the many moving parts
-    that make up RaaS.
+    Ruby’s original heresy was to place the happiness of the programmer on a
+    pedestal - above many other competing and valid concerns that had driven
+    programming languages before it. Rails took this one step further with
+    "The Principle of The Bigger Smile”; design with great attention paid to
+    whatever would make developers smile more and broader.
+
+    What does that even mean? Lots of examples in this fun lightning talk!
+
+- speaker: gruter
+  title: TODO
+  abstract: Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination. In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!
+
+- speaker: melissathobe
+  title: The Wild World of Platform Integrations
+  abstract: Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna.  This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration.  We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's’ needs.
+
+- speaker: moriamordehai
+  title: How hackers destroyed Mat Honan's digital life in an hour
+  abstract: A fascinating story about reporter Mat Honan, who fell victim to an attack by hackers who easily obtained his sensitive details.
+
+- speaker: ilonashub
+  title: Do you really know what this is?
+  abstract: If you've ever written in Javascript - you probably noticed some weird parts in it. Does THIS cross your mind? If you’re a beginner and even if you're not - THIS is confusing! Let's figure out how it works in Javascript.
+
+- speaker: sergey
+  title: Sergey  talks
+  abstract: We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.
