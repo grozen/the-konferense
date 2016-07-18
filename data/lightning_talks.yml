@@ -19,17 +19,46 @@
     What does that even mean? Lots of examples in this fun lightning talk!
 
 - speaker: gruter
-  title: '@TODO
-  abstract: Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination. In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!
+  title: '@todo'
+  abstract:
+    Have you ever refactored your dotfiles instead of preparing for
+    tomorrow\'s demo? Have you caught your teammate rearranging the SCRUM board
+    for the 3rd time this week? We software people are all too often plagued by
+    procrastination.
+
+    In this talk I'll argue that instead of fighting one's weaker
+    self, or more adequately said in German, one's "innerer Schweinehund" one
+    should start embracing the ability to procrastinate as a valuable strength.
+    Let's all put off things together!
 
 - speaker: melissathobe
   title: The Wild World of Platform Integrations
-  abstract: Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna.  This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration.  We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's’ needs.
+  abstract:
+    Klarna products are integrated in many platforms across the
+    supported markets. The process of integrating the products is often
+    completed by vendors outside of Klarna.
+
+    This session will take a look at how these efforts are approached
+    differently across the platforms based on platform type (open source vs.
+    SaaS), size of merchants on the platforms, setup of the relationship with
+    the platform and/or vendor completing the work and the numerous other
+    factors that impact the final build of the integration.
+
+    We will also explore steps being taken to improve the time and quality to
+    market for the platforms across all Klarna markets as well as involvement of
+    market resources throughout the process to ensure the integration meets each
+    market's needs.
 
 - speaker: moriamordehai
   title: How hackers destroyed Mat Honan's digital life in an hour
-  abstract: A fascinating story about reporter Mat Honan, who fell victim to an attack by hackers who easily obtained his sensitive details.
+  abstract:
+    A fascinating story about reporter Mat Honan, who fell victim to an
+    attack by hackers who easily obtained his sensitive details.
 
 - speaker: ilonashub
   title: Do you really know what this is?
-  abstract: If you've ever written in Javascript - you probably noticed some weird parts in it. Does THIS cross your mind? If you’re a beginner and even if you're not - THIS is confusing! Let's figure out how it works in Javascript.
+  abstract:
+    If you've ever written in Javascript - you probably noticed some
+    weird parts in it. Does THIS cross your mind? If you’re a beginner and even
+    if you're not - THIS is confusing! Let's figure out how it works in
+    Javascript.
