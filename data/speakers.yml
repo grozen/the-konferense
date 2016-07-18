@@ -40,6 +40,26 @@ sergey:
   social:
     twitter: tbd
 
+hannesrenn:
+  name: Hannes Renn
+  image: avatars/h.renn.jpg
+  work:
+    company: SOFORT
+  bio:
+    Hannes is working at SOFORT for one year now and loves agile methods. As part of the merchant team "Das Kartell" he develops the merchant and admin CRM system and some of the banking logics. He wanted to be a part of the conference team since he attended the first one in 2015 and hopes to bring some of his 10+ years of working into the planning. In his leisure Hannes likes to read books of Terry Pratchett and Stephen King, plays mostly RPG games (and some shooters) on the computer and loves to cycle.
+  social:
+    twitter: tbd
+
+melissathobe:
+  name: Melissa Thobe
+  image: avatars/m.thobe.jpg
+  work:
+    company: Klarna
+  bio:
+    TBD
+  social:
+    twitter: tbd
+
 engstorm:
   name: Martin Engström
   image: avatars/m.engstrom.jpg
@@ -47,6 +67,19 @@ engstorm:
     company: Klarna
   bio: 
     Martin has been dabbling in Erlang for fun since 2004, and has kept dabbling for Klarna since 2008. From the start as a junior developer in the only engineering team that existed at the time, and from then on either with dunning related development, or with the beards in the Kred Core team. He has no beard, but a student of many diverse subjects, he has an MSc in psychology from Gothenburg University, something he has found both highly useful and pretty annoying in many situations at Klarna.
+  social:
+    twitter: tbd
+
+inbalgilai:
+  name: Inbal Gilai
+  image: avatars/i.gilai.jpg
+  work:
+    company: Klarna
+  bio:
+    "Software developer for about 10 years.
+    I started off at the age of 18 as a developer in the Israeli army (top secret!). A few years later I started working for a start-up company in the field of online fraud detection, which was acquired by PayPal shortly after and so I worked for PayPal for a while.
+    From there I moved from sin-city Tel Aviv to the holy-land of Jerusalem, to study Computer Science and Cognitive Science in the Hebrew University. After graduating I found my way to Klarna, where I’ve been for over 3 years, during which I had the privilege to co-found Rails Girls events in Israel.
+    I’m very passionate about traveling around the world (just recently completed my 30-countries-before-30 challenge!), and also passionate about puzzles in general and puzzle-rooms in particular"
   social:
     twitter: tbd
 
@@ -100,6 +133,29 @@ lilach:
   social:
     twitter: tbd
 
+ilijaprince:
+  name: Ilija Prince
+  image: avatars/blank.png
+  work:
+    company: Klarna
+  bio:
+    I have been with Klarna since May 2015 in my role as a team lead of the Performance Team. My earlier experience involving working for Skype, Vonage, Telefonica and several startups; touching many different technologies and disciplines.
+    I like solving complex problems, math and physics. Outside of work I am spending most of my time with my family, I have two sons ages 2.5 and one year old so not much time left for anything else.
+  social:
+    twitter: tbd
+
+ilonashub:
+  name: Ilona Shub
+  image: avatars/i.shub.jpg
+  work:
+    company: Klarna
+  bio:
+    Started learning Pascal at school when she was 12 years old.
+    After high school she moved to a University in the desert to study Information Systems Engineer, and after 4 years moved to Tel-Aviv and started working in the Intelligence corps in the Army, first as a product manager and later got back to what she really loved doing - programming. So Klarna is her first after-the-army work place - which she have been with for the last 2 years and had the opportunity to really learn frontend development.
+    Besides work she loves diving, hiking, photographing - and doing all those things while traveling around the world.
+  social:
+    twitter: tbd
+
 daniellange:
   name: Daniel Lange
   image: avatars/d.lange.jpg
@@ -141,6 +197,15 @@ davef:
   social:
     twitter: tbd
 
+georgeparksdavie:
+  name: George Parks Davie
+  image: avatars/g.davie
+  work:
+    company: SOFORT
+  bio: TBD
+  social:
+    twitter: tbd
+
 vilhelm:
   name: Vilhelm von Ehrenheim
   image: avatars/v.ehrenheim.jpg
@@ -150,12 +215,32 @@ vilhelm:
   social:
     twitter: tbd
 
+alexanderlindholm:
+  name: Alexander Lindholm
+  image: avatars/a.lindholm.jpg
+  work:
+    company: Klarna
+  bio: Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.
+  social:
+    twitter: tbd
+
 georgios:
   name: Georgios Kryparos
   image: avatars/g.kryparos.jpg
   work:
     company: Klarna
   bio: Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade…
+  social:
+    twitter: tbd
+
+moriamordehai:
+  name: Moria Ahi-Mordehai
+  image: avatars/m.mordehai.jpg
+  work:
+    company: Klarna
+  bio: Moria joined Klarna a year ago and quickly became a passionate web developer. She believes that good code should be written for human beings.
+       Moria has experience with GIS technologies, the gaming industry and Fintech.
+       In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).
   social:
     twitter: tbd
 
