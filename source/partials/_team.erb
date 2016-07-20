@@ -1,19 +1,17 @@
-
 <div class="row section">
-  <h1>The Team</h1>
-
-<% data.speakers.each do |handle, speaker| %>
-    <div class="vcard">
-      <img class="vcard__img" src="<%= image_path speaker.image %>"/>
-      <div class="vcard__body">
-        <div class="vcard__title">
-          <%= speaker.name %>
-        </div>
-        <p>
-          <%= markdown speaker.bio %>
-        </p>
-      </div>
-  </div>
-<% end %>
-
+    <h1 class="container__head">Team:</h1>
+    <div class="team">
+        <% data.team.each_with_index do |teammember, index| %>
+            <% teammember_key = "team-#{index}" %>
+            <div class="team-member">
+                <img class="team-member__head" src="<%=image_path(teammember.image)%>"><br>
+                <a class="team-member__name" data-toggle="<%= "#{teammember_key}-bio" %>">
+                    <%= teammember.name %>
+                </a>
+                <div class="team-member__bio" id="<%= "#{teammember_key}-bio" %>" data-toggler=".team-member__bio-show">
+                    <%= markdown teammember.bio %>
+                </div>
+            </div>
+        <% end %>
+    </div>
 </div>
