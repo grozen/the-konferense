@@ -193,7 +193,9 @@ davef:
   image: avatars/d.farley.jpg
   work:
     company: Klarna
-  bio: TBD
+  bio: Dave Farley is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general.
+       He is co-author of the Jolt-award winning book 'Continuous Delivery' a regular conference speaker and blogger and one of the authors of the Reactive Manifesto.
+       He has been having fun with computers for over 30 years  has worked on most types of software, from firmware, through tinkering with operating systems and device drivers, to writing games, and commercial applications of all shapes and sizes. He started working in large scale distributed systems about 25 years ago, doing research into the development of loose-coupled, message-based systems - a forerunner of MicroService architectures.
   social:
     twitter: tbd
 
