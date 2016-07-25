@@ -80,7 +80,7 @@ tracks:
 
     - type: talk
       speaker: vilhelm
-      title: Predicting Customer Behaviour with Machine Learn at Klarna
+      title: Predicting payment behaviour - a machine learning approach to risk
       abstract:
         Understanding customer payment behaviour is central to the business model of
         Klarna as part of credit underwriting.$MORE$ Even with great collection it would be
