@@ -1,6 +1,7 @@
-- name: Uri Nativ
-  image: avatars/u.nativ.jpg
-  bio: Uri Nativ, VP Engineering and Site Manager of Klarna Tel Aviv. Has 18+ years working experience in various companies, from small startups to big corporates. Engineer by mind, people manager by heart. Uri has adopted Agile methodologies more than 7 years ago and had never let go since then. Uri constantly lectures about Agile, Methodologies, Culture and People in order to share and brainstorm new ideas.
+#- name: Anna Jusufovic
+#  image: avatars/a.jusufovic.jpg
+#  bio:
+#    N/A
 
 - name: Ben Maraney
   image: avatars/b.maraney.jpg
@@ -11,11 +12,15 @@
      He still can’t tell you what 6*7 is, and his handwriting remains illegible.
      Passion is a mixed blessing."
 
-- name: Matthias Feist
-  image: avatars/m.feist.jpg
+- name: Dotan Nahum
+  image: avatars/blank.png
   bio:
-    "Matthias is working for the MEXP domain in Stockholm where he moved about one year ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming.
-     Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and mostly frontend programming for the merchant portal. "
+    N/A
+
+- name: Elspeth Andrell
+  image: avatars/e.andrell.jpg
+  bio:
+    N/A
 
 - name: Hannes Renn
   image: avatars/h.renn.jpg
@@ -27,12 +32,29 @@
   bio:
     N/A
 
+- name: Matthias Feist
+  image: avatars/m.feist.jpg
+  bio:
+    "Matthias is working for the MEXP domain in Stockholm where he moved about one year ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming.
+     Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and mostly frontend programming for the merchant portal. "
+
 - name: Manuel Braun
   image: avatars/m.braun.jpg
   bio:
     Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer of the A-Team (App Team) at SOFORT. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.
 
+- name: Michal Tirosh
+  image: avatars/m.tirosh.jpg
+  bio:
+    Has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang.
+    Passionate about understanding what drives employees and what makes them come to work with a smile on their face.
+    Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.
 
+- name: Tobias Palmborg
+  image: avatars/t.palmborg.jpg
+  bio:
+    N/A
 
-
-
+- name: Uri Nativ
+  image: avatars/u.nativ.jpg
+  bio: Uri Nativ, VP Engineering and Site Manager of Klarna Tel Aviv. Has 18+ years working experience in various companies, from small startups to big corporates. Engineer by mind, people manager by heart. Uri has adopted Agile methodologies more than 7 years ago and had never let go since then. Uri constantly lectures about Agile, Methodologies, Culture and People in order to share and brainstorm new ideas.
