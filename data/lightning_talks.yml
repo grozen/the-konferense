@@ -7,26 +7,6 @@
     about it in the future, and tell the "victims" of the games why they are
     useful.
 
-- speaker: melissathobe
-  title: The Wild World of Platform Integrations
-  abstract:
-    Klarna products are integrated in many platforms across the
-    supported markets. The process of integrating the products is often
-    completed by vendors outside of Klarna.
-
-
-    This session will take a look at how these efforts are approached
-    differently across the platforms based on platform type (open source vs.
-    SaaS), size of merchants on the platforms, setup of the relationship with
-    the platform and/or vendor completing the work and the numerous other
-    factors that impact the final build of the integration.
-
-
-    We will also explore steps being taken to improve the time and quality to
-    market for the platforms across all Klarna markets as well as involvement of
-    market resources throughout the process to ensure the integration meets each
-    market's needs.
-
 - speaker: inbalgilai
   title: It's the little things that make me happy
   abstract:
