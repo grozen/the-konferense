@@ -116,151 +116,95 @@ ivan:
 bohm:
   name: Sebastian Böhm
   image: avatars/s.boehm.jpg
-  work:
-    company: Klarna
   bio:
     Product Owner and (former) Senior Developer at SOFORTs Team "Myrddin", which is responsible for the consumer facing payment forms (the so called SOFORT "Wizard") and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.
-  social:
-    twitter: tbd
 
 lilach:
   name: Lilach Adir
   image: avatars/l.adir.jpg
-  work:
-    company: Klarna
   bio:
     TBD
-  social:
-    twitter: tbd
 
 ilijaprince:
   name: Ilija Prince
   image: avatars/i.prince.jpg
-  work:
-    company: Klarna
   bio:
     I have been with Klarna since May 2015 in my role as a team lead of the Performance Team. My earlier experience involving working for Skype, Vonage, Telefonica and several startups; touching many different technologies and disciplines.
     I like solving complex problems, math and physics. Outside of work I am spending most of my time with my family, I have two sons ages 2.5 and one year old so not much time left for anything else.
-  social:
-    twitter: tbd
 
 ilonashub:
   name: Ilona Shub
   image: avatars/i.shub.jpg
-  work:
-    company: Klarna
   bio:
     Started learning Pascal at school when she was 12 years old.
     After high school she moved to a University in the desert to study Information Systems Engineer, and after 4 years moved to Tel-Aviv and started working in the Intelligence corps in the Army, first as a product manager and later got back to what she really loved doing - programming. So Klarna is her first after-the-army work place - which she have been with for the last 2 years and had the opportunity to really learn frontend development.
     Besides work she loves diving, hiking, photographing - and doing all those things while traveling around the world.
-  social:
-    twitter: tbd
 
 daniellange:
   name: Daniel Lange
   image: avatars/d.lange.jpg
-  work:
-    company: Klarna
   bio:
     TBD
-  social:
-    twitter: tbd
 
 filipe:
   name: Filipe Cristóvão
   image: avatars/p.cristovao.jpg
-  work:
-    company: Klarna
   bio:
-    TBD
-  social:
-    twitter: tbd
+    Filipe studied Distributed Systems and Software Engineering at the Instituto Superior Técnico in Portugal.
+    4 years ago, he decided to go for an adventure to the other side of Europe and ended up in Sweden, working with Erlang.
+    Interested in Distributed Systems, concurrency, the actors computational model and some sprinkles of STMs.
+    At Klarna, he started working with Kred, in the dunning side (a word that he didn't even know existed before getting here...), then with customer communications. Later on he was for a while the sole member of the now gone Wall Street team, handling the payments integration area of the Kasper platform.
+    On his spare time he currently is trying to learn Swedish (finally!). Previous to Klarna, he taught some classes in the University as well.
 
 perul:
   name: Per Ullberg
   image: avatars/p.ullberg.png
-  work:
-    company: Klarna
   bio:
     Per Ullberg is tech lead for Klarna's data infrastructure teams Bill&Bull. The last 3.5 years these Uppsala based teams have introduced and implemented the Lambda architecture at Klarna using the Hadoop Eco system.
     Prior to joining Klarna, Per was a consultant of financial as well as gaming and betting industry working with both front and back end applications.
     Per is interested in test driven development and continuous integration and is the inventor of HiveRunner, an open source HiveQL unit testing framework.
-  social:
-    twitter: tbd
 
 davef:
   name: Dave Farley
   image: avatars/d.farley.jpg
-  work:
-    company: Klarna
   bio: Dave Farley is a thought-leader in the field of Continuous Delivery, DevOps and Software Development in general.
        He is co-author of the Jolt-award winning book 'Continuous Delivery' a regular conference speaker and blogger and one of the authors of the Reactive Manifesto.
        He has been having fun with computers for over 30 years  has worked on most types of software, from firmware, through tinkering with operating systems and device drivers, to writing games, and commercial applications of all shapes and sizes. He started working in large scale distributed systems about 25 years ago, doing research into the development of loose-coupled, message-based systems - a forerunner of MicroService architectures.
-  social:
-    twitter: tbd
 
 georgeparksdavie:
   name: George Parks Davie
   image: avatars/g.davie.jpg
-  work:
-    company: SOFORT
   bio: George is a web engineer with +15 years experience in web technologies. Before joining Sofort in 2009 he was working as a freelancer and contractor in different digital agencies in Germany, but also experienced some great periods in New York and San Francisco. Besides the daily PHP work at Sofort, George’s passion is to explore new frontend technologies and develop new products. Lately a lot of JavaScript and hybrid app development is keeping his frontend kung fu up to date.
-  social:
-    twitter: tbd
 
 vilhelm:
   name: Vilhelm von Ehrenheim
   image: avatars/v.ehrenheim.jpg
-  work:
-    company: Klarna
   bio: Vilhelm is the Lead Data Scientist of the Predictive modeling team and has been working as a Data Scientist at the Klarna Credit Risk department since 2013. He has a MSc in Engineering physics from LTH specializing in Machine learning and is an avid programmer and open source lover. He currently lives in Stockholm with his wife and 1yr old daughter.
-  social:
-    twitter: tbd
 
 alexanderlindholm:
   name: Alexander Lindholm
   image: avatars/a.lindholm.jpg
-  work:
-    company: Klarna
   bio: Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.
-  social:
-    twitter: tbd
 
 georgios:
   name: Georgios Kryparos
   image: avatars/g.kryparos.jpg
-  work:
-    company: Klarna
   bio: Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade…
-  social:
-    twitter: tbd
 
 moriamordehai:
   name: Moria Ahi-Mordehai
   image: avatars/m.mordehai.png
-  work:
-    company: Klarna
   bio: Moria joined Klarna a year ago and quickly became a passionate web developer. She believes that good code should be written for human beings.
        Moria has experience with GIS technologies, the gaming industry and Fintech.
        In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).
-  social:
-    twitter: tbd
 
 fernando:
   name: Fernando via Canel
   image: avatars/f.via.canel.jpg
-  work:
-    company: Klarna
   bio: I started programming at age 9, tweaking assembler code to move pixels on the screen. I eventually passed through Visual Basic and Java. I worked for a while in an inventory management application built in Java and I thought about quitting programming; instead, I found Rails, and I since then I'm fascinated by the possibilities.
        I believe programming is, overall, a form of communication.
-  social:
-    twitter: tbd
 
 unativ:
   name: Uri Nativ
   image: avatars/u.nativ.jpg
-  work:
-    company: Klarna
   bio: Uri Nativ, VP Engineering and Site Manager of Klarna Tel Aviv. Has 18+ years working experience in various companies, from small startups to big corporates. Engineer by mind, people manager by heart. Uri has adopted Agile methodologies more than 7 years ago and had never let go since then. Uri constantly lectures about Agile, Methodologies, Culture and People in order to share and brainstorm new ideas.
-  social:
-    twitter: unativ

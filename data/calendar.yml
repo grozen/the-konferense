@@ -247,7 +247,10 @@ tracks:
       speaker: filipe
       title: "PSP Integrations: The good, the bad, and the ugly"
       abstract:
-        PSP and bank integrations - The challenges of dealing with services that have file-based communication, and the PSP/Banking industry in general
+        "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us.
+        While at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate $MORE$ with a new PSP or a bank.
+        You'll get to know our 'Book of Doom', and why it got that name.
+        Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk."
 
     - type: break
       icon: barcode
