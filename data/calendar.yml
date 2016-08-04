@@ -54,8 +54,8 @@ times:
     end: "18:00"
 
 rooms:
-  "room-1": 'B12'
-  "room-2": 'B3'
+  "room-1": 'B3'
+  "room-2": 'B12'
   "room-3": 'C3'
 
 
@@ -67,12 +67,12 @@ tracks:
 
     - type: span
       speaker: unativ
-      title: (B3) Opening Words
+      title: (B12) Opening Words
       abstract:
 
     - type: span
       speaker: davef
-      title: (B3) Keynote
+      title: (B12) Keynote
 
     - type: span
       icon: barcode
@@ -164,7 +164,7 @@ tracks:
       title: Transition
 
     - type: span
-      title: (B3) Lightning Talks
+      title: (B12) Lightning Talks
       abstract: $$LIGHTNING_TALKS$$
 
     - type: span
@@ -299,11 +299,11 @@ tracks:
 
     - type: span
       speaker: unativ
-      title: (B3) Opening Words
+      title: (B12) Opening Words
 
     - type: span
       speaker: davef
-      title: (B3) Keynote
+      title: (B12) Keynote
 
     - type: span
       icon: barcode
@@ -371,7 +371,7 @@ tracks:
       title: Transition
 
     - type: span
-      title: (B3) Lightning Talks
+      title: (B12) Lightning Talks
       abstract: $$LIGHTNING_TALKS$$
 
     - type: span
