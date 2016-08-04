@@ -135,7 +135,7 @@ lilach:
 
 ilijaprince:
   name: Ilija Prince
-  image: avatars/blank.png
+  image: avatars/i.prince.jpg
   work:
     company: Klarna
   bio:
@@ -204,7 +204,7 @@ georgeparksdavie:
   image: avatars/g.davie.jpg
   work:
     company: SOFORT
-  bio: TBD
+  bio: George is a web engineer with +15 years experience in web technologies. Before joining Sofort in 2009 he was working as a freelancer and contractor in different digital agencies in Germany, but also experienced some great periods in New York and San Francisco. Besides the daily PHP work at Sofort, George’s passion is to explore new frontend technologies and develop new products. Lately a lot of JavaScript and hybrid app development is keeping his frontend kung fu up to date.
   social:
     twitter: tbd
 
