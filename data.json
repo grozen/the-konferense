@@ -60,8 +60,8 @@
           "sessions": [
             {
               "name": "Predicting payment behaviour - a machine learning approach to risk",
-              "location": "B12",
-              "description": "Understanding customer payment behaviour is central to the business model of Klarna as part of credit underwriting. Even with great collection it would be very expensive and immoral to grant anyone who asks credit. Therefore, knowing beforehand if a customer is likely to pay their invoice is of great importance to us so that we can choose to reject those that will not be able to, or otherwise lack intent to pay. But how do we do this more specifically? How do we estimate the probability of default and what do we do with it? How can we identify and stop fraudulent purchase attempts automatically?<br/><br />In this talk I will take you through the whole process of decision model development. This includes everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and designing decision policies.. I will introduce you to the specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.",
+              "location": "B3",
+              "description": "It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices.<br/><br/>This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.",
               "speakerNames": ["Vilhelm von Ehrenheim"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
@@ -69,7 +69,7 @@
             },
             {
               "name": "Weekend at Bernie's",
-              "location": "B3",
+              "location": "B12",
               "description": "We will explore the landscape of client side attacks with a pinch of user awareness. We will walk you through (even dare to demo) different attack scenarios which differ in nature but they can all eventually link up to be used in a chain. These scenarios range from semi-targeted phishing campaigns and leakage of wireless-related information to man in the middle attacks and full exploitation of workstations. We will try to make all this relevant to Klarna's environment and attack surface. This is a talk about every day hacking and exploitation techniques that are simple enough to explain to your parents but technical enough to visit stackoverflow after we are done. We will build on last year's lightning talk, but don't worry if you missed it, we will recap quite fast.",
               "speakerNames": ["Georgios Kryparos"],
               "timeStart": "10:40",
@@ -106,7 +106,7 @@
           "sessions": [
             {
               "name": "Product Management - best practices and what happened when I didn't follow them when building Digital Goods",
-              "location": "B12",
+              "location": "B3",
               "description": "Walking through the product management process for Digital Goods, discussing basic 'by the book' product management processes - and showing how not following them resulted in a bad product.",
               "speakerNames": ["Tomer Alon"],
               "timeStart": "11:30",
@@ -115,7 +115,7 @@
             },
             {
               "name": "Lambda and Kappa - Durable, accurate, low latency application serving layers",
-              "location": "B3",
+              "location": "B12",
               "description": "Klarna live applications require near real time data latency as well as vast data history depth from multiple sources. Combined with requirements of horizontal application scalability and statelessness, a traditional data serving solution (e.g. centralised RDBMS) does not cut the cheese. For the past three years Klarna has implemented the Lambda Architecture serving applications with data for real time decisions. Since then, new architectural proposals has emerged in the BigData community. One upriser is the Kappa architecture. In this talk we look at Klarnas current Lambda architecture, then we look at the Kappa proposal including a case study. Finally we discuss how Kappa could replace our current Lambda architecture and what would have to change.",
               "speakerNames": ["Per Ullberg"],
               "timeStart": "11:30",
@@ -141,7 +141,7 @@
           "sessions": [
             {
               "name": "How User Tests extrapolate cultural differences and similarities",
-              "location": "B12",
+              "location": "B3",
               "description": "Why user tests are important, what they can teach us (and what they can't), a little insight into Klarna Credit and the thinking around presentation and naming.",
               "speakerNames": ["Daniel Lange"],
               "timeStart": "13:15",
@@ -150,8 +150,8 @@
             },
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
-              "location": "B3",
-              "description": "PSP Integrations: The good, the bad, and the ugly",
+              "location": "B12",
+              "description": "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us<br/><br/>While at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate with a new PSP or a bank.<br/><br/>You'll get to know our 'Book of Doom', and why it got that name.<br/><br/>Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk.",
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
@@ -187,7 +187,7 @@
           "sessions": [
             {
               "name": "Sofort through the ages",
-              "location": "B12",
+              "location": "B3",
               "description": "SOFORT started 2004 in a small town in Butzbach in Hesse. How we changed over the time, what challenges we had to become the part of the klarna group we are now.",
               "speakerNames": ["Christian Niehoff"],
               "timeStart": "13:50",
@@ -195,15 +195,14 @@
               "tracks": ["History"]
             },
             {
-              "name": "Fika Factory - Let's Build a Mobile App",
-              "location": "B3",
-              "description": "In this session we will build an app using React Native.",
-              "speakerNames": ["Lilach Adir"],
-              "timeStart": "11:30",
-              "timeEnd": "12:15",
-              "tracks": ["MobileApps"]
-            }
-          ]
+              "name": "The many ways to do DevOps: A Journey",
+              "location": "B12",
+              "description": "We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 'Scaling infrastructure work at Klarna'. In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.",
+              "speakerNames": ["Sergey Evstifeev"],
+              "timeStart": "13:50",
+              "timeEnd": "14:20",
+              "tracks": ["DevOps"]
+            }          ]
         },
         {
           "time": "14:20",
@@ -223,17 +222,17 @@
           "time": "14:25",
           "sessions": [
             {
-              "name": "The many ways to do DevOps: A Journey",
-              "location": "B12",
-              "description": "We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 'Scaling infrastructure work at Klarna'. In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.",
-              "speakerNames": ["Sergey Evstifeev"],
+              "name": "The Wild World of Platform Integrations",
+              "location": "B3",
+              "description": "Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna.<br />This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration.<br />We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's needs.",
+              "speakerNames": ["Melissa Thobe"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
-              "tracks": ["DevOps"]
+              "tracks": ["Business"]
             },
             {
               "name": "Decode the magic - The SOFORT Payment-Wizard",
-              "location": "B3",
+              "location": "B12",
               "description": "Introduction of SOFORTs 'Payment-Wizard' - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's 'under the trunk' of SOFORT Überweisung (including [live] demonstrations).",
               "speakerNames": ["Sebastian Böhm"],
               "timeStart": "14:25",
@@ -259,7 +258,7 @@
           "sessions": [
             {
               "name": "Eight years living with Kred",
-              "location": "B12",
+              "location": "B3",
               "description": "Kreditor started out as a factoring business specifically geared towards e-commerce. Kred, therefore, started as, and at heart still is, a factoring support system. This, along with a few other crucial business decisions, developments and accidents has shaped and continues to affect the system as it stands today. This talk will present a few of those developments, along with some of their consequences that are still visible today, in code, data structures, workflows and business procedures. This will in turn develop into a few key learnings about how Klarna got to be where it is today, what baggage it is carrying with it, what mistakes we may not want to make again, and what traits and properties of Klarna and its systems that we may want to develop, maintain and preserve.",
               "speakerNames": ["Martin Engström"],
               "timeStart": "15:25",
@@ -268,7 +267,7 @@
             },
             {
               "name": "Running Kafka in production: lessons learned",
-              "location": "B3",
+              "location": "B12",
               "description": "In this session we will talk about how Kafka clusters are currently set up in Klarna, evolution of the setup and deployment pipelines, tools we've build to support Kafka users, and lessons learned since we launched KaaS.",
               "speakerNames": ["Ivan Dyachkov"],
               "timeStart": "15:25",
@@ -279,7 +278,7 @@
               "name": "What is this RaaS thing, anyway?",
               "location": "C3",
               "description": "Have you ever wondered what the coding monkeys at Risk Engineering are up to? As a recent newbie at Risk Engineering I'll open up the black box that is RaaS and together we will look at the many moving parts that make up RaaS.At the end of this talk you will have retraced my steps from RaaS noob to becoming proficient enough to know whatever RaaS is all about.",
-              "speakerNames": ["Thiago Rodrigues Colucci"],
+              "speakerNames": ["Matthias Grüter"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
               "tracks": ["RaaS"]
@@ -304,66 +303,12 @@
           "time": "16:10",
           "sessions": [
             {
-              "name": "Agile Retro Games",
-              "location": "All Stages",
-              "description": "In this Talk I want to share the advantage of 'Retro Games' compared to normal retrospectives and give a humour oriented view of past retrospectives so that SCRUM Masters who haven't thought about or done them yet might think about it in the future, and tell the 'victims' of the games why they are useful.",
-              "speakerNames": ["Hannes Renn"],
-              "timeStart": "16:10",
-              "timeEnd": "16:15",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "The Wild World of Platform Integrations",
-              "location": "All Stages",
-              "description": "Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna.<br />This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration.<br />We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's needs.",
-              "speakerNames": ["Melissa Thobe"],
-              "timeStart": "16:16",
-              "timeEnd": "16:21",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "It's the little things that make me happy",
-              "location": "All Stages",
-              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader.<br />What does that even mean? Lots of examples in this fun lightning talk!",
-              "speakerNames": ["Melissa Thobe"],
-              "timeStart": "16:22",
-              "timeEnd": "16:27",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "We've been water my friend",
-              "location": "All Stages",
-              "description": "This is a follow up to last years talk 'Be Water My Friend'. What has been done and how did we process after exploring new ways to pay with SOFORT on a mobile device in our hackathon. From theory to market and what have been our obstacles from a technical and a product perspective. Where are we today after a long year.",
-              "speakerNames": ["George Parks Davie"],
-              "timeStart": "16:28",
-              "timeEnd": "16:33",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "PKI: Common pitfalls and configuration",
-              "location": "All Stages",
-              "description": "Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with key stores and trust stores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints",
-              "speakerNames": ["Alexander Lindholm"],
-              "timeStart": "16:34",
-              "timeEnd": "16:39",
-              "tracks": ["LightningTalks"]
-            },
-            {
               "name": "How hackers destroyed Mat Honan's digital life in an hour",
               "location": "All Stages",
               "description": "A fascinating story about reporter Mat Honan, who fell victim to an attack by hackers who easily obtained his sensitive details.",
               "speakerNames": ["Moria Ahi-Mordehai"],
-              "timeStart": "16:40",
-              "timeEnd": "16:45",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "Xiaowang: Data Anonymization and Generation tool",
-              "location": "All Stages",
-              "description": "While executing performance tests, we want to reuse production data to keep the correct data distribution. For privacy reason, we have implemented a tool which can obfuscate the data while keeping the relations and distribution between the fields as in the original production set. Using the same approach, we also test for future growth by running the same process multiple times.",
-              "speakerNames": ["Ilija Prince"],
-              "timeStart": "16:46",
-              "timeEnd": "16:51",
+              "timeStart": "16:10",
+              "timeEnd": "16:15",
               "tracks": ["LightningTalks"]
             },
             {
@@ -371,6 +316,60 @@
               "location": "All Stages",
               "description": "If you've ever written in Javascript - you probably noticed some weird parts in it. Does THIS cross your mind? If you’re a beginner and even if you're not - THIS is confusing! Let's figure out how it works in Javascript.",
               "speakerNames": ["Ilona Shub"],
+              "timeStart": "16:16",
+              "timeEnd": "16:21",
+              "tracks": ["LightningTalks"]
+            },
+            {
+              "name": "Agile Retro Games",
+              "location": "All Stages",
+              "description": "In this Talk I want to share the advantage of 'Retro Games' compared to normal retrospectives and give a humour oriented view of past retrospectives so that SCRUM Masters who haven't thought about or done them yet might think about it in the future, and tell the 'victims' of the games why they are useful.",
+              "speakerNames": ["Hannes Renn"],
+              "timeStart": "16:22",
+              "timeEnd": "16:27",
+              "tracks": ["LightningTalks"]
+            },
+            {
+              "name": "Xiaowang: Data Anonymization and Generation tool",
+              "location": "All Stages",
+              "description": "While executing performance tests, we want to reuse production data to keep the correct data distribution. For privacy reason, we have implemented a tool which can obfuscate the data while keeping the relations and distribution between the fields as in the original production set. Using the same approach, we also test for future growth by running the same process multiple times.",
+              "speakerNames": ["Ilija Prince"],
+              "timeStart": "16:28",
+              "timeEnd": "16:33",
+              "tracks": ["LightningTalks"]
+            },
+            {
+              "name": "It's the little things that make me happy",
+              "location": "All Stages",
+              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader.<br />What does that even mean? Lots of examples in this fun lightning talk!",
+              "speakerNames": ["Inbal Gilai"],
+              "timeStart": "16:34",
+              "timeEnd": "16:39",
+              "tracks": ["LightningTalks"]
+            },
+            {
+              "name": "We've been water my friend",
+              "location": "All Stages",
+              "description": "This is a follow up to last years talk 'Be Water My Friend'. What has been done and how did we process after exploring new ways to pay with SOFORT on a mobile device in our hackathon. From theory to market and what have been our obstacles from a technical and a product perspective. Where are we today after a long year.",
+              "speakerNames": ["George Parks Davie"],
+              "timeStart": "16:40",
+              "timeEnd": "16:45",
+              "tracks": ["LightningTalks"]
+            },
+            {
+              "name": "TBA",
+              "location": "All Stages",
+              "description": "TBA",
+              "speakerNames": ["Melissa Thobe"],
+              "timeStart": "16:46",
+              "timeEnd": "16:51",
+              "tracks": ["Business"]
+            },
+            {
+              "name": "PKI: Common pitfalls and configuration",
+              "location": "All Stages",
+              "description": "Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with key stores and trust stores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints",
+              "speakerNames": ["Alexander Lindholm"],
               "timeStart": "16:52",
               "timeEnd": "16:57",
               "tracks": ["LightningTalks"]
@@ -392,7 +391,7 @@
             {
               "name": "Closing words + Drinks",
               "timeStart": "17:05",
-              "timeEnd": "18:00",
+              "timeEnd": "19:00",
               "location": "All Stages",
               "tracks": ["Food"]
             }
@@ -457,7 +456,7 @@
     {
       "name": "Filipe Cristóvão",
       "profilePic": "img/speakers/p.cristovao.jpg",
-      "about": "TBD",
+      "about": "Filipe studied Distributed Systems and Software Engineering at the Instituto Superior Técnico in Portugal.<br/><br/>4 years ago, he decided to go for an adventure to the other side of Europe and ended up in Sweden, working with Erlang.<br/><br/>Interested in Distributed Systems, concurrency, the actors computational model and some sprinkles of STMs.<br/><br/>At Klarna, he started working with Kred, in the dunning side (a word that he didn't even know existed before getting here...), then with customer communications. Later on he was for a while the sole member of the now gone Wall Street team, handling the payments integration area of the Kasper platform.<br/><br/>On his spare time he currently is trying to learn Swedish (finally!). Previous to Klarna, he taught some classes in the University as well.",
       "location": "Stockholm"
     },
     {
