@@ -83,7 +83,7 @@
               "speakerNames": ["Fernando via Canel"],
               "timeStart": "10:40",
               "timeEnd": "12:15",
-              "tracks": ["Front end"]
+              "tracks": ["Frontend"]
             }
           ]
         },
@@ -120,7 +120,7 @@
               "speakerNames": ["Per Ullberg"],
               "timeStart": "11:30",
               "timeEnd": "12:15",
-              "tracks": ["Back end", "Architecture", "Data infrastructure"]
+              "tracks": ["Backend", "Architecture", "Data infrastructure"]
             }
           ]
         },
@@ -146,7 +146,7 @@
               "speakerNames": ["Daniel Lange"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Product", "Front end", "Peopleware"]
+              "tracks": ["Product", "Frontend", "Peopleware"]
             },
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
@@ -155,7 +155,7 @@
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Domain introductions", "Back end"]
+              "tracks": ["Domain introductions", "Backend"]
             },
             {
               "name": "Code Whispers",
@@ -164,7 +164,7 @@
               "speakerNames": ["Thiago Rodrigues Colucci"],
               "timeStart": "13:15",
               "timeEnd": "15:25",
-              "tracks": ["Back end"]
+              "tracks": ["Backend"]
             }
           ]
         },
