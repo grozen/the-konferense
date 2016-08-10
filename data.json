@@ -39,7 +39,7 @@
               "speakerNames": ["Dave Farley"],
               "timeStart": "09:20",
               "timeEnd": "10:10",
-              "tracks": ["Keynote"]
+              "tracks": ["General", "Peopleware"]
             }
           ]
         },
@@ -65,7 +65,7 @@
               "speakerNames": ["Vilhelm von Ehrenheim"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
-              "tracks": ["Risk"]
+              "tracks": ["Business", "Risk", "Domain introductions"]
             },
             {
               "name": "Weekend at Bernie's",
@@ -74,7 +74,7 @@
               "speakerNames": ["Georgios Kryparos"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
-              "tracks": ["Risk"]
+              "tracks": ["Security"]
             },
             {
               "name": "UI Components Workshop",
@@ -83,7 +83,7 @@
               "speakerNames": ["Fernando via Canel"],
               "timeStart": "10:40",
               "timeEnd": "12:15",
-              "tracks": ["Workshop"]
+              "tracks": ["Front end"]
             }
           ]
         },
@@ -111,7 +111,7 @@
               "speakerNames": ["Tomer Alon"],
               "timeStart": "11:30",
               "timeEnd": "12:15",
-              "tracks": ["Productmanagement"]
+              "tracks": ["Product"]
             },
             {
               "name": "Lambda and Kappa - Durable, accurate, low latency application serving layers",
@@ -120,7 +120,7 @@
               "speakerNames": ["Per Ullberg"],
               "timeStart": "11:30",
               "timeEnd": "12:15",
-              "tracks": ["Microservices"]
+              "tracks": ["Back end", "Architecture", "Data infrastructure"]
             }
           ]
         },
@@ -146,7 +146,7 @@
               "speakerNames": ["Daniel Lange"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Risk"]
+              "tracks": ["Product", "Front end", "Peopleware"]
             },
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
@@ -155,7 +155,7 @@
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Risk"]
+              "tracks": ["Domain introductions", "Back end"]
             },
             {
               "name": "Code Whispers",
@@ -164,7 +164,7 @@
               "speakerNames": ["Thiago Rodrigues Colucci"],
               "timeStart": "13:15",
               "timeEnd": "15:25",
-              "tracks": ["Workshop"]
+              "tracks": ["Back end"]
             }
           ]
         },
@@ -192,7 +192,7 @@
               "speakerNames": ["Christian Niehoff"],
               "timeStart": "13:50",
               "timeEnd": "14:20",
-              "tracks": ["History"]
+              "tracks": ["History", "Culture", "Sofort", "Peopleware"]
             },
             {
               "name": "The many ways to do DevOps: A Journey",
@@ -228,7 +228,7 @@
               "speakerNames": ["Melissa Thobe"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
-              "tracks": ["Business"]
+              "tracks": ["Business", "Product"]
             },
             {
               "name": "Decode the magic - The SOFORT Payment-Wizard",
@@ -237,7 +237,7 @@
               "speakerNames": ["Sebastian Böhm"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
-              "tracks": ["Wizard"]
+              "tracks": ["Sofort", "Front end", "Back end"]
             }
           ]
         },
@@ -263,7 +263,7 @@
               "speakerNames": ["Martin Engström"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["Kred"]
+              "tracks": ["History", "Domain introductions"]
             },
             {
               "name": "Running Kafka in production: lessons learned",
@@ -272,7 +272,7 @@
               "speakerNames": ["Ivan Dyachkov"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["Kafka"]
+              "tracks": ["Data infrastructure", "DevOps"]
             },
             {
               "name": "What is this RaaS thing, anyway?",
@@ -281,7 +281,7 @@
               "speakerNames": ["Matthias Grüter"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["RaaS"]
+              "tracks": ["Risk", "Domain introductions"]
             }
           ]
         },
@@ -309,7 +309,7 @@
               "speakerNames": ["Moria Ahi-Mordehai"],
               "timeStart": "16:10",
               "timeEnd": "16:15",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Security"]
             },
             {
               "name": "What the hell is this?",
@@ -318,7 +318,7 @@
               "speakerNames": ["Ilona Shub"],
               "timeStart": "16:16",
               "timeEnd": "16:21",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Front end"]
             },
             {
               "name": "Agile Retro Games",
@@ -327,7 +327,7 @@
               "speakerNames": ["Hannes Renn"],
               "timeStart": "16:22",
               "timeEnd": "16:27",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Agile", "Peopleware"]
             },
             {
               "name": "Xiaowang: Data Anonymization and Generation tool",
@@ -336,7 +336,7 @@
               "speakerNames": ["Ilija Prince"],
               "timeStart": "16:28",
               "timeEnd": "16:33",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Back end"]
             },
             {
               "name": "It's the little things that make me happy",
@@ -345,7 +345,7 @@
               "speakerNames": ["Inbal Gilai"],
               "timeStart": "16:34",
               "timeEnd": "16:39",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Performance"]
             },
             {
               "name": "We've been water my friend",
@@ -354,7 +354,7 @@
               "speakerNames": ["George Parks Davie"],
               "timeStart": "16:40",
               "timeEnd": "16:45",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Sofort"]
             },
             {
               "name": "TBA",
@@ -363,7 +363,7 @@
               "speakerNames": ["Melissa Thobe"],
               "timeStart": "16:46",
               "timeEnd": "16:51",
-              "tracks": ["Business"]
+              "tracks": ["Lightning talk"]
             },
             {
               "name": "PKI: Common pitfalls and configuration",
@@ -372,7 +372,7 @@
               "speakerNames": ["Alexander Lindholm"],
               "timeStart": "16:52",
               "timeEnd": "16:57",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Security"]
             },
             {
               "name": "@todo",
@@ -381,7 +381,7 @@
               "speakerNames": ["Matthias Grüter"],
               "timeStart": "16:58",
               "timeEnd": "17:03",
-              "tracks": ["LightningTalks"]
+              "tracks": ["Lightning talk", "Peopleware"]
             }
           ]
         },
