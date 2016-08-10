@@ -1,3 +1,17 @@
+- speaker: moriamordehai
+  title: How hackers destroyed Mat Honan's digital life in an hour
+  abstract:
+    A fascinating story about reporter Mat Honan, who fell victim to an
+    attack by hackers who easily obtained his sensitive details.
+
+- speaker: ilonashub
+  title: What the hell is this?
+  abstract:
+    If you've ever written in Javascript - you probably noticed some
+    weird parts in it. Does THIS cross your mind? If you’re a beginner and even
+    if you're not - THIS is confusing! Let's figure out how it works in
+    Javascript.
+
 - speaker: hannesrenn
   title: Agile Retro Games
   abstract:
@@ -7,6 +21,16 @@
     about it in the future, and tell the "victims" of the games why they are
     useful.
 
+- speaker: ilijaprince
+  title: 'Xiaowang: Data Anonymization and Generation tool'
+  abstract:
+    While executing performance tests, we want to reuse production data to keep
+    the correct data distribution. For privacy reason, we have implemented a
+    tool which can obfuscate the data while keeping the relations and
+    distribution between the fields as in the original production set. Using
+    the same approach, we also test for future growth by running the same
+    process multiple times.
+    
 - speaker: inbalgilai
   title: It's the little things that make me happy
   abstract:
@@ -37,30 +61,6 @@
     with key stores and trust stores and what they are? This talk will focus on
     how to solve these common pitfalls and how to make a common java
     configuration to secure your http endpoints"
-
-- speaker: moriamordehai
-  title: How hackers destroyed Mat Honan's digital life in an hour
-  abstract:
-    A fascinating story about reporter Mat Honan, who fell victim to an
-    attack by hackers who easily obtained his sensitive details.
-
-- speaker: ilijaprince
-  title: 'Xiaowang: Data Anonymization and Generation tool'
-  abstract:
-    While executing performance tests, we want to reuse production data to keep
-    the correct data distribution. For privacy reason, we have implemented a
-    tool which can obfuscate the data while keeping the relations and
-    distribution between the fields as in the original production set. Using
-    the same approach, we also test for future growth by running the same
-    process multiple times.
-
-- speaker: ilonashub
-  title: What the hell is this?
-  abstract:
-    If you've ever written in Javascript - you probably noticed some
-    weird parts in it. Does THIS cross your mind? If you’re a beginner and even
-    if you're not - THIS is confusing! Let's figure out how it works in
-    Javascript.
 
 - speaker: gruter
   title: '@todo'
