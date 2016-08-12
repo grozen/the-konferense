@@ -113,12 +113,6 @@ ivan:
   social:
     twitter: tbd
 
-bohm:
-  name: Sebastian Böhm
-  image: avatars/s.boehm.jpg
-  bio:
-    Product Owner and (former) Senior Developer at SOFORTs Team "Myrddin", which is responsible for the consumer facing payment forms (the so called SOFORT "Wizard") and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.
-
 lilach:
   name: Lilach Adir
   image: avatars/l.adir.jpg
@@ -208,3 +202,8 @@ unativ:
   name: Uri Nativ
   image: avatars/u.nativ.jpg
   bio: Uri Nativ, VP Engineering and Site Manager of Klarna Tel Aviv. Has 18+ years working experience in various companies, from small startups to big corporates. Engineer by mind, people manager by heart. Uri has adopted Agile methodologies more than 7 years ago and had never let go since then. Uri constantly lectures about Agile, Methodologies, Culture and People in order to share and brainstorm new ideas.
+
+mmichalsky:
+  name: Markus Michalsky
+  image: avatars/m.michalsky.jpg
+  bio: Markus is one of the newest additions to the SOFORT Frontend-Team "Myrddin" which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are "How can this be done easier?" and "How can we make it more fun?".

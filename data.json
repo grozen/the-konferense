@@ -234,7 +234,7 @@
               "name": "Decode the magic - The SOFORT Payment-Wizard",
               "location": "B12",
               "description": "Introduction of SOFORTs 'Payment-Wizard' - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's 'under the trunk' of SOFORT Überweisung (including [live] demonstrations).",
-              "speakerNames": ["Sebastian Böhm"],
+              "speakerNames": ["Markus Michalsky"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
               "tracks": ["Wizard"]
@@ -476,10 +476,9 @@
       "location": "Stockholm"
     },
     {
-      "name": "Sebastian Böhm",
-      "profilePic": "img/speakers/s.boehm.jpg",
-      "twitter": "fruumanstuck",
-      "about": "Product Owner and (former) Senior Developer at SOFORTs Team 'Myrddin', which is responsible for the consumer facing payment forms (the so called SOFORT 'Wizard') and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.",
+      "name": "Markus Michalsky",
+      "profilePic": "img/speakers/m.michalsky.jpg",
+      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
       "location": "Linden"
     },
     {

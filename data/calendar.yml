@@ -268,7 +268,7 @@ tracks:
       title: Transition
 
     - type: talk
-      speaker: bohm
+      speaker: mmichalsky
       title: Decode the magic - The SOFORT Payment-Wizard
       abstract:
         Introduction of SOFORTs "Payment-Wizard" - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's "under the trunk" of SOFORT Überweisung (including [live] demonstrations).
