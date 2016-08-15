@@ -100,9 +100,10 @@ tracks:
 
     - type: talk
       speaker: daniellange
-      title: How User Tests extrapolate cultural differences and similarities
+      title: Usability Testing – Know thy users
       abstract:
-        Why user tests are important, what they can teach us (and what they can't), a little insight into Klarna Credit and the thinking around presentation and naming.
+        What is usability testing, why (and how practically) do we do it, and what I learned by putting Klarna Credit to the test.
+        In this session I will introduce you to usability testing. We will have a look at the tests we did in the UK and the US prior to the launch of account with the Klarna Credit API. We will have a look at some example recordings from these sessions, and we will look into what these user tests can tell us about cultural differences (around financial products) and the dangers of assuming everything works the same everywhere.
 
     - type: break
       icon: barcode
