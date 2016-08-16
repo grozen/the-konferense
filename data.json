@@ -330,9 +330,9 @@
               "tracks": ["LightningTalks"]
             },
             {
-              "name": "PKI: Common pitfalls and configuration",
+              "name": "Common TLS security pitfalls",
               "location": "All Stages",
-              "description": "Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with key stores and trust stores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints",
+              "description": "How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.",
               "speakerNames": ["Alexander Lindholm"],
               "timeStart": "16:31",
               "timeEnd": "16:36",
