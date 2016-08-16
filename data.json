@@ -140,9 +140,9 @@
           "time": "13:15",
           "sessions": [
             {
-              "name": "How User Tests extrapolate cultural differences and similarities",
+              "name": "Usability Testing – Know thy users",
               "location": "B3",
-              "description": "Why user tests are important, what they can teach us (and what they can't), a little insight into Klarna Credit and the thinking around presentation and naming.",
+              "description": "What is usability testing, why (and how practically) do we do it, and what I learned by putting Klarna Credit to the test. In this session I will introduce you to usability testing. We will have a look at the tests we did in the UK and the US prior to the launch of account with the Klarna Credit API. We will have a look at some example recordings from these sessions, and we will look into what these user tests can tell us about cultural differences (around financial products) and the dangers of assuming everything works the same everywhere.",
               "speakerNames": ["Daniel Lange"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
@@ -234,7 +234,7 @@
               "name": "Decode the magic - The SOFORT Payment-Wizard",
               "location": "B12",
               "description": "Introduction of SOFORTs 'Payment-Wizard' - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's 'under the trunk' of SOFORT Überweisung (including [live] demonstrations).",
-              "speakerNames": ["Sebastian Böhm"],
+              "speakerNames": ["Markus Michalsky"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
               "tracks": ["Sofort", "Frontend", "Backend"]
@@ -366,13 +366,13 @@
               "tracks": ["Lightning talk"]
             },
             {
-              "name": "PKI: Common pitfalls and configuration",
+              "name": "Common TLS security pitfalls",
               "location": "All Stages",
-              "description": "Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with key stores and trust stores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints",
+              "description": "How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.",
               "speakerNames": ["Alexander Lindholm"],
               "timeStart": "16:52",
               "timeEnd": "16:57",
-              "tracks": ["Lightning talk", "Security"]
+              "tracks": ["LightningTalks"]
             },
             {
               "name": "@todo",
@@ -450,7 +450,7 @@
     {
       "name": "Daniel Lange",
       "profilePic": "img/speakers/d.lange.jpg",
-      "about": "TBD",
+      "about": "Daniel Lange (Product Manager) started working at Klarna in 2012. He started originally as an intern, turned part time job, turned full-time employee in the b2b marketing team. Eventually he became responsible for Klarna.com, which ultimately lead to developing My Klarna 2.0 with the marketing development team (now Ewoks). In 2014 he switched to the Product division where he took over the responsibilities as the Head of Product for the DACH region. End of last year (2015) he joined forces with Koen, Frank, and Per to define, prototype, and build the new Klarna Credit API. Daniel has grown up in Germany, and moved to Sweden in 2007, where he also finished his Master of Science in Industrial Engineering and Management at Luleå University of Technology.",
       "location": "Stockholm"
     },
     {
@@ -485,10 +485,9 @@
       "location": "Stockholm"
     },
     {
-      "name": "Sebastian Böhm",
-      "profilePic": "img/speakers/s.boehm.jpg",
-      "twitter": "fruumanstuck",
-      "about": "Product Owner and (former) Senior Developer at SOFORTs Team 'Myrddin', which is responsible for the consumer facing payment forms (the so called SOFORT 'Wizard') and the logic behind it. In order to achive my diploma in media-informatics I was working for a subsidiary of OTTO Versand in Hamburg, focussing on frontend-logic and provision of internal development tools. After getting my degree and before joining SOFORT in March 2012 I was self-employed, providing programming services including web-, print- and screendesign for a variety of customers.",
+      "name": "Markus Michalsky",
+      "profilePic": "img/speakers/m.michalsky.jpg",
+      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
       "location": "Linden"
     },
     {

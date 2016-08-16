@@ -53,14 +53,9 @@
     after a long year.
 
 - speaker: alexanderlindholm
-  title: 'PKI: Common pitfalls and configuration'
+  title: 'Common TLS security pitfalls'
   abstract:
-    "Have you ever wondered what the java error message
-    sun.security.provider.certpath.SunCertPathBuilderException: unable to find
-    valid certification path to requested target means? Or have you struggled
-    with key stores and trust stores and what they are? This talk will focus on
-    how to solve these common pitfalls and how to make a common java
-    configuration to secure your http endpoints"
+    "How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints."
 
 - speaker: gruter
   title: '@todo'
