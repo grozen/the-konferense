@@ -39,7 +39,7 @@
               "speakerNames": ["Dave Farley"],
               "timeStart": "09:20",
               "timeEnd": "10:10",
-              "tracks": ["Keynote"]
+              "tracks": ["General", "Peopleware"]
             }
           ]
         },
@@ -65,7 +65,7 @@
               "speakerNames": ["Vilhelm von Ehrenheim"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
-              "tracks": ["Risk"]
+              "tracks": ["Business", "Risk", "Domain introductions"]
             },
             {
               "name": "Weekend at Bernie's",
@@ -74,7 +74,7 @@
               "speakerNames": ["Georgios Kryparos"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
-              "tracks": ["Risk"]
+              "tracks": ["Security"]
             },
             {
               "name": "UI Components Workshop",
@@ -83,7 +83,7 @@
               "speakerNames": ["Fernando via Canel"],
               "timeStart": "10:40",
               "timeEnd": "12:15",
-              "tracks": ["Workshop"]
+              "tracks": ["Frontend"]
             }
           ]
         },
@@ -111,7 +111,7 @@
               "speakerNames": ["Tomer Alon"],
               "timeStart": "11:30",
               "timeEnd": "12:15",
-              "tracks": ["Productmanagement"]
+              "tracks": ["Product"]
             },
             {
               "name": "Lambda and Kappa - Durable, accurate, low latency application serving layers",
@@ -120,7 +120,7 @@
               "speakerNames": ["Per Ullberg"],
               "timeStart": "11:30",
               "timeEnd": "12:15",
-              "tracks": ["Microservices"]
+              "tracks": ["Backend", "Architecture", "Data infrastructure"]
             }
           ]
         },
@@ -146,7 +146,7 @@
               "speakerNames": ["Daniel Lange"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Risk"]
+              "tracks": ["Product", "Frontend", "Peopleware"]
             },
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
@@ -155,7 +155,7 @@
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
-              "tracks": ["Risk"]
+              "tracks": ["Domain introductions", "Backend"]
             },
             {
               "name": "Code Whispers",
@@ -164,7 +164,7 @@
               "speakerNames": ["Thiago Rodrigues Colucci"],
               "timeStart": "13:15",
               "timeEnd": "15:25",
-              "tracks": ["Workshop"]
+              "tracks": ["Backend"]
             }
           ]
         },
@@ -192,7 +192,7 @@
               "speakerNames": ["Christian Niehoff"],
               "timeStart": "13:50",
               "timeEnd": "14:20",
-              "tracks": ["History"]
+              "tracks": ["History", "Culture", "Sofort", "Peopleware"]
             },
             {
               "name": "The many ways to do DevOps: A Journey",
@@ -228,7 +228,7 @@
               "speakerNames": ["Melissa Thobe"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
-              "tracks": ["Business"]
+              "tracks": ["Business", "Product"]
             },
             {
               "name": "Decode the magic - The SOFORT Payment-Wizard",
@@ -237,7 +237,7 @@
               "speakerNames": ["Markus Michalsky"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
-              "tracks": ["Wizard"]
+              "tracks": ["Sofort", "Frontend", "Backend"]
             }
           ]
         },
@@ -263,7 +263,7 @@
               "speakerNames": ["Martin Engström"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["Kred"]
+              "tracks": ["History", "Domain introductions"]
             },
             {
               "name": "Running Kafka in production: lessons learned",
@@ -272,7 +272,7 @@
               "speakerNames": ["Ivan Dyachkov"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["Kafka"]
+              "tracks": ["Data infrastructure", "DevOps"]
             },
             {
               "name": "What is this RaaS thing, anyway?",
@@ -281,7 +281,7 @@
               "speakerNames": ["Matthias Grüter"],
               "timeStart": "15:25",
               "timeEnd": "16:05",
-              "tracks": ["RaaS"]
+              "tracks": ["Risk", "Domain introductions"]
             }
           ]
         },
@@ -303,64 +303,73 @@
           "time": "16:10",
           "sessions": [
             {
-              "name": "Agile Retro Games",
-              "location": "All Stages",
-              "description": "In this Talk I want to share the advantage of 'Retro Games' compared to normal retrospectives and give a humour oriented view of past retrospectives so that SCRUM Masters who haven't thought about or done them yet might think about it in the future, and tell the 'victims' of the games why they are useful.",
-              "speakerNames": ["Hannes Renn"],
-              "timeStart": "16:10",
-              "timeEnd": "16:15",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "It's the little things that make me happy",
-              "location": "All Stages",
-              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader.<br />What does that even mean? Lots of examples in this fun lightning talk!",
-              "speakerNames": ["Inbal Gilai"],
-              "timeStart": "16:17",
-              "timeEnd": "16:22",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "We've been water my friend",
-              "location": "All Stages",
-              "description": "This is a follow up to last years talk 'Be Water My Friend'. What has been done and how did we process after exploring new ways to pay with SOFORT on a mobile device in our hackathon. From theory to market and what have been our obstacles from a technical and a product perspective. Where are we today after a long year.",
-              "speakerNames": ["George Parks Davie"],
-              "timeStart": "16:24",
-              "timeEnd": "16:29",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "Common TLS security pitfalls",
-              "location": "All Stages",
-              "description": "How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.",
-              "speakerNames": ["Alexander Lindholm"],
-              "timeStart": "16:31",
-              "timeEnd": "16:36",
-              "tracks": ["LightningTalks"]
-            },
-            {
               "name": "How hackers destroyed Mat Honan's digital life in an hour",
               "location": "All Stages",
               "description": "A fascinating story about reporter Mat Honan, who fell victim to an attack by hackers who easily obtained his sensitive details.",
               "speakerNames": ["Moria Ahi-Mordehai"],
-              "timeStart": "16:38",
-              "timeEnd": "16:43",
-              "tracks": ["LightningTalks"]
-            },
-            {
-              "name": "Xiaowang: Data Anonymization and Generation tool",
-              "location": "All Stages",
-              "description": "While executing performance tests, we want to reuse production data to keep the correct data distribution. For privacy reason, we have implemented a tool which can obfuscate the data while keeping the relations and distribution between the fields as in the original production set. Using the same approach, we also test for future growth by running the same process multiple times.",
-              "speakerNames": ["Ilija Prince"],
-              "timeStart": "16:45",
-              "timeEnd": "16:50",
-              "tracks": ["LightningTalks"]
+              "timeStart": "16:10",
+              "timeEnd": "16:15",
+              "tracks": ["Lightning talk", "Security"]
             },
             {
               "name": "What the hell is this?",
               "location": "All Stages",
               "description": "If you've ever written in Javascript - you probably noticed some weird parts in it. Does THIS cross your mind? If you’re a beginner and even if you're not - THIS is confusing! Let's figure out how it works in Javascript.",
               "speakerNames": ["Ilona Shub"],
+              "timeStart": "16:16",
+              "timeEnd": "16:21",
+              "tracks": ["Lightning talk", "Front end"]
+            },
+            {
+              "name": "Agile Retro Games",
+              "location": "All Stages",
+              "description": "In this Talk I want to share the advantage of 'Retro Games' compared to normal retrospectives and give a humour oriented view of past retrospectives so that SCRUM Masters who haven't thought about or done them yet might think about it in the future, and tell the 'victims' of the games why they are useful.",
+              "speakerNames": ["Hannes Renn"],
+              "timeStart": "16:22",
+              "timeEnd": "16:27",
+              "tracks": ["Lightning talk", "Agile", "Peopleware"]
+            },
+            {
+              "name": "Xiaowang: Data Anonymization and Generation tool",
+              "location": "All Stages",
+              "description": "While executing performance tests, we want to reuse production data to keep the correct data distribution. For privacy reason, we have implemented a tool which can obfuscate the data while keeping the relations and distribution between the fields as in the original production set. Using the same approach, we also test for future growth by running the same process multiple times.",
+              "speakerNames": ["Ilija Prince"],
+              "timeStart": "16:28",
+              "timeEnd": "16:33",
+              "tracks": ["Lightning talk", "Backend"]
+            },
+            {
+              "name": "It's the little things that make me happy",
+              "location": "All Stages",
+              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader.<br />What does that even mean? Lots of examples in this fun lightning talk!",
+              "speakerNames": ["Inbal Gilai"],
+              "timeStart": "16:34",
+              "timeEnd": "16:39",
+              "tracks": ["Lightning talk", "Performance"]
+            },
+            {
+              "name": "We've been water my friend",
+              "location": "All Stages",
+              "description": "This is a follow up to last years talk 'Be Water My Friend'. What has been done and how did we process after exploring new ways to pay with SOFORT on a mobile device in our hackathon. From theory to market and what have been our obstacles from a technical and a product perspective. Where are we today after a long year.",
+              "speakerNames": ["George Parks Davie"],
+              "timeStart": "16:40",
+              "timeEnd": "16:45",
+              "tracks": ["Lightning talk", "Sofort"]
+            },
+            {
+              "name": "TBA",
+              "location": "All Stages",
+              "description": "TBA",
+              "speakerNames": ["Melissa Thobe"],
+              "timeStart": "16:46",
+              "timeEnd": "16:51",
+              "tracks": ["Lightning talk"]
+            },
+            {
+              "name": "Common TLS security pitfalls",
+              "location": "All Stages",
+              "description": "How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.",
+              "speakerNames": ["Alexander Lindholm"],
               "timeStart": "16:52",
               "timeEnd": "16:57",
               "tracks": ["LightningTalks"]
@@ -370,9 +379,9 @@
               "location": "All Stages",
               "description": "Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.<br />In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's 'innerer Schweinehund' one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!",
               "speakerNames": ["Matthias Grüter"],
-              "timeStart": "16:59",
-              "timeEnd": "17:04",
-              "tracks": ["LightningTalks"]
+              "timeStart": "16:58",
+              "timeEnd": "17:03",
+              "tracks": ["Lightning talk", "Peopleware"]
             }
           ]
         },
