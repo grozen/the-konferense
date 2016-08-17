@@ -357,10 +357,10 @@
               "tracks": ["Lightning talk", "Sofort"]
             },
             {
-              "name": "TBA",
+              "name": "Working with developers: lessons learned",
               "location": "All Stages",
-              "description": "TBA",
-              "speakerNames": ["Melissa Thobe"],
+              "description": "Working in HR at Klarna Tel Aviv for the past few years, I've been surrounded by software developers, like you, all day long.<br />In the next 5 minutes I'll tell you a bit about working with you from my personal perspective: What makes you interesting? What keeps surprising me? And what sometimes gets on my nerves?!<br />I'll share things I've learned about our differences, and what we can do to bridge the gap between developers and HR.",
+              "speakerNames": ["Michal Tirosh"],
               "timeStart": "16:46",
               "timeEnd": "16:51",
               "tracks": ["Lightning talk"]
@@ -558,8 +558,14 @@
       "profilePic": "img/speakers/i.shub.jpg",
       "twitter": "",
       "about": "Started learning Pascal at school when she was 12 years old. After high school she moved to a University in the desert to study Information Systems Engineer, and after 4 years moved to Tel-Aviv and started working in the Intelligence corps in the Army, first as a product manager and later got back to what she really loved doing - programming. So Klarna is her first after-the-army work place - which she have been with for the last 2 years and had the opportunity to really learn frontend development. Besides work she loves diving, hiking, photographing - and doing all those things while traveling around the world.",
-      "location": "Stockholm"
-    }
+      "location": "Tel Aviv"
+    },
+    {
+      "name": "Michal Tirosh",
+      "profilePic": "img/speakers/m.tirosh.jpg",
+      "twitter": "",
+      "about": "Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang.<br />Passionate about understanding what drives employees and what makes them come to work with a smile on their face.<br />Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.",
+      "location": "Tel Aviv"    }
   ],
 
 

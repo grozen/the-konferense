@@ -30,7 +30,7 @@
     distribution between the fields as in the original production set. Using
     the same approach, we also test for future growth by running the same
     process multiple times.
-    
+
 - speaker: inbalgilai
   title: It's the little things that make me happy
   abstract:
@@ -51,6 +51,21 @@
     mobile device in our hackathon. From theory to market and what have been our
     obstacles from a technical and a product perspective. Where are we today
     after a long year.
+
+- speaker: mtirosh
+  title: 'Working with developers: lessons learned'
+  abstract: >
+    Working in HR at Klarna Tel Aviv for the past few years, I've been
+    surrounded by software developers, like you, all day long.
+
+
+    In the next 5 minutes I'll tell you a bit about working with you from my
+    personal perspective: What makes you interesting? What keeps surprising me?
+    And what sometimes gets on my nerves?!
+
+
+    I'll share things I've learned about our differences, and what we can do to
+    bridge the gap between developers and HR.
 
 - speaker: alexanderlindholm
   title: 'Common TLS security pitfalls'
