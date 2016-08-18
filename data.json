@@ -603,6 +603,73 @@
   ],
 
 
+  "team": [
+    {
+      "name": "Uri Nativ",
+      "profilePic": "img/speakers/u.nativ.jpg",
+      "twitter": "unativ",
+      "about": "Uri Nativ, VP Engineering and Site Manager of Klarna Tel Aviv. Has 18+ years working experience in various companies, from small startups to big corporates. Engineer by mind, people manager by heart. Uri has adopted Agile methodologies more than 7 years ago and had never let go since then. Uri constantly lectures about Agile, Methodologies, Culture and People in order to share and brainstorm new ideas.",
+      "location": "Tel Aviv"
+    },
+    {
+      "name": "Ben Maraney",
+      "profilePic": "img/speakers/b.maraney.jpg",
+      "twitter": "",
+      "about": "Ben became passionate about coding at age 8, when it was a welcome distraction from learning the kinds of things 8-year-olds are supposed to learn. Despite his hobby continuing to get in the way he graduated with a degree in Natural Sciences and Middle Eastern Studies from Cambridge University. For reasons best explained over beer, he moved to Israel where his formal education did not help his employment prospects in the slightest. Fortunately it seems that in Tel Aviv people are willing to pay him to do what he loves best, and he ended up writing code for a living. Ben joined Klarna looking to learn from good people. Since then he’s worked with great engineers on Payment Matching, the Settlement App and Personalization. He still can’t tell you what 6*7 is, and his handwriting remains illegible. Passion is a mixed blessing.",
+      "location": "Tel Aviv"
+    },
+    {
+      "name": "Elspeth Andrell",
+      "profilePic": "img/speakers/e.andrell.jpg",
+      "twitter": "",
+      "about": "Elspeth just joined Klarna to work as Department Coordinator, organising meetings and events and making sure Engineering runs smooothly. She moved to Stockholm from the UK and spends her free time baking, spoiling her dog, and re-reading Harry Potter.",
+      "location": "Stockholm"
+    },
+    {
+      "name": "Hannes Renn",
+      "profilePic": "img/speakers/h.renn.jpg",
+      "twitter": "",
+      "about": "Hannes is working at SOFORT for one year now and loves agile methods. As part of the merchant team 'Das Kartell' he develops the merchant and admin CRM system and some of the banking logics. He wanted to be a part of the conference team since he attended the first one in 2015 and hopes to bring some of his 10+ years of working into the planning. In his leisure Hannes likes to read books of Terry Pratchett and Stephen King, plays mostly RPG games (and some shooters) on the computer and loves to cycle.",
+      "location": "Linden"
+    },
+    {
+      "name": "Kim Öberg",
+      "profilePic": "img/speakers/k.oberg.jpg",
+      "twitter": "",
+      "about": "Kim is originally a robotics engineer born and raised in Stockholm. She studied at KTH and also spent time abroad in both Sydney and Berlin. Her favourite tool at the moment is Docker and when she's not working you can usually find her baking (cupcakes mostly) or gaming (last played: Fallout).",
+      "location": "Linden"
+    },
+    {
+      "name": "Matthias Feist",
+      "profilePic": "img/speakers/m.feist.jpg",
+      "twitter": "",
+      "about": "Matthias is working for the MEXP domain in Stockholm where he moved about one year ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and mostly frontend programming for the merchant portal.",
+      "location": "Stockholm"
+    },
+    {
+      "name": "Manuel Braun",
+      "profilePic": "img/speakers/m.braun.jpg",
+      "twitter": "mommelius",
+      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer of the A-Team (App Team) at SOFORT. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
+      "location": "Linden"
+    },
+    {
+      "name": "Michal Tirosh",
+      "profilePic": "img/speakers/m.tirosh.jpg",
+      "twitter": "",
+      "about": "Has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.",
+      "location": "Tel Aviv"
+    },
+    {
+      "name": "Tobias Palmborg",
+      "profilePic": "img/speakers/t.palmborg.jpg",
+      "twitter": "",
+      "about": "Tobias is heading up the Engineering Support team from Stockholm. Tobias started as a consultant with Klarna but quickly decided to fully join as an employee. Having worked in gaming, telecom, medcare and defence industry, Klarna is his first finance experience. With a start as developer Tobias moved into project management and started managing teams. As Head of Development at one of Europe's largest Gaming company, speed and agility became top priorities. Ever since, Tobias has explored the realm of high speed development and lightning fast delivery with one solid belief, the team is everything! Outside work, three kids, occasional triathlon competition and hands on house renovation takes up most of the time.",
+      "location": "Stockholm"
+    }
+  ],
+
+
   "map": [
     {
       "name": "Clarion Hotel Sign",
