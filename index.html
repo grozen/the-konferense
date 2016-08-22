@@ -715,15 +715,15 @@
                     </div>
                     <div class="session__abstract">
                           <div class="abstract__body-full" id="room-2-10-abstract-full-mob" data-toggler=".abstract__body-toggled">
-                              <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, 
- just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.</p>
+                              <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available deployment strategies and different types of applications. What should be automated and 
+ what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will present the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the infrastructure tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.</p>
 
                               <div class="abstract__toggler">
                                 <a data-toggle="room-2-10-abstract-full-mob room-2-10-abstract-tldr-mob"><i class="fa fa-icon fa-chevron-up"></i></a>
                               </div>
                           </div>
                           <div class="abstract__body-tldr" id="room-2-10-abstract-tldr-mob" data-toggler=".abstract__body-toggled">
-                            <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant,</p>
+                            <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available deployment strategies and different types of applications. What should be automated and</p>
 
                               <div class="abstract__toggler">
                                 <a data-toggle="room-2-10-abstract-full-mob room-2-10-abstract-tldr-mob"><i class="fa fa-icon fa-chevron-down"></i></a>
@@ -1197,21 +1197,47 @@
     </div>
 
     <div class="lightning-speaker">
-        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <img class="lightning-speaker__head" src="images/avatars/m.tirosh-0f7c2d4f.jpg"><br>
         <div>
             <a data-toggle="lightning-6-bio">
-                Alexander Lindholm
+                Michal Tirosh
             </a>
             <div class="speaker__bio" id="lightning-6-bio" data-toggler=".speaker__bio-show">
-                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+                <p>Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.</p>
 
             </div>
 
             <a class="lightning-session__title" data-toggle="lightning-6-abstract">
-                <p>Common TLS security pitfalls</p>
+                <p>Working with developers: lessons learned</p>
 
             </a>
             <div class="lightning-session__abstract" id="lightning-6-abstract" data-toggler=".lightning-session__abstract-show">
+                <p>Working in HR at Klarna Tel Aviv for the past few years, I've been surrounded by software developers, like you, all day long.</p>
+
+<p>In the next 5 minutes I'll tell you a bit about working with you from my personal perspective: What makes you interesting? What keeps surprising me? And what sometimes gets on my nerves?!</p>
+
+<p>I'll share things I've learned about our differences, and what we can do to bridge the gap between developers and HR.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="lightning-speaker">
+        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <div>
+            <a data-toggle="lightning-7-bio">
+                Alexander Lindholm
+            </a>
+            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+
+            </div>
+
+            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+                <p>Common TLS security pitfalls</p>
+
+            </a>
+            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.</p>
 
             </div>
@@ -1221,19 +1247,19 @@
     <div class="lightning-speaker">
         <img class="lightning-speaker__head" src="images/avatars/m.gruter-0ac6de31.jpg"><br>
         <div>
-            <a data-toggle="lightning-7-bio">
+            <a data-toggle="lightning-8-bio">
                 Matthias Grüter
             </a>
-            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+            <div class="speaker__bio" id="lightning-8-bio" data-toggler=".speaker__bio-show">
                 <p>Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.</p>
 
             </div>
 
-            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+            <a class="lightning-session__title" data-toggle="lightning-8-abstract">
                 <p>@todo</p>
 
             </a>
-            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
+            <div class="lightning-session__abstract" id="lightning-8-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.</p>
 
 <p>In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!</p>
@@ -1828,21 +1854,47 @@
     </div>
 
     <div class="lightning-speaker">
-        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <img class="lightning-speaker__head" src="images/avatars/m.tirosh-0f7c2d4f.jpg"><br>
         <div>
             <a data-toggle="lightning-6-bio">
-                Alexander Lindholm
+                Michal Tirosh
             </a>
             <div class="speaker__bio" id="lightning-6-bio" data-toggler=".speaker__bio-show">
-                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+                <p>Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.</p>
 
             </div>
 
             <a class="lightning-session__title" data-toggle="lightning-6-abstract">
-                <p>Common TLS security pitfalls</p>
+                <p>Working with developers: lessons learned</p>
 
             </a>
             <div class="lightning-session__abstract" id="lightning-6-abstract" data-toggler=".lightning-session__abstract-show">
+                <p>Working in HR at Klarna Tel Aviv for the past few years, I've been surrounded by software developers, like you, all day long.</p>
+
+<p>In the next 5 minutes I'll tell you a bit about working with you from my personal perspective: What makes you interesting? What keeps surprising me? And what sometimes gets on my nerves?!</p>
+
+<p>I'll share things I've learned about our differences, and what we can do to bridge the gap between developers and HR.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="lightning-speaker">
+        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <div>
+            <a data-toggle="lightning-7-bio">
+                Alexander Lindholm
+            </a>
+            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+
+            </div>
+
+            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+                <p>Common TLS security pitfalls</p>
+
+            </a>
+            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.</p>
 
             </div>
@@ -1852,19 +1904,19 @@
     <div class="lightning-speaker">
         <img class="lightning-speaker__head" src="images/avatars/m.gruter-0ac6de31.jpg"><br>
         <div>
-            <a data-toggle="lightning-7-bio">
+            <a data-toggle="lightning-8-bio">
                 Matthias Grüter
             </a>
-            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+            <div class="speaker__bio" id="lightning-8-bio" data-toggler=".speaker__bio-show">
                 <p>Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.</p>
 
             </div>
 
-            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+            <a class="lightning-session__title" data-toggle="lightning-8-abstract">
                 <p>@todo</p>
 
             </a>
-            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
+            <div class="lightning-session__abstract" id="lightning-8-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.</p>
 
 <p>In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!</p>
@@ -2168,15 +2220,15 @@
 
                   <div class="session__abstract">
                         <div class="abstract__body-full" id="room-2-10-abstract-full" data-toggler=".abstract__body-toggled">
-                            <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, 
- just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.</p>
+                            <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available deployment strategies and different types of applications. What should be automated and 
+ what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will present the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the infrastructure tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.</p>
 
                             <div class="abstract__toggler">
                               <a data-toggle="room-2-10-abstract-full room-2-10-abstract-tldr"><i class="fa fa-icon fa-chevron-up"></i></a>
                             </div>
                         </div>
                         <div class="abstract__body-tldr" id="room-2-10-abstract-tldr" data-toggler=".abstract__body-toggled">
-                          <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant,</p>
+                          <p>We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available deployment strategies and different types of applications. What should be automated and</p>
 
                             <div class="abstract__toggler">
                               <a data-toggle="room-2-10-abstract-full room-2-10-abstract-tldr"><i class="fa fa-icon fa-chevron-down"></i></a>
@@ -2444,21 +2496,47 @@
     </div>
 
     <div class="lightning-speaker">
-        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <img class="lightning-speaker__head" src="images/avatars/m.tirosh-0f7c2d4f.jpg"><br>
         <div>
             <a data-toggle="lightning-6-bio">
-                Alexander Lindholm
+                Michal Tirosh
             </a>
             <div class="speaker__bio" id="lightning-6-bio" data-toggler=".speaker__bio-show">
-                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+                <p>Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.</p>
 
             </div>
 
             <a class="lightning-session__title" data-toggle="lightning-6-abstract">
-                <p>Common TLS security pitfalls</p>
+                <p>Working with developers: lessons learned</p>
 
             </a>
             <div class="lightning-session__abstract" id="lightning-6-abstract" data-toggler=".lightning-session__abstract-show">
+                <p>Working in HR at Klarna Tel Aviv for the past few years, I've been surrounded by software developers, like you, all day long.</p>
+
+<p>In the next 5 minutes I'll tell you a bit about working with you from my personal perspective: What makes you interesting? What keeps surprising me? And what sometimes gets on my nerves?!</p>
+
+<p>I'll share things I've learned about our differences, and what we can do to bridge the gap between developers and HR.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="lightning-speaker">
+        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <div>
+            <a data-toggle="lightning-7-bio">
+                Alexander Lindholm
+            </a>
+            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+
+            </div>
+
+            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+                <p>Common TLS security pitfalls</p>
+
+            </a>
+            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.</p>
 
             </div>
@@ -2468,19 +2546,19 @@
     <div class="lightning-speaker">
         <img class="lightning-speaker__head" src="images/avatars/m.gruter-0ac6de31.jpg"><br>
         <div>
-            <a data-toggle="lightning-7-bio">
+            <a data-toggle="lightning-8-bio">
                 Matthias Grüter
             </a>
-            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+            <div class="speaker__bio" id="lightning-8-bio" data-toggler=".speaker__bio-show">
                 <p>Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.</p>
 
             </div>
 
-            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+            <a class="lightning-session__title" data-toggle="lightning-8-abstract">
                 <p>@todo</p>
 
             </a>
-            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
+            <div class="lightning-session__abstract" id="lightning-8-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.</p>
 
 <p>In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!</p>
@@ -2979,21 +3057,47 @@
     </div>
 
     <div class="lightning-speaker">
-        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <img class="lightning-speaker__head" src="images/avatars/m.tirosh-0f7c2d4f.jpg"><br>
         <div>
             <a data-toggle="lightning-6-bio">
-                Alexander Lindholm
+                Michal Tirosh
             </a>
             <div class="speaker__bio" id="lightning-6-bio" data-toggler=".speaker__bio-show">
-                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+                <p>Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.</p>
 
             </div>
 
             <a class="lightning-session__title" data-toggle="lightning-6-abstract">
-                <p>Common TLS security pitfalls</p>
+                <p>Working with developers: lessons learned</p>
 
             </a>
             <div class="lightning-session__abstract" id="lightning-6-abstract" data-toggler=".lightning-session__abstract-show">
+                <p>Working in HR at Klarna Tel Aviv for the past few years, I've been surrounded by software developers, like you, all day long.</p>
+
+<p>In the next 5 minutes I'll tell you a bit about working with you from my personal perspective: What makes you interesting? What keeps surprising me? And what sometimes gets on my nerves?!</p>
+
+<p>I'll share things I've learned about our differences, and what we can do to bridge the gap between developers and HR.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="lightning-speaker">
+        <img class="lightning-speaker__head" src="images/avatars/a.lindholm-bff95afb.jpg"><br>
+        <div>
+            <a data-toggle="lightning-7-bio">
+                Alexander Lindholm
+            </a>
+            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+                <p>Alexander Lindholm has worked at Klarna for the last one and a half years. He has a masters degree in computer science from the Royal Institute of Technology and has been working with PKI as a software developer for 5 years. Furthermore he’s been developing SSL VPN solutions and working with the PKI infrastructure at Technology Nexus and Assa Abloy.</p>
+
+            </div>
+
+            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+                <p>Common TLS security pitfalls</p>
+
+            </a>
+            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>How do you configure the TLS protocol securely? Have you ever wondered what the java error message sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target means? Or have you struggled with keystores and truststores and what they are? This talk will focus on how to solve these common pitfalls and how to make a common java configuration to secure your http endpoints.</p>
 
             </div>
@@ -3003,19 +3107,19 @@
     <div class="lightning-speaker">
         <img class="lightning-speaker__head" src="images/avatars/m.gruter-0ac6de31.jpg"><br>
         <div>
-            <a data-toggle="lightning-7-bio">
+            <a data-toggle="lightning-8-bio">
                 Matthias Grüter
             </a>
-            <div class="speaker__bio" id="lightning-7-bio" data-toggler=".speaker__bio-show">
+            <div class="speaker__bio" id="lightning-8-bio" data-toggler=".speaker__bio-show">
                 <p>Matthias Grüter recently joined Klarna as a software developer with team Forseti at Risk Engineering. He has previously worked as a developer, ops guy, testing engineer and engineering manager and is constantly on the lookout for new challenges. Matthias loves programming and tinkering and when he is not hacking on software you can probably find him at a meetup somewhere in Stockholm talking about Docker and the value of immutable infrastructure.</p>
 
             </div>
 
-            <a class="lightning-session__title" data-toggle="lightning-7-abstract">
+            <a class="lightning-session__title" data-toggle="lightning-8-abstract">
                 <p>@todo</p>
 
             </a>
-            <div class="lightning-session__abstract" id="lightning-7-abstract" data-toggler=".lightning-session__abstract-show">
+            <div class="lightning-session__abstract" id="lightning-8-abstract" data-toggler=".lightning-session__abstract-show">
                 <p>Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.</p>
 
 <p>In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's "innerer Schweinehund" one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!</p>
