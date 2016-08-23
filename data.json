@@ -532,7 +532,7 @@
     },
     {
       "name": "Ivan Dyachkov",
-      "profilePic": "img/speakers/i.dyachkov.png",
+      "profilePic": "img/speakers/i.dyachkov.jpg",
       "about": "Before starting at Klarna Ivan was developing C++/MFC desktop applications for Windows, Java applications and web services, .NET applications and some Ruby on Rails web sites. Last few years he’s been working primarily with Erlang, and also recently started playing with Elixir and Go as well as doing a lot of devops.",
       "location": "Stockholm"
     },
