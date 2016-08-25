@@ -80,7 +80,7 @@ tracks:
 
     - type: talk
       speaker: vilhelm
-      title: Predicting payment behaviour - a machine learning approach to risk
+      title: Predicting Payment Behaviour: A machine learning approach to risk
       abstract:
         It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices.$MORE$
         This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.
@@ -111,7 +111,7 @@ tracks:
 
     - type: talk
       speaker: niehoff
-      title: Sofort through the ages
+      title: SOFORT Through the Ages
       abstract:
         SOFORT started 2004 in a small town in Butzbach in Hesse. How we changed over the time, what challenges we had to become the part of the klarna group we are now.
 
@@ -145,7 +145,7 @@ tracks:
 
     - type: talk
       speaker: ivan
-      title: "Running Kafka in production: lessons learned"
+      title: "Running Kafka in Production: lessons learned"
       abstract:
         In this session we will talk about how Kafka clusters are currently set up in Klarna,  evolution of the setup and deployment pipelines, tools we've build to support Kafka users, and lessons learned since we launched KaaS.
 
@@ -158,7 +158,7 @@ tracks:
       abstract: $$LIGHTNING_TALKS$$
 
     - type: span
-      title: Closing words + Drinks
+      title: Closing Words & Drinks
 
 
   "room-2":
@@ -248,7 +248,7 @@ tracks:
 
     - type: talk
       speaker: sergey
-      title: "The many ways to do DevOps: A Journey"
+      title: "The Many Ways to do DevOps: A Journey"
       abstract:
         We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available deployment strategies and different types of applications. What should be automated and $MORE$ what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 "Scaling infrastructure work at Klarna". In the talk I will present the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the infrastructure tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.
     - type: break
@@ -257,7 +257,7 @@ tracks:
 
     - type: talk
       speaker: mmichalsky
-      title: Decode the magic - The SOFORT Payment-Wizard
+      title: Decode the Magic: The SOFORT Payment-Wizard
       abstract:
         Introduction of SOFORTs "Payment-Wizard" - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's "under the trunk" of SOFORT Überweisung (including [live] demonstrations).
 
@@ -266,7 +266,7 @@ tracks:
 
     - type: talk
       speaker: engstorm
-      title: Eight years living with Kred
+      title: Eight Years Living with Kred
       abstract:
         Kreditor started out as a factoring business specifically geared
         towards e-commerce. Kred, therefore, started as, and at heart still is,
@@ -354,7 +354,7 @@ tracks:
 
     - type: talk
       speaker: gruter
-      title: What is this RaaS thing, anyway?
+      title: What is This RaaS Thing, Anyway?
       abstract:
         Have you ever wondered what the coding monkeys at Risk Engineering are
         up to? As a recent newbie at Risk Engineering I'll open up the black

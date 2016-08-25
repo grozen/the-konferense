@@ -63,7 +63,7 @@
           "time": "10:40",
           "sessions": [
             {
-              "name": "Predicting payment behaviour - a machine learning approach to risk",
+              "name": "Predicting Payment Behaviour: A machine learning approach to risk",
               "location": "B3",
               "description": "It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices.<br/><br/>This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.",
               "speakerNames": ["Vilhelm von Ehrenheim"],
@@ -201,7 +201,7 @@
           "time": "13:50",
           "sessions": [
             {
-              "name": "Sofort through the ages",
+              "name": "SOFORT Through the Ages",
               "location": "B3",
               "description": "SOFORT started 2004 in a small town in Butzbach in Hesse. How we changed over the time, what challenges we had to become the part of the klarna group we are now.",
               "speakerNames": ["Christian Niehoff"],
@@ -211,7 +211,7 @@
               "tracks": ["History", "Culture", "Sofort", "Peopleware"]
             },
             {
-              "name": "The many ways to do DevOps: A Journey",
+              "name": "The Many Ways to do DevOps: A Journey",
               "location": "B12",
               "description": "We've all heard that one should deploy small changes and deploy often. This is great but it gets harder to figure out which tools/techniques to use for a given application at hand given multiple available tools (Capistrano, Chef, Ansible, Vagrant, just shell, docker, container orchestration tools, etc) and multiple types of applications (web apps, databases, batch job apps, data pipeline apps, etc). What should be automated and what shouldn’t? This talk will be an experience-based DevOps journey story of attempting to achieve a stable and organisationally scalable delivery process. It will be an extended version of the lightning talk I did at muCon Stockholm 2015 'Scaling infrastructure work at Klarna'. In the talk I will structure the alternative approaches and principles behind the different deployment tools, what worked and what didn't work for us, where the deployment tools are heading and how can a DevOps person avoid becoming a bottleneck by sharing knowledge within the team.",
               "speakerNames": ["Sergey Evstifeev"],
@@ -250,7 +250,7 @@
               "tracks": ["Business", "Product"]
             },
             {
-              "name": "Decode the magic - The SOFORT Payment-Wizard",
+              "name": "Decode the Magic: The SOFORT Payment-Wizard",
               "location": "B12",
               "description": "Introduction of SOFORTs 'Payment-Wizard' - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's 'under the trunk' of SOFORT Überweisung (including [live] demonstrations).",
               "speakerNames": ["Markus Michalsky"],
@@ -278,7 +278,7 @@
           "time": "15:25",
           "sessions": [
             {
-              "name": "Eight years living with Kred",
+              "name": "Eight Years Living with Kred",
               "location": "B12",
               "description": "Kreditor started out as a factoring business specifically geared towards e-commerce. Kred, therefore, started as, and at heart still is, a factoring support system. This, along with a few other crucial business decisions, developments and accidents has shaped and continues to affect the system as it stands today. This talk will present a few of those developments, along with some of their consequences that are still visible today, in code, data structures, workflows and business procedures. This will in turn develop into a few key learnings about how Klarna got to be where it is today, what baggage it is carrying with it, what mistakes we may not want to make again, and what traits and properties of Klarna and its systems that we may want to develop, maintain and preserve.",
               "speakerNames": ["Martin Engström"],
@@ -288,7 +288,7 @@
               "tracks": ["History", "Domain introductions"]
             },
             {
-              "name": "Running Kafka in production: lessons learned",
+              "name": "Running Kafka in Production: lessons learned",
               "location": "B3",
               "description": "In this session we will talk about how Kafka clusters are currently set up in Klarna, evolution of the setup and deployment pipelines, tools we've build to support Kafka users, and lessons learned since we launched KaaS.",
               "speakerNames": ["Ivan Dyachkov"],
@@ -298,7 +298,7 @@
               "tracks": ["Data infrastructure", "DevOps"]
             },
             {
-              "name": "What is this RaaS thing, anyway?",
+              "name": "What is This RaaS Thing, Anyway?",
               "location": "C3",
               "description": "Have you ever wondered what the coding monkeys at Risk Engineering are up to? As a recent newbie at Risk Engineering I'll open up the black box that is RaaS and together we will look at the many moving parts that make up RaaS.At the end of this talk you will have retraced my steps from RaaS noob to becoming proficient enough to know whatever RaaS is all about.",
               "speakerNames": ["Matthias Grüter"],
@@ -422,7 +422,7 @@
           "time": "17:05",
           "sessions": [
             {
-              "name": "Closing words + Drinks",
+              "name": "Closing Words & Drinks",
               "timeStart": "17:05",
               "timeEnd": "19:00",
               "trackId": "35",
