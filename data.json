@@ -279,7 +279,7 @@
           "sessions": [
             {
               "name": "Eight years living with Kred",
-              "location": "B3",
+              "location": "B12",
               "description": "Kreditor started out as a factoring business specifically geared towards e-commerce. Kred, therefore, started as, and at heart still is, a factoring support system. This, along with a few other crucial business decisions, developments and accidents has shaped and continues to affect the system as it stands today. This talk will present a few of those developments, along with some of their consequences that are still visible today, in code, data structures, workflows and business procedures. This will in turn develop into a few key learnings about how Klarna got to be where it is today, what baggage it is carrying with it, what mistakes we may not want to make again, and what traits and properties of Klarna and its systems that we may want to develop, maintain and preserve.",
               "speakerNames": ["Martin Engström"],
               "timeStart": "15:25",
@@ -289,7 +289,7 @@
             },
             {
               "name": "Running Kafka in production: lessons learned",
-              "location": "B12",
+              "location": "B3",
               "description": "In this session we will talk about how Kafka clusters are currently set up in Klarna, evolution of the setup and deployment pipelines, tools we've build to support Kafka users, and lessons learned since we launched KaaS.",
               "speakerNames": ["Ivan Dyachkov"],
               "timeStart": "15:25",
