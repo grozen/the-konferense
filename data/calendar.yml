@@ -80,7 +80,7 @@ tracks:
 
     - type: talk
       speaker: vilhelm
-      title: Predicting Payment Behaviour: A machine learning approach to risk
+      title: "Predicting Payment Behaviour: A machine learning approach to risk"
       abstract:
         It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices.$MORE$
         This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.
@@ -257,7 +257,7 @@ tracks:
 
     - type: talk
       speaker: mmichalsky
-      title: Decode the Magic: The SOFORT Payment-Wizard
+      title: "Decode the Magic: The SOFORT Payment-Wizard"
       abstract:
         Introduction of SOFORTs "Payment-Wizard" - the part of SOFORTs payment platform, which all customers are using while paying with SOFORT Überweisung or when using other products. Let's have a look what's "under the trunk" of SOFORT Überweisung (including [live] demonstrations).
 
