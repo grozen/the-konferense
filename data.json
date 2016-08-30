@@ -409,7 +409,7 @@
             {
               "name": "@todo",
               "location": "All Stages",
-              "description": "Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.<br />In this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's 'innerer Schweinehund' one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!",
+              "description": "Have you ever refactored your dotfiles instead of preparing for tomorrow's demo? Have you caught your teammate rearranging the SCRUM board for the 3rd time this week? We software people are all too often plagued by procrastination.\r\n\r\nIn this talk I'll argue that instead of fighting one's weaker self, or more adequately said in German, one's 'innerer Schweinehund' one should start embracing the ability to procrastinate as a valuable strength. Let's all put off things together!",
               "speakerNames": ["Matthias Grüter"],
               "timeStart": "16:58",
               "timeEnd": "17:03",
