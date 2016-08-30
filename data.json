@@ -163,7 +163,7 @@
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
               "location": "B12",
-              "description": "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us<br/><br/>While at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate with a new PSP or a bank.<br/><br/>You'll get to know our 'Book of Doom', and why it got that name.<br/><br/>Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk.",
+              "description": "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us.\r\n\r\nWhile at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate with a new PSP or a bank.<br/><br/>You'll get to know our 'Book of Doom', and why it got that name.<br/><br/>Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk.",
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
