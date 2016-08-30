@@ -65,7 +65,7 @@
             {
               "name": "Predicting Payment Behaviour: A machine learning approach to risk",
               "location": "B3",
-              "description": "It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices.<br/><br/>This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.",
+              "description": "It would be very expensive and also immoral to grant anyone who asks credit. It is therefore of great importance to predict customer’s future payment behaviour so that we can reject those that will not be able to pay. In this talk I will introduce you to Machine Learning and how we use it to train models that can predict if customers will pay their invoices. This will include everything from root cause analysis and data-mining to feature engineering, training and validation of machine learning models and decision policy design. I will introduce you to some specific problems we encounter in credit underwriting and how we try to solve these problems in an automated way.",
               "speakerNames": ["Vilhelm von Ehrenheim"],
               "timeStart": "10:40",
               "timeEnd": "11:25",
@@ -163,7 +163,7 @@
             {
               "name": "PSP Integrations: The good, the bad, and the ugly",
               "location": "B12",
-              "description": "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us.\r\n\r\nWhile at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate with a new PSP or a bank.<br/><br/>You'll get to know our 'Book of Doom', and why it got that name.<br/><br/>Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk.",
+              "description": "In this session I'll show a glimpse into what it is to deal with the reconciliation side of Payments. We'll start with what's the payment lifecycle, and then see how each PSP communicates it to us. While at it, we will see all kinds of mishaps that we, as developers, have to deal every time we need to integrate with a new PSP or a bank. You'll get to know our 'Book of Doom', and why it got that name. Although I will talk about some of the tools that we use to do our job, this is NOT meant to be a technical talk.",
               "speakerNames": ["Filipe Cristóvão"],
               "timeStart": "13:15",
               "timeEnd": "13:45",
@@ -242,7 +242,7 @@
             {
               "name": "The Wild World of Platform Integrations",
               "location": "B3",
-              "description": "Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna.<br />This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration.<br />We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's needs.",
+              "description": "Klarna products are integrated in many platforms across the supported markets. The process of integrating the products is often completed by vendors outside of Klarna. This session will take a look at how these efforts are approached differently across the platforms based on platform type (open source vs. SaaS), size of merchants on the platforms, setup of the relationship with the platform and/or vendor completing the work and the numerous other factors that impact the final build of the integration. We will also explore steps being taken to improve the time and quality to market for the platforms across all Klarna markets as well as involvement of market resources throughout the process to ensure the integration meets each market's needs.",
               "speakerNames": ["Melissa Thobe"],
               "timeStart": "14:25",
               "timeEnd": "14:55",
@@ -369,7 +369,7 @@
             {
               "name": "It's the little things that make me happy",
               "location": "All Stages",
-              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader.<br />What does that even mean? Lots of examples in this fun lightning talk!",
+              "description": "Ruby’s original heresy was to place the happiness of the programmer on a pedestal - above many other competing and valid concerns that had driven programming languages before it. Rails took this one step further with 'The Principle of The Bigger Smile'; design with great attention paid to whatever would make developers smile more and broader. What does that even mean? Lots of examples in this fun lightning talk!",
               "speakerNames": ["Inbal Gilai"],
               "timeStart": "16:34",
               "timeEnd": "16:39",
@@ -490,7 +490,7 @@
     {
       "name": "Filipe Cristóvão",
       "profilePic": "img/speakers/p.cristovao.jpg",
-      "about": "Filipe studied Distributed Systems and Software Engineering at the Instituto Superior Técnico in Portugal.<br/><br/>4 years ago, he decided to go for an adventure to the other side of Europe and ended up in Sweden, working with Erlang.<br/><br/>Interested in Distributed Systems, concurrency, the actors computational model and some sprinkles of STMs.<br/><br/>At Klarna, he started working with Kred, in the dunning side (a word that he didn't even know existed before getting here...), then with customer communications. Later on he was for a while the sole member of the now gone Wall Street team, handling the payments integration area of the Kasper platform.<br/><br/>On his spare time he currently is trying to learn Swedish (finally!). Previous to Klarna, he taught some classes in the University as well.",
+      "about": "Filipe studied Distributed Systems and Software Engineering at the Instituto Superior Técnico in Portugal. 4 years ago, he decided to go for an adventure to the other side of Europe and ended up in Sweden, working with Erlang. Interested in Distributed Systems, concurrency, the actors computational model and some sprinkles of STMs. At Klarna, he started working with Kred, in the dunning side (a word that he didn't even know existed before getting here...), then with customer communications. Later on he was for a while the sole member of the now gone Wall Street team, handling the payments integration area of the Kasper platform. On his spare time he currently is trying to learn Swedish (finally!). Previous to Klarna, he taught some classes in the University as well.",
       "location": "Stockholm"
     },
     {
@@ -599,7 +599,7 @@
       "name": "Michal Tirosh",
       "profilePic": "img/speakers/m.tirosh.jpg",
       "twitter": "",
-      "about": "Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang.<br />Passionate about understanding what drives employees and what makes them come to work with a smile on their face.<br />Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.",
+      "about": "Michal has been working as part of the HR team for the past 4 years and is in charge of recruiting for Klarna Tel Aviv's extraordinary gang. Passionate about understanding what drives employees and what makes them come to work with a smile on their face. Strongly believes that people, culture and diversity are the key to Klarna Tel Aviv’s magic, and works tirelessly to maintain that magic.",
       "location": "Tel Aviv"    }
   ],
 
