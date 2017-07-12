@@ -16,7 +16,7 @@ function stateToClass(state : EventAnimationStates) : string {
     '100%': {maxHeight: '1.2em'},
     '0%': {maxHeight: '75em'}
   })
-  
+
   const collapsedClass = style({
     height: '1.2em',
     textOverflow: 'ellipsis',
@@ -56,7 +56,7 @@ function stateToClass(state : EventAnimationStates) : string {
   }
 }
 
-export default function Event(event : Event, state : AppState) : VNode {
+export default function Event<T>(event : Event<T>, state : AppState) : VNode {
   return (
     <div>
       {event.speaker ? Speaker(event.speaker) : undefined}

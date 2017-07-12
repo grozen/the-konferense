@@ -1,28 +1,101 @@
 import { Speaker, Speakers } from './speaker-data'
 
-type Room = 'C1+C2' | 'C3' | 'C4'
+type RoomsGathering = 'C halls' | 'A2'
+type RoomsOpening = 'A2'
+type RoomsTalks = 'C1+C2' | 'C3' | 'C4'
+type RoomsLightningEnding = 'C1+C2+C3'
 
-export const RoomNames : [Room] = ['C1+C2', 'C3', 'C4']
-
-export type Event = {
+export type Event<T> = {
   id : number
   title : string
-  room? : Room
+  room? : T
   speaker? : Speaker
   description? : string
 }
 
-export type TimeSlot = {
-  events : Event[]
+export type TimeSlot<T> = {
+  events : Event<T>[]
   startTime : string
   endTime : string
 }
 
-type Agenda = {
-  timeSlots : TimeSlot[]
+export type Agenda<T> = {
+  roomNames : T[],
+  timeSlots : TimeSlot<T>[]
 }
 
-export const AgendaData : Agenda = {
+export const AgendaDataGathering : Agenda<RoomsGathering> = {
+  roomNames: ['C halls', 'A2'],
+  timeSlots: [
+    {
+      startTime: '08:30',
+      endTime: '09:00',
+      events: [{
+        id: 1,
+        title: 'Registration',
+        room: 'C halls'
+      },
+      {
+        id: 1,
+        title: 'Breakfast',
+        room: 'A2'
+      }]
+    }
+  ]
+}
+
+export const AgendaDataOpening : Agenda<RoomsOpening> = {
+  roomNames: ['A2'],
+  timeSlots: [
+    {
+      startTime: '09:00',
+      endTime: '09:15',
+      events: [{
+        id: 1,
+        title: 'Opening words',
+        room: 'A2'
+      }]
+    },
+    {
+      startTime: '09:15',
+      endTime: '10:05',
+      events: [{
+        id: 1,
+        title: 'Keynote - The Art of Reinvention',
+        room: 'A2',
+        speaker: Speakers['kara defrias']
+      }]
+    },
+    {
+      startTime: '10:05',
+      endTime: '10:15',
+      events: [{
+        id: 1,
+        title: 'Break (10m)'
+      }]
+    },
+    {
+      startTime: '10:15',
+      endTime: '10:35',
+      events: [{
+        id: 1,
+        title: 'Product Vision',
+        room: 'A2'
+      }]
+    },
+    {
+      startTime: '10:35',
+      endTime: '10:45',
+      events: [{
+        id: 1,
+        title: 'Break & move downstairs (10m)'
+      }]
+    }
+  ]
+}
+
+export const AgendaDataTalks : Agenda<RoomsTalks> = {
+  roomNames: ['C1+C2', 'C3', 'C4'],
   timeSlots: [
     {
       startTime: '08:00',
@@ -128,9 +201,14 @@ export const AgendaData : Agenda = {
 
 // Go over all events and give them a unique ID
 let eventID : number = 1
-AgendaData.timeSlots.forEach(timeslot => {
-  timeslot.events.forEach(event => {
-    event.id = eventID
-    eventID += 1
+function GenerateEventIDs<T>(agendaData : Agenda<T>) : void {
+  agendaData.timeSlots.forEach(timeslot => {
+    timeslot.events.forEach(event => {
+      event.id = eventID
+      eventID += 1
+    })
   })
-})
+}
+
+GenerateEventIDs(AgendaDataGathering)
+GenerateEventIDs(AgendaDataOpening)

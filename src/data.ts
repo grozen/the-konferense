@@ -1,9 +1,13 @@
 import { SplashData } from './data/splash-data'
-import { AgendaData } from './data/agenda-data'
+import { AgendaDataGathering, AgendaDataOpening, AgendaDataTalks } from './data/agenda-data'
 
 export const AppData = {
   'The KonferenSE': SplashData,
-  'Agenda': AgendaData,
+  'Agenda': {
+    'Gathering': AgendaDataGathering,
+    'Opening': AgendaDataOpening,
+    'Talks': AgendaDataTalks
+  },
   'Venue': undefined,
   'Team': undefined,
   '2016 Highlights': undefined,

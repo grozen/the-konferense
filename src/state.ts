@@ -1,6 +1,6 @@
 import { AppData } from './data'
 import { EventState } from './state/event-state'
-import { TimeSlot } from './data/agenda-data'
+import { Agenda, TimeSlot } from './data/agenda-data'
 
 type EventStates = {[eventID : number] : EventState}
 
@@ -10,15 +10,22 @@ export type AppState = {
   events : EventStates
 }
 
-export function initialState() : AppState {
+function SetCollapsedEvents<T>(agendaData : Agenda<T>) : EventStates {
   const eventStates : EventStates = {}
-  AppData.Agenda.timeSlots.forEach((timeslot => {
+  agendaData.timeSlots.forEach(timeslot => {
     timeslot.events.forEach(event => {
       eventStates[event.id] = { descriptionState: 'collapsed', speakerState: 'collapsed'}
     })
-  }))
+  })
 
+  return eventStates
+}
+
+export function initialState() : AppState {
   return {
-    events: eventStates
+    events: {
+      ...SetCollapsedEvents(AppData.Agenda.Gathering),
+      ...SetCollapsedEvents(AppData.Agenda.Opening)
+    }
   }
 }

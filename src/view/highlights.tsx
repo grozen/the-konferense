@@ -12,7 +12,7 @@ export default function highlights() : VNode {
     <div id={titleToAnchor('2016 Highlights')}>
       <h1>Last year's highlights:</h1>
       <div className={videoContainer}>
-        <iframe width="800" height="450" src="https://www.youtube.com/embed/935CDUYCeBE?list=PLYaD-TFUU2hiEVWA3DMDeemFab6RFARCR" frameborder="0" allowfullscreen></iframe>
+        <iframe width='800' height='450' src='https://www.youtube.com/embed/935CDUYCeBE?list=PLYaD-TFUU2hiEVWA3DMDeemFab6RFARCR' frameborder='0' allowfullscreen></iframe>
       </div>
     </div>
   )
