@@ -1,7 +1,7 @@
 .bundle
 .sass-cache
 .cache
-build
+dist
 vendor/bundle
 dummy.*
 credentials.rb

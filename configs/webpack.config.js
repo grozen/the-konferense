@@ -84,8 +84,9 @@ module.exports = createConfig([
         tsIfDef(true),
         imageHandler(),
         addPlugins([
-            new CleanWebpackPlugin(['build'], {root: appPath()}),
-            new webpack.optimize.UglifyJsPlugin()
+            new CleanWebpackPlugin(['dist'], {root: appPath()}),
+            new webpack.optimize.UglifyJsPlugin(),
+            new CopyWebpackPlugin([{from: '2016/dist', to: '2016'}, {from: 'CNAME'}])
         ])
     ])
 ])
