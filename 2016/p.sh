@@ -1,1 +1,1 @@
-bundle exec middleman build && bundle exec middleman deploy
+echo You really shouldn\'t be deploying this site anymore. Only the top level site should be deployed.
