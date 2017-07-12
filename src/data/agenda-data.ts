@@ -1,6 +1,6 @@
 import { Speaker, Speakers } from './speaker-data'
 
-type Room = 'C12' | 'C3' | 'C4'
+type Room = 'C1+C2' | 'C3' | 'C4'
 
 export const RoomNames : [Room] = ['C1+C2', 'C3', 'C4']
 
@@ -49,7 +49,7 @@ export const AgendaData : Agenda = {
         id: 1,
         title: 'Thing A',
         description: 'It\'s that first thing, you know how they are',
-        room: 'C12',
+        room: 'C1+C2',
         speaker: Speakers['alice']
       },
       {
