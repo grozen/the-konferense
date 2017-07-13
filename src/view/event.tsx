@@ -60,7 +60,7 @@ function stateToClass(state : EventAnimationStates) : string {
 }
 
 function Speakers(speakers : SpeakerType[]) : VNode {
-  const speakersContainerClass = style(csstips.flex, csstips.horizontallySpaced)
+  const speakersContainerClass = style(csstips.horizontal, csstips.aroundJustified)
 
   return (
     <div className={speakersContainerClass}>
