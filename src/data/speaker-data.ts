@@ -27,6 +27,11 @@ import phillippeVimardPortrait from '../../public/speakers/phillippe_vimard.jpg'
 import talyaSternPortrait from '../../public/speakers/talya_stern.jpg'
 import tamirTaubPortrait from '../../public/speakers/tamir_taub.jpg'
 import wavyPortrait from '../../public/speakers/wavy.jpg'
+import adamBergmarkPortrait from '../../public/speakers/adam_bergmark.jpg'
+import brigitteRingbauerPortrait from '../../public/speakers/brigitte_ringbauer.jpg'
+import johannaSimonssonPortrait from '../../public/speakers/johanna_simonsson.jpg'
+import sergeyEvstifeevPortrait from '../../public/speakers/sergey_evstifeev.jpg'
+import nirAravotPortrait from '../../public/speakers/nir_aravot.jpg'
 
 const SpeakerList : Speaker[] = [
   {
