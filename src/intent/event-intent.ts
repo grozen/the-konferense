@@ -2,76 +2,100 @@ import xs, { Stream } from 'xstream'
 import { DOMSource } from '@cycle/dom'
 import { Reducer, initialState, AppState } from '../state'
 import { possibleStates as EventAnimationStates } from '../state/event-state'
-  
-function buildStartAnimationReducer(ev : Event) : Reducer {
+
+function nextStateForAnimationStart(currentState : EventAnimationStates) : EventAnimationStates {
+  switch (currentState) {
+  case 'collapsed':
+    return 'expanding'
+  case 'expanding':
+    return 'collapsing'
+  case 'collapsing':
+    return 'expanding'
+  case 'expanded':
+    return 'collapsing'
+  default:
+    throw 'impossible state'
+  }
+}
+
+function nextStateForAnimationEnd(currentState : EventAnimationStates) : EventAnimationStates {
+  switch (currentState) {
+  case 'collapsed':
+    return currentState
+  case 'expanding':
+    return 'expanded'
+  case 'collapsing':
+    return 'collapsed'
+  case 'expanded':
+    return currentState
+  default:
+    throw 'impossible state'
+  }
+}
+
+function buildStartEventDescriptionAnimationReducer(ev : Event) : Reducer {
   return(
     (prev : AppState) => {
       const newState : AppState = {...prev}
-      const eventID = parseInt((ev.currentTarget as HTMLElement).dataset.eventid as string)
+      const eventDiv = (ev.currentTarget as HTMLElement).parentElement as HTMLElement
+      const eventID = parseInt(eventDiv.dataset.eventid as string)
 
-      let newDescriptionState : EventAnimationStates = 'collapsed'
-
-       switch (prev.events[eventID].descriptionState) {
-        case 'collapsed':
-          newDescriptionState = 'expanding'
-          break
-        case 'expanding':
-          newDescriptionState = 'collapsing'
-          break
-        case 'collapsing':
-          newDescriptionState = 'expanding'
-          break
-        case 'expanded':
-          newDescriptionState = 'collapsing'
-          break
-        default:
-          throw 'impossible state'
-      }
-
-      newState.events[eventID].descriptionState = newDescriptionState
+      newState.events[eventID].descriptionState = nextStateForAnimationStart(prev.events[eventID].descriptionState)
       return newState
     }
   )
 }
 
-function buildFinishAnimationReducer(ev : Event) : Reducer {
+function buildFinishEventDescriptionAnimationReducer(ev : Event) : Reducer {
+  return(
+    (prev : AppState) => {
+      const newState : AppState = {...prev}
+      const eventDiv = ((ev.currentTarget as HTMLElement).parentElement as HTMLElement).parentElement as HTMLElement
+      const eventID = parseInt(eventDiv.dataset.eventid as string)
+
+      newState.events[eventID].descriptionState = nextStateForAnimationEnd(prev.events[eventID].descriptionState)
+      return newState
+    }
+  )
+}
+
+function buildStartSpeakerBioAnimationReducer(ev : Event) : Reducer {
+  return(
+    (prev : AppState) => {
+      const newState : AppState = {...prev}
+      const eventID = parseInt((ev.currentTarget as HTMLElement).dataset.speakerindex as string)
+
+      newState.events[eventID].descriptionState = nextStateForAnimationStart(prev.events[eventID].descriptionState)
+      return newState
+    }
+  )
+}
+
+function buildFinishSpeakerBioAnimationReducer(ev : Event) : Reducer {
   return(
     (prev : AppState) => {
       const newState : AppState = {...prev}
       const descriptionDiv = (ev.currentTarget as HTMLElement).parentElement as HTMLElement
       const eventID = parseInt(descriptionDiv.dataset.eventid as string)
 
-      let newDescriptionState : EventAnimationStates = 'collapsed'
-
-       switch (prev.events[eventID].descriptionState) {
-        case 'collapsed':
-          // Do nothing
-          break
-        case 'expanding':
-          newDescriptionState = 'expanded'
-          break
-        case 'collapsing':
-          newDescriptionState = 'collapsed'
-          break
-        case 'expanded':
-          // Do nothing
-          break
-        default:
-          throw 'impossible state'
-      }
-
-      newState.events[eventID].descriptionState = newDescriptionState
+      newState.events[eventID].descriptionState = nextStateForAnimationEnd(prev.events[eventID].descriptionState)
       return newState
     }
   )
 }
-  
+
 export default function EventIntent(DOM : DOMSource) : Stream<Reducer> {
-  const click$ = DOM.select('.event-description').events('click')
-  const animationEnd$ = DOM.select('.event-description > p').events('animationend')
+  const eventDescriptionClick$ = DOM.select('.event-description').events('click')
+  const eventDescriptionAnimationEnd$ = DOM.select('.event-description > p').events('animationend')
 
-  const startAnimation$ = click$.map(ev => buildStartAnimationReducer(ev))
-  const finishAnimation$ = animationEnd$.map(ev => buildFinishAnimationReducer(ev))
+  const startEventDescriptionAnimation$ = eventDescriptionClick$.map(ev => buildStartEventDescriptionAnimationReducer(ev))
+  const finishEventDescriptionAnimation$ = eventDescriptionAnimationEnd$.map(ev => buildFinishEventDescriptionAnimationReducer(ev))
 
-  return xs.merge<Reducer>(startAnimation$, finishAnimation$)
+  const speakerClick$ = DOM.select('.speaker').events('click')
+  const speakerBioAnimationEnd$ = DOM.select('.speaker > p').events('animationend')
+
+  const startSpeakerBioAnimation$ = speakerClick$.map(ev => buildStartSpeakerBioAnimationReducer(ev))
+  const finishSpeakerBioAnimation$ = speakerBioAnimationEnd$.map(ev => buildFinishSpeakerBioAnimationReducer(ev))
+
+  return xs.merge<Reducer>(startEventDescriptionAnimation$, finishEventDescriptionAnimation$)
 }

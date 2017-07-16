@@ -1,4 +1,6 @@
-import { style } from 'typestyle'
+import { style, keyframes } from 'typestyle'
+
+import { possibleStates as EventAnimationStates } from './state/event-state'
 
 export function titleToAnchor(title : string) : string {
     return title.toLowerCase().replace(' ', '_')

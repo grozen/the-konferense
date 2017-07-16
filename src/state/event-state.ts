@@ -2,5 +2,5 @@ export type possibleStates = 'collapsed' | 'expanding' | 'collapsing' | 'expande
 
 export type EventState = {
   descriptionState : possibleStates
-  speakerState : possibleStates
+  speakerStates : possibleStates[]
 }
