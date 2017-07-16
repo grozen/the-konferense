@@ -205,21 +205,21 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'Machine Learning For The Masses',
-        description: 'Machine Learning seems to be on everyone\'s lips these days. In fact there is so much information out there that it is hard to really understand what it is and why you would want to use it. Never fear, when you come to my talk you will get an overview of the types of machine learning and different ways in which people are using it!&nbsp;The first step is demystifying the math. All you need to know is what the terms mean so you know which functions to call to start getting results!&nbsp;Now that you know the what let\'s explore the how! You will learn to identify good problems and I will walk you through my own learning experience.&nbsp;Finally, I will give you some tips on how to solve the problems you have today and the ones you will encounter tomorrow (or maybe just let your robot do those too).',
+        description: 'Machine Learning seems to be on everyone\'s lips these days. In fact there is so much information out there that it is hard to really understand what it is and why you would want to use it. Never fear, when you come to my talk you will get an overview of the types of machine learning and different ways in which people are using it! The first step is demystifying the math. All you need to know is what the terms mean so you know which functions to call to start getting results! Now that you know the what let\'s explore the how! You will learn to identify good problems and I will walk you through my own learning experience. Finally, I will give you some tips on how to solve the problems you have today and the ones you will encounter tomorrow (or maybe just let your robot do those too).',
         room: 'C1+C2',
         speakers: [Speakers['mariana bocoi']]
       },
       {
         id: 1,
         title: 'Cashless Society and the Impact on Klarna and Beggary',
-        description: 'With a push from governments, banks and consumers, becoming a cashless society is closer than ever.&nbsp;In this session I will talk about the efforts done in different countries to move away from cash, the benefits and challenges in a no cash society and new opportunities for Klarna.&nbsp;Will we become a cashless society in the foreseeable future?&nbsp;If you are an engineer or a product manager who wants to learn more about this important change that will impact each and everyone of us, this talk is for you.',
+        description: 'With a push from governments, banks and consumers, becoming a cashless society is closer than ever. In this session I will talk about the efforts done in different countries to move away from cash, the benefits and challenges in a no cash society and new opportunities for Klarna. Will we become a cashless society in the foreseeable future? If you are an engineer or a product manager who wants to learn more about this important change that will impact each and everyone of us, this talk is for you.',
         room: 'C3',
         speakers: [Speakers['eran manor']]
       },
       {
         id: 1,
         title: 'Evolution Through Genetic Algorithms',
-        description: 'Have you ever wondered about how evolution did such a good job in creating us, humans, even though billion years ago Earth was populated exclusively by simple, single celled organisms? Isn\'t that amazing?&nbsp;What is even cooler about it is that it can be used to solve all kinds of other problems!&nbsp;This talk will show you how evolution can be used as an all purpose algorithm to solve some optimisation problems you might run into. It will show you how to model your own evolution by teaching you how to tailor your own, specific crossover and mutation operators and how to choose the fittest individuals to drive forward your search of a solution.&nbsp;To prove that all of this is true and working, we are going to play with some usual and unusual applications of the evolution - from a small world with animals trying to evolve to get more food and mates, to usage of evolution in music composition and medicine.',
+        description: 'Have you ever wondered about how evolution did such a good job in creating us, humans, even though billion years ago Earth was populated exclusively by simple, single celled organisms? Isn\'t that amazing? What is even cooler about it is that it can be used to solve all kinds of other problems! This talk will show you how evolution can be used as an all purpose algorithm to solve some optimisation problems you might run into. It will show you how to model your own evolution by teaching you how to tailor your own, specific crossover and mutation operators and how to choose the fittest individuals to drive forward your search of a solution. To prove that all of this is true and working, we are going to play with some usual and unusual applications of the evolution - from a small world with animals trying to evolve to get more food and mates, to usage of evolution in music composition and medicine.',
         room: 'C4',
         speakers: [Speakers['maja kontrec']]
       }]
@@ -238,7 +238,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'War Stories: A Journey of Implementing Kubernetes',
-        description: 'This is the story of how Kubernetes became the platform for the Klarna build farm. Back in 2016, an idea for solving the problems of slow feedback loops and stagnant structures of running Jenkins in KCloud, was born. This was the beginning.&nbsp;In this session I will tell you the story of this Dawn of Joy, full of promises of new, cool features. I will also tell you about the Days of Improvement, during which we were blissfully unaware of the impending D-Day, the KCloud Decommission, the day which put everything to the test.&nbsp;But how did it end? Did it end? Did we solve our initial problem? Did we learn anything by implementing a cool, new, bleeding edge technology? By digging through post mortems and the shared team memory, I\'ll share the war stories of porting our entire service portfolio to a new platform, and teach you what you need to know if you ever want to go to war.',
+        description: 'This is the story of how Kubernetes became the platform for the Klarna build farm. Back in 2016, an idea for solving the problems of slow feedback loops and stagnant structures of running Jenkins in KCloud, was born. This was the beginning. In this session I will tell you the story of this Dawn of Joy, full of promises of new, cool features. I will also tell you about the Days of Improvement, during which we were blissfully unaware of the impending D-Day, the KCloud Decommission, the day which put everything to the test. But how did it end? Did it end? Did we solve our initial problem? Did we learn anything by implementing a cool, new, bleeding edge technology? By digging through post mortems and the shared team memory, I\'ll share the war stories of porting our entire service portfolio to a new platform, and teach you what you need to know if you ever want to go to war.',
         room: 'C1+C2',
         speakers: [Speakers['johanna simonsson']]
       },
@@ -270,7 +270,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'Software Erosion Resistance',
-        description: 'Most developers are familiar with the concept of “technical debt”. Technical debt comes in many forms: it\'s constant library updates, security patches, changing contracts with other tools and systems, and many other. All of these become a “tax” on working software. It may be possible to ignore this tax for certain amount of time but after a while either the software stops working or the changes to it become really hard to perform. Many developers participated in rewriting some existing legacy system from scratch. When does software become “legacy” and how can its lifetime be prolonged? Can we avoid rewriting everything from scratch every 5 years? Do microservices change things? How will containerisation affect this? What about serverless infrastructure? Why some tools like Heroku call themselves “erosion resistant”?&nbsp;I don\'t aim to provide ready-made answers, but I hope to raise awareness and bring up discussions about ways of building maintainable software systems at Klarna.',
+        description: 'Most developers are familiar with the concept of “technical debt”. Technical debt comes in many forms: it\'s constant library updates, security patches, changing contracts with other tools and systems, and many other. All of these become a “tax” on working software. It may be possible to ignore this tax for certain amount of time but after a while either the software stops working or the changes to it become really hard to perform. Many developers participated in rewriting some existing legacy system from scratch. When does software become “legacy” and how can its lifetime be prolonged? Can we avoid rewriting everything from scratch every 5 years? Do microservices change things? How will containerisation affect this? What about serverless infrastructure? Why some tools like Heroku call themselves “erosion resistant”? I don\'t aim to provide ready-made answers, but I hope to raise awareness and bring up discussions about ways of building maintainable software systems at Klarna.',
         room: 'C1+C2',
         speakers: [Speakers['sergey evstifeev']]
       },
@@ -300,7 +300,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
   ]
 }
 
-// Go over all events and give them a unique ID
+// Go over all events and give them and their speakers a unique ID
 let eventID : number = 1
 function GenerateEventIDs<T>(agendaData : Agenda<T>) : void {
   agendaData.timeSlots.forEach(timeslot => {
