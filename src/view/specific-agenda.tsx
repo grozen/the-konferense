@@ -59,20 +59,15 @@ export default function SpecificAgenda<T>(agendaData : Agenda<T>, state : AppSta
   const tableHeadClass = style(transparentBlackBackground, {fontFamily: 'Bangers', fontSize: '2em', letterSpacing: '4px'})
   const tableHeadTimeCellClass = style(transparentBlackBackground, {textAlign: 'left', padding: '10px'})
 
-  const roomAmountToHeadCellClass : {[n : number] : string} = {
-    1: style(transparentBlackBackground, {width: '99%', textAlign: 'center', padding: '10px'}),
-    2: style(transparentBlackBackground, {width: '49.5%', textAlign: 'center', padding: '10px'}),
-    3: style(transparentBlackBackground, {width: '33%', textAlign: 'center', padding: '10px'})
-  }
-
-  const tableHeadCellClass = roomAmountToHeadCellClass[agendaData.roomNames.length]
+  const tableHeadCellWidthClass = amountToWidthClass(agendaData.roomNames.length)
+  const tableHeadCellClass = style(transparentBlackBackground, {textAlign: 'center', padding: '10px'})
 
   return (
     <table className={agendaTableClass}>
       <thead className={tableHeadClass}>
         <tr className={agendaSlotClass}>
           <th className={tableHeadTimeCellClass}>Time</th>
-          {agendaData.roomNames.map(roomName => <th className={tableHeadCellClass}>{roomName}</th>)}
+          {agendaData.roomNames.map(roomName => <th className={classes(tableHeadCellWidthClass, tableHeadCellClass)}>{roomName}</th>)}
         </tr>
       </thead>
       <tbody>
