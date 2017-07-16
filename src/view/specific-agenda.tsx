@@ -2,13 +2,14 @@ import { VNode } from '@cycle/dom'
 import { AppState } from '../state'
 import { Agenda, TimeSlot, Event } from '../data/agenda-data'
 
-import { style } from 'typestyle'
+import { style, classes } from 'typestyle'
+
+import { amountToWidthClass } from '../helpers'
 
 import EventView from './event'
 
 const transparentBlackBackground = {background: 'rgba(0,0,0,.2)'}
 const agendaSlotClass = style({}, transparentBlackBackground)
-const eventColumnClass = style({width: '33%'})
 const slotWideEventColumnClass = style({width: '99%'})
 
 function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppState) : JSX.Element[] {
@@ -16,7 +17,7 @@ function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppS
 
   if (timeslot.events.every(event => event.room === undefined)) {
     return (
-      [<td className={`${eventCellClass} ${slotWideEventColumnClass}`} colSpan='3'>
+      [<td className={classes(eventCellClass, slotWideEventColumnClass)} colSpan={roomNames.length}>
         {timeslot.events.map(event => EventView(event, state))}
       </td>]
     )
@@ -30,7 +31,7 @@ function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppS
       const roomEvents : Event<T>[] = timeslot.events.filter(event => event.room === roomName)
 
       return (
-        <td className={`${eventCellClass} ${eventColumnClass}`}>{roomEvents.map(event => EventView(event, state))}</td>
+        <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>{roomEvents.map(event => EventView(event, state))}</td>
       )
     })
   )

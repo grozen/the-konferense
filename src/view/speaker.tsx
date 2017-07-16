@@ -4,7 +4,7 @@ import { Speaker } from '../data/speaker-data'
 
 import { style } from 'typestyle'
 
-export default function Speaker(speaker : Speaker) : VNode {
+export default function Speaker(speaker : Speaker, widthClass : string) : VNode {
   const speakerImageClass = style({
     borderRadius: '50%',
     height: '150px',
@@ -12,7 +12,7 @@ export default function Speaker(speaker : Speaker) : VNode {
   })
 
   return (
-    <div>
+    <div className={widthClass}>
       <img className={speakerImageClass} src={speaker.portrait}/>
       <p>{speaker.name}</p>
       <p>{speaker.bio}</p>

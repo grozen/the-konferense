@@ -4,6 +4,7 @@ import { Speaker as SpeakerType } from '../data/speaker-data'
 import { VNode } from '@cycle/dom'
 import { style, keyframes } from 'typestyle'
 import * as csstips from 'csstips'
+import { amountToWidthClass } from '../helpers'
 
 import { possibleStates as EventAnimationStates } from '../state/event-state'
 
@@ -61,10 +62,11 @@ function stateToClass(state : EventAnimationStates) : string {
 
 function Speakers(speakers : SpeakerType[]) : VNode {
   const speakersContainerClass = style(csstips.horizontal, csstips.aroundJustified)
+  const speakerWidthClass = amountToWidthClass(speakers.length, 10)
 
   return (
     <div className={speakersContainerClass}>
-      {speakers.map(speaker => Speaker(speaker))}
+      {speakers.map(speaker => Speaker(speaker, speakerWidthClass))}
     </div>
   )
 }
