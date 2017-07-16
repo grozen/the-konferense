@@ -4,9 +4,9 @@ export function titleToAnchor(title : string) : string {
     return title.toLowerCase().replace(' ', '_')
 }
 
-export function amountToWidthClass(amount : number, slack : number = 0) : string {
-  const classMap : { [n : number] : string } = {}
+const classMap : { [n : number] : string } = {}
 
+export function amountToWidthClass(amount : number, slack : number = 0) : string {
   let result = classMap[amount]
 
   if (result !== undefined) {
