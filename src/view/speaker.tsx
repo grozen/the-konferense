@@ -11,11 +11,13 @@ export default function Speaker(speaker : Speaker, widthClass : string) : VNode 
     boxShadow: '0 0 0 3px #fff, 0 0 0 6px #000, 5px 4px 0 6px #000'
   })
 
+  const speakerBioClass = style({textAlign: 'justify'})
+
   return (
     <div className={widthClass}>
       <img className={speakerImageClass} src={speaker.portrait}/>
       <p>{speaker.name}</p>
-      <p>{speaker.bio}</p>
+      <p className={speakerBioClass}>{speaker.bio}</p>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import { AppState } from '../state'
 import { Event } from '../data/agenda-data'
 import { Speaker as SpeakerType } from '../data/speaker-data'
 import { VNode } from '@cycle/dom'
-import { style, keyframes } from 'typestyle'
+import { classes, style, keyframes } from 'typestyle'
 import * as csstips from 'csstips'
 import { amountToWidthClass } from '../helpers'
 
@@ -22,12 +22,14 @@ function stateToClass(state : EventAnimationStates) : string {
   })
 
   const collapsedClass = style({
+    textAlign: 'justify',
     height: '1.2em',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
     overflow: 'hidden'
   })
   const expandingClass = style({
+    textAlign: 'justify',
     maxHeight: '1.2em',
     overflow: 'hidden',
     animationName: expandKeyframes,
@@ -35,10 +37,12 @@ function stateToClass(state : EventAnimationStates) : string {
     animationTimingFunction: 'cubic-bezier(1,0,1,0)'
   })
   const expandedClass = style({
+    textAlign: 'justify',
     maxHeight: '75em',
     overflow: 'hidden'
   })
   const collapsingClass = style({
+    textAlign: 'justify',
     maxHeight: '75em',
     overflow: 'hidden',
     animationName: collapseKeyframes,
@@ -71,9 +75,11 @@ function Speakers(speakers : SpeakerType[]) : VNode {
   )
 }
 
-export default function Event<T>(event : Event<T>, state : AppState) : VNode {
+export default function Event<T>(event : Event<T>, state : AppState, widthClass : string) : VNode {
+  const eventMarginClass = style({margin: '0 auto'})
+
   return (
-    <div>
+    <div className={classes(eventMarginClass, widthClass)}>
       {event.speakers ? Speakers(event.speakers) : undefined}
       <p>{event.title}</p>
       <div className='event-description' data-eventid={event.id}>

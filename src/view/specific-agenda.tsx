@@ -4,7 +4,7 @@ import { Agenda, TimeSlot, Event } from '../data/agenda-data'
 
 import { style, classes } from 'typestyle'
 
-import { amountToWidthClass } from '../helpers'
+import { amountToWidthClass, inverseWidthClass } from '../helpers'
 
 import EventView from './event'
 
@@ -13,7 +13,7 @@ const agendaSlotClass = style({}, transparentBlackBackground)
 const slotWideEventColumnClass = style({width: '99%'})
 
 function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppState) : JSX.Element[] {
-  const eventCellClass = style({textAlign: 'center', padding: '10px'})
+  const eventCellClass = style({textAlign: 'center', padding: '20px', verticalAlign: 'top'})
 
   if (timeslot.events.every(event => event.room === undefined)) {
     return (
@@ -31,7 +31,9 @@ function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppS
       const roomEvents : Event<T>[] = timeslot.events.filter(event => event.room === roomName)
 
       return (
-        <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>{roomEvents.map(event => EventView(event, state))}</td>
+        <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>
+          {roomEvents.map(event => EventView(event, state, inverseWidthClass(roomNames.length)))}
+        </td>
       )
     })
   )
