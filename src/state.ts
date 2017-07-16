@@ -22,10 +22,10 @@ function SetCollapsedEvents<T>(agendaData : Agenda<T>) : EventStates {
 }
 
 export function initialState() : AppState {
+  const initialEventStates : EventStates = {}
+  Object.assign(initialEventStates, ...(Object.keys(AppData.Agenda).map<EventStates>(key => SetCollapsedEvents(AppData.Agenda[key]))))
+
   return {
-    events: {
-      ...SetCollapsedEvents(AppData.Agenda.Gathering),
-      ...SetCollapsedEvents(AppData.Agenda.Opening)
-    }
+    events: initialEventStates
   }
 }

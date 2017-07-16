@@ -1,7 +1,18 @@
 import { SplashData } from './data/splash-data'
-import { AgendaDataGathering, AgendaDataOpening, AgendaDataTalks } from './data/agenda-data'
+import { Agenda, AgendaDataGathering, AgendaDataOpening, AgendaDataTalks } from './data/agenda-data'
 
-export const AppData = {
+type AppDataType = {
+  'The KonferenSE' : any,
+  'Agenda' : {
+    [index : string] : Agenda<any>
+  },
+  'Venue' : undefined,
+  'Team' : undefined,
+  '2016 Highlights' : undefined,
+  'How we choose talks' : undefined
+}
+
+export const AppData : AppDataType = {
   'The KonferenSE': SplashData,
   'Agenda': {
     'Gathering': AgendaDataGathering,

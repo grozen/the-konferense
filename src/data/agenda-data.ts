@@ -313,3 +313,4 @@ function GenerateEventIDs<T>(agendaData : Agenda<T>) : void {
 
 GenerateEventIDs(AgendaDataGathering)
 GenerateEventIDs(AgendaDataOpening)
+GenerateEventIDs(AgendaDataTalks)
