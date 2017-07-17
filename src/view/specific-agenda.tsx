@@ -13,7 +13,11 @@ const agendaSlotClass = style({}, transparentBlackBackground)
 const slotWideEventColumnClass = style({width: '99%'})
 
 function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppState) : JSX.Element[] {
-  const eventCellClass = style({textAlign: 'center', padding: '20px', verticalAlign: 'top'})
+  const eventCellClass = style({
+    textAlign: 'center',
+    padding: '20px 40px', 
+    verticalAlign: 'top'
+  })
 
   if (timeslot.events.every(event => event.room === undefined)) {
     return (

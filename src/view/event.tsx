@@ -77,10 +77,20 @@ function Speakers(speakers : SpeakerType[], speakerStates : EventAnimationStates
 export default function Event<T>(event : Event<T>, state : AppState, widthClass : string = '') : VNode {
   const eventMarginClass = style({margin: '0 auto'})
 
+  const titleClass = style({
+    color: '#fff',
+    fontFamily: 'Bangers, sans-serif',
+    fontSize: '1.5em',
+    letterSpacing: '1px',
+    margin: '0',
+    textAlign: 'center',
+    textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black'
+  })
+
   return (
     <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id}>
       {event.speakers ? Speakers(event.speakers, state.events[event.id].speakerStates) : undefined}
-      <p>{event.title}</p>
+      <p className={titleClass}>{event.title}</p>
       <div className='event-description'>
         {event.description ? <p className={eventAnimationStateToClass(state.events[event.id].descriptionState)}>{event.description}</p> : undefined}
       </div>

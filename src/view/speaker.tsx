@@ -64,12 +64,15 @@ export default function Speaker(speaker : Speaker, widthClass : string, speakerS
     boxShadow: '0 0 0 3px #fff, 0 0 0 6px #000, 5px 4px 0 6px #000'
   })
 
+  const speakerNameClass = style({
+    margin: '10px 0 0 0'
+  })
   const speakerBioClass = style({textAlign: 'justify'})
 
   return (
     <div className={classes('speaker', widthClass)} data-speakerindex={index}>
       <img className={speakerImageClass} src={speaker.portrait}/>
-      <p>{speaker.name}</p>
+      <p className={speakerNameClass}>{speaker.name}</p>
       <p className={eventAnimationStateToClass(speakerState)}>{speaker.bio}</p>
     </div>
   )
