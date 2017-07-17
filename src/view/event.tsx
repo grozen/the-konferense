@@ -20,13 +20,19 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     '0%': {maxHeight: '75em'}
   })
 
+  const baseStyle = {
+    fontSize: '0.85em',
+    lineHeight: '1.4em',
+    cursor: 'pointer'
+  }
+
   const collapsedClass = style({
     textAlign: 'justify',
     height: '1.2em',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
     overflow: 'hidden'
-  })
+  }, baseStyle)
   const expandingClass = style({
     textAlign: 'justify',
     maxHeight: '1.2em',
@@ -34,12 +40,12 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     animationName: expandKeyframes,
     animationDuration: '0.5s',
     animationTimingFunction: 'cubic-bezier(1,0,1,0)'
-  })
+  }, baseStyle)
   const expandedClass = style({
     textAlign: 'justify',
     maxHeight: '75em',
     overflow: 'hidden'
-  })
+  }, baseStyle)
   const collapsingClass = style({
     textAlign: 'justify',
     maxHeight: '75em',
@@ -47,7 +53,7 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     animationName: collapseKeyframes,
     animationDuration: '0.5s',
     animationTimingFunction: 'cubic-bezier(0,1,0,1)'
-  })
+  }, baseStyle)
 
   switch (state) {
     case 'collapsed':
@@ -77,15 +83,23 @@ function Speakers(speakers : SpeakerType[], speakerStates : EventAnimationStates
 export default function Event<T>(event : Event<T>, state : AppState, widthClass : string = '') : VNode {
   const eventMarginClass = style({margin: '0 auto'})
 
-  const titleClass = style({
+  var titleClass = style({
     color: '#fff',
-    fontFamily: 'Bangers, sans-serif',
-    fontSize: '1.5em',
-    letterSpacing: '1px',
     margin: '0',
     textAlign: 'center',
-    textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black'
   })
+
+  if (event.speakers) {
+    titleClass = style({
+      color: '#fff',
+      fontFamily: 'Bangers, sans-serif',
+      fontSize: '1.5em',
+      letterSpacing: '1px',
+      margin: '0',
+      textAlign: 'center',
+      textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black'
+    })
+  }
 
   return (
     <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id.toString()}>

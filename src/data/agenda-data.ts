@@ -284,7 +284,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Connecting the Dots - How Does Cookie Syncing Works, Based on Klarna Upstream Project',
+        title: 'Connecting the Dots - How Cookie Syncing Works',
         description: 'Internet advertising is one of the fastest growing market on the planet. The goal in most cases is to maximize revenue from the ads. One of the way to go towards this goal is to narrow the target audience to people that actually may be interested in the product/service. To help with that advertisers utilizing cookie syncing to collect and properly activate user data.',
         room: 'C4',
         speakers: [Speakers['grzegorz łukaszewicz']]

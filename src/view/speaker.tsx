@@ -16,11 +16,17 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     '0%': {maxHeight: '75em'}
   })
 
+  const baseStyle = {
+    fontSize: '0.85em',
+    lineHeight: '1.4em',
+    cursor: 'pointer'
+  }
+
   const collapsedClass = style({
     textAlign: 'justify',
     height: '0',
     overflow: 'hidden'
-  })
+  }, baseStyle)
   const expandingClass = style({
     textAlign: 'justify',
     maxHeight: '0',
@@ -28,12 +34,12 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     animationName: expandKeyframes,
     animationDuration: '0.5s',
     animationTimingFunction: 'cubic-bezier(1,0,1,0)'
-  })
+  }, baseStyle)
   const expandedClass = style({
     textAlign: 'justify',
     maxHeight: '75em',
     overflow: 'hidden'
-  })
+  }, baseStyle)
   const collapsingClass = style({
     textAlign: 'justify',
     maxHeight: '75em',
@@ -41,7 +47,7 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
     animationName: collapseKeyframes,
     animationDuration: '0.5s',
     animationTimingFunction: 'cubic-bezier(0,1,0,1)'
-  })
+  }, baseStyle)
 
   switch (state) {
     case 'collapsed':
@@ -58,6 +64,22 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
 }
 
 export default function Speaker(speaker : Speaker, widthClass : string, speakerState : EventAnimationStates, index : number) : VNode {
+  const speakerClass = style({
+    position: 'relative',
+    $nest: {
+      '&:nth-child(2)::before': {
+        content:`'&'`,
+        color: '#fff',
+        fontFamily: 'Bangers, sans-serif',
+        fontSize: '4em',
+        textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black',
+        top: '35px',
+        position: 'absolute',
+        left: '-35px'
+      }
+    }
+  })
+
   const speakerImageClass = style({
     borderRadius: '50%',
     height: '150px',
@@ -65,12 +87,12 @@ export default function Speaker(speaker : Speaker, widthClass : string, speakerS
   })
 
   const speakerNameClass = style({
-    margin: '10px 0 0 0'
+    margin: '10px 0 0 0',
+    cursor: 'pointer'
   })
-  const speakerBioClass = style({textAlign: 'justify'})
 
   return (
-    <div className={classes('speaker', widthClass)} data-speakerindex={index.toString()}>
+    <div className={classes('speaker', widthClass, speakerClass)} data-speakerindex={index.toString()}>
       <img className={speakerImageClass} src={speaker.portrait}/>
       <p className={speakerNameClass}>{speaker.name}</p>
       <p className={eventAnimationStateToClass(speakerState)}>{speaker.bio}</p>

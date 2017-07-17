@@ -13,9 +13,9 @@ import {normalize, setupPage} from 'csstips'
 normalize()
 setupPage('#app')
 
-const popArtShadow = {textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black', color: '#fff'}
+const popArtShadow = {textShadow: '5px 5px 0 #000, 2px 0 0 black,  0 2px 0 black, 0 -2px 0 black, -2px 0 0 black', color: '#fff'}
 
-cssRule('body', {fontFamily: '"PT Sans", sans-serif', background: '#bd1a00', color: '#fff', fontSize: '20px'})
+cssRule('body', {fontFamily: '"PT Sans", sans-serif', background: '#bb270f', color: '#fff', fontSize: '20px'})
 cssRule('h1', {fontFamily: 'Bangers, sans-serif', transform: 'rotate(-4deg)', letterSpacing: '5px', margin: '150px 0 20px 0', textAlign: 'center', fontSize: '4em'}, popArtShadow)
 cssRule('h2', {fontFamily: 'Bangers, sans-serif', transform: 'rotate(0deg)', letterSpacing: '2px', margin: '30px 0 20px 0', textAlign: 'center', fontSize: '2em'}, popArtShadow)
 cssRule('a', {color: '#fff'})

@@ -12,7 +12,7 @@ export default function splash() : VNode {
     '50%': {transform: 'rotate(-6deg) scale(1.2, 1.2)'}
   })
 
-  const popArtShadow = {textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black', color: '#fff'}
+  const popArtShadow = {textShadow: '5px 5px 0 #000, 2px 0 0 black,  0 2px 0 black, 0 -2px 0 black, -2px 0 0 black', color: '#fff'}
   const splashImageClass = style({
     maxWidth: '1200px', height: '65vh', margin: '0 auto',
     background: `url(${splashImage}) no-repeat 50%`,
