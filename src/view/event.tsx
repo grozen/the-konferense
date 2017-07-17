@@ -11,12 +11,12 @@ import Speaker from './speaker'
 
 function eventAnimationStateToClass(state : EventAnimationStates) : string {
   const expandKeyframes = keyframes({
-    '0%': {maxHeight: '1.2em'},
+    '0%': {maxHeight: '1.3em'},
     '100%': {maxHeight: '75em'}
   })
 
   const collapseKeyframes = keyframes({
-    '100%': {maxHeight: '1.2em'},
+    '100%': {maxHeight: '1.3em'},
     '0%': {maxHeight: '75em'}
   })
 
@@ -28,14 +28,14 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
 
   const collapsedClass = style({
     textAlign: 'justify',
-    height: '1.2em',
+    height: '1.3em',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
     overflow: 'hidden'
   }, baseStyle)
   const expandingClass = style({
     textAlign: 'justify',
-    maxHeight: '1.2em',
+    maxHeight: '1.3em',
     overflow: 'hidden',
     animationName: expandKeyframes,
     animationDuration: '0.5s',
@@ -97,15 +97,16 @@ export default function Event<T>(event : Event<T>, state : AppState, widthClass 
       letterSpacing: '1px',
       margin: '0',
       textAlign: 'center',
-      textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black'
+      textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black',
+      cursor: 'pointer'
     })
   }
 
   return (
     <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id.toString()}>
       {event.speakers ? Speakers(event.speakers, state.events[event.id].speakerStates) : undefined}
-      <p className={titleClass}>{event.title}</p>
       <div className='event-description'>
+        <p className={titleClass}>{event.title}</p>
         {event.description ? <p className={eventAnimationStateToClass(state.events[event.id].descriptionState)}>{event.description}</p> : undefined}
       </div>
     </div>

@@ -83,7 +83,8 @@ export default function Speaker(speaker : Speaker, widthClass : string, speakerS
   const speakerImageClass = style({
     borderRadius: '50%',
     height: '150px',
-    boxShadow: '0 0 0 3px #fff, 0 0 0 6px #000, 5px 4px 0 6px #000'
+    boxShadow: '0 0 0 3px #fff, 0 0 0 6px #000, 5px 4px 0 6px #000',
+    cursor: 'pointer'
   })
 
   const speakerNameClass = style({
