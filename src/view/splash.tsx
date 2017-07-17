@@ -16,7 +16,8 @@ export default function splash() : VNode {
   const splashImageClass = style({
     maxWidth: '1200px', height: '65vh', margin: '0 auto',
     background: `url(${splashImage}) no-repeat 50%`,
-    backgroundSize: 'contain', marginTop: '40px'})
+    backgroundSize: 'contain', marginTop: '40px',
+    overflowX: 'hidden'})
   const dateClass = style({
     textAlign: 'center',
     fontSize: '5em',
