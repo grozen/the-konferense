@@ -190,7 +190,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: guyIsraeliPortrait,
     name: 'Guy Israeli',
-    bio: 'He is a guy from Israel, that name he didn\'t choose yet for a fake user people still confuse. In New Jersey Guy was in school Also did some cyber, but before it was cool He would have wanted to write poems in some distant land or play guitar in some esoteric progressive rock band... Had a startup about shopping online, product images and a map suspiciously similar to some features that exist in the new Klapp.'
+    bio: 'He is a guy from Israel, that name he didn\'t choose; yet for a fake user people still confuse; In New Jersey Guy was in school; Also did some cyber, but before it was cool; He would have wanted to write poems in some distant land; or play guitar in some esoteric progressive rock band... Had a startup about shopping online, product images and a map; suspiciously similar to some features that exist in the new Klapp;'
   },
   {
     portrait: georgiosKryparosPortrait,
