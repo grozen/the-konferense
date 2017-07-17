@@ -3,6 +3,7 @@ import { AppState } from '../state'
 import { Agenda, TimeSlot, Event } from '../data/agenda-data'
 
 import { style, classes } from 'typestyle'
+import * as csstips from 'csstips'
 
 import { amountToWidthClass, inverseWidthClass } from '../helpers'
 
@@ -19,6 +20,8 @@ function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppS
     verticalAlign: 'top'
   })
 
+  const multiSpeakersClass = style(csstips.horizontal, csstips.wrap)
+
   if (timeslot.events.every(event => event.room === undefined)) {
     return (
       [<td className={classes(eventCellClass, slotWideEventColumnClass)} colSpan={roomNames.length}>
@@ -34,13 +37,32 @@ function TimeSlotEvents<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppS
     roomNames.map(roomName => {
       const roomEvents : Event<T>[] = timeslot.events.filter(event => event.room === roomName)
 
-      return (
-        <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>
-          {roomEvents.map(event => EventView(event, state, inverseWidthClass(roomNames.length)))}
-        </td>
-      )
+      if (roomNames.length > 1) {
+        return (
+          <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>
+            {roomEvents.map(event => EventView(event, state, inverseWidthClass(roomNames.length)))}
+          </td>
+        )
+      }
+      else {
+        return (
+          <td className={classes(eventCellClass, amountToWidthClass(roomNames.length))}>
+            <div className={multiSpeakersClass}>
+              {roomEvents.map(event => EventView(event, state, inverseWidthClass(roomNames.length)))}
+            </div>
+          </td>
+        )
+      }
     })
   )
+}
+
+function timeslotTimespan(timeslot : TimeSlot<any>) : string {
+  if (timeslot.startTime.length === 0 && timeslot.endTime.length === 0) {
+    return ''
+  }
+
+  return `${timeslot.startTime} - ${timeslot.endTime}`
 }
 
 function TimeSlot<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppState) : VNode {
@@ -48,7 +70,7 @@ function TimeSlot<T>(roomNames : T[], timeslot : TimeSlot<T>, state : AppState) 
 
   return (
     <tr className={agendaSlotClass}>
-      <td className={timeSlotClass}>{`${timeslot.startTime} - ${timeslot.endTime}`}</td>
+      <td className={timeSlotClass}>{timeslotTimespan(timeslot)}</td>
       {TimeSlotEvents(roomNames, timeslot, state)}
     </tr>
   )
