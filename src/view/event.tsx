@@ -8,8 +8,9 @@ import * as csstips from 'csstips'
 import { amountToWidthClass} from '../helpers'
 
 import Speaker from './speaker'
+import expandImage from '../../public/expand-down.png'
 
-function eventAnimationStateToClass(state : EventAnimationStates) : string {
+function eventAnimationStateToDesciptionClass(state : EventAnimationStates) : string {
   const expandKeyframes = keyframes({
     '0%': {maxHeight: '1.3em'},
     '100%': {maxHeight: '75em'}
@@ -69,6 +70,44 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
   }
 }
 
+function eventAnimationStateToExpanderClass(state : EventAnimationStates) : string {
+  const expandKeyframes = keyframes({
+    '0%': {transform: 'scaleY(1)'},
+    '100%': {transform: 'scaleY(-1)'}
+  })
+
+  const collapseKeyframes = keyframes({
+    '100%': {transform: 'scaleY(1)'},
+    '0%': {transform: 'scaleY(-1)'}
+  })
+
+  const collapsedClass = style({})
+  const expandingClass = style({
+    animationName: expandKeyframes,
+    animationDuration: '0.5s'
+  })
+
+  const expandedClass = style({transform: 'scaleY(-1)'})
+
+  const collapsingClass = style({
+    animationName: collapseKeyframes,
+    animationDuration: '0.5s'
+  })
+
+  switch (state) {
+    case 'collapsed':
+      return collapsedClass
+    case 'expanding':
+      return expandingClass
+    case 'collapsing':
+      return collapsingClass
+    case 'expanded':
+      return expandedClass
+    default:
+      throw 'impossible state'
+  }
+}
+
 function Speakers(speakers : SpeakerType[], speakerStates : EventAnimationStates[]) : VNode {
   const speakersContainerClass = style(csstips.horizontal, csstips.aroundJustified)
   const speakerWidthClass = amountToWidthClass(speakers.length, 10)
@@ -107,7 +146,8 @@ export default function Event<T>(event : Event<T>, state : AppState, widthClass 
       {event.speakers ? Speakers(event.speakers, state.events[event.id].speakerStates) : undefined}
       <div className='event-description'>
         <p className={titleClass}>{event.title}</p>
-        {event.description ? <p className={eventAnimationStateToClass(state.events[event.id].descriptionState)}>{event.description}</p> : undefined}
+        {event.description ? <p className={eventAnimationStateToDesciptionClass(state.events[event.id].descriptionState)}>{event.description}</p> : undefined}
+        {event.description ? <img className={eventAnimationStateToExpanderClass(state.events[event.id].descriptionState)} src={expandImage}></img> : undefined}
       </div>
     </div>
   )
