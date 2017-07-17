@@ -88,7 +88,7 @@ export default function Event<T>(event : Event<T>, state : AppState, widthClass 
   })
 
   return (
-    <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id}>
+    <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id.toString()}>
       {event.speakers ? Speakers(event.speakers, state.events[event.id].speakerStates) : undefined}
       <p className={titleClass}>{event.title}</p>
       <div className='event-description'>

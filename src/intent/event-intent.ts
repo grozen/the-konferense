@@ -63,9 +63,12 @@ function buildStartSpeakerBioAnimationReducer(ev : Event) : Reducer {
   return(
     (prev : AppState) => {
       const newState : AppState = {...prev}
-      const eventID = parseInt((ev.currentTarget as HTMLElement).dataset.speakerindex as string)
+      const speakerDiv = ev.currentTarget as HTMLElement
+      const eventDiv = (speakerDiv.parentElement as HTMLElement).parentElement as HTMLElement
+      const eventID = parseInt(eventDiv.dataset.eventid as string)
+      const speakerIndex = parseInt(speakerDiv.dataset.speakerindex as string)
 
-      newState.events[eventID].descriptionState = nextStateForAnimationStart(prev.events[eventID].descriptionState)
+      newState.events[eventID].speakerStates[speakerIndex] = nextStateForAnimationStart(prev.events[eventID].speakerStates[speakerIndex])
       return newState
     }
   )
@@ -75,10 +78,12 @@ function buildFinishSpeakerBioAnimationReducer(ev : Event) : Reducer {
   return(
     (prev : AppState) => {
       const newState : AppState = {...prev}
-      const descriptionDiv = (ev.currentTarget as HTMLElement).parentElement as HTMLElement
-      const eventID = parseInt(descriptionDiv.dataset.eventid as string)
+      const speakerDiv = (ev.currentTarget as HTMLElement).parentElement as HTMLElement
+      const eventDiv = (speakerDiv.parentElement as HTMLElement).parentElement as HTMLElement
+      const eventID = parseInt(eventDiv.dataset.eventid as string)
+      const speakerIndex = parseInt(speakerDiv.dataset.speakerindex as string)
 
-      newState.events[eventID].descriptionState = nextStateForAnimationEnd(prev.events[eventID].descriptionState)
+      newState.events[eventID].speakerStates[speakerIndex] = nextStateForAnimationEnd(prev.events[eventID].speakerStates[speakerIndex])
       return newState
     }
   )
@@ -97,5 +102,10 @@ export default function EventIntent(DOM : DOMSource) : Stream<Reducer> {
   const startSpeakerBioAnimation$ = speakerClick$.map(ev => buildStartSpeakerBioAnimationReducer(ev))
   const finishSpeakerBioAnimation$ = speakerBioAnimationEnd$.map(ev => buildFinishSpeakerBioAnimationReducer(ev))
 
-  return xs.merge<Reducer>(startEventDescriptionAnimation$, finishEventDescriptionAnimation$)
+  return xs.merge<Reducer>(
+    startEventDescriptionAnimation$,
+    finishEventDescriptionAnimation$,
+    startSpeakerBioAnimation$,
+    finishSpeakerBioAnimation$
+  )
 }

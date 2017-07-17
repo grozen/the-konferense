@@ -70,7 +70,7 @@ export default function Speaker(speaker : Speaker, widthClass : string, speakerS
   const speakerBioClass = style({textAlign: 'justify'})
 
   return (
-    <div className={classes('speaker', widthClass)} data-speakerindex={index}>
+    <div className={classes('speaker', widthClass)} data-speakerindex={index.toString()}>
       <img className={speakerImageClass} src={speaker.portrait}/>
       <p className={speakerNameClass}>{speaker.name}</p>
       <p className={eventAnimationStateToClass(speakerState)}>{speaker.bio}</p>
