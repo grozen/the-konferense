@@ -145,8 +145,8 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Wavy Under the Hood',
-        description: 'If you open the hood of your car and see a Wavy in there, you should consider taking your car to the shop',
+        title: 'WTF is Wavy? A story from zero to something',
+        description: 'How do you take 14 people from an insolvent company, a Swedish payment giant and an office dog and make a p2p payment app for Europe in half a year? In this session we will talk about the past six months at Wavy - how we work, what mistakes we made, which best practices we ignored and how we plug into Klarna. We will also show the best (and worst) parts of the complex system beneath the elegant surface.',
         room: 'C3',
         speakers: [Speakers['dario pasquantonio'], Speakers['joseph tindale']]
       },

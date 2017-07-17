@@ -26,7 +26,8 @@ import pauloRagonhaPortrait from '../../public/speakers/paulo_ragonha.jpg'
 import phillippeVimardPortrait from '../../public/speakers/phillippe_vimard.jpg'
 import talyaSternPortrait from '../../public/speakers/talya_stern.jpg'
 import tamirTaubPortrait from '../../public/speakers/tamir_taub.jpg'
-import wavyPortrait from '../../public/speakers/wavy.jpg'
+import josephTindale from '../../public/speakers/joseph_tindale.jpg'
+import darioPasquantonio from '../../public/speakers/dario_pasquantonio.jpg'
 import adamBergmarkPortrait from '../../public/speakers/adam_bergmark.jpg'
 import brigitteRingbauerPortrait from '../../public/speakers/brigitte_ringbauer.jpg'
 import johannaSimonssonPortrait from '../../public/speakers/johanna_simonsson.jpg'
@@ -70,14 +71,14 @@ const SpeakerList : Speaker[] = [
     bio: 'His village was burned down by angry mice'
   },
   {
-    portrait: wavyPortrait,
+    portrait: darioPasquantonio,
     name: 'Dario Pasquantonio',
-    bio: 'Voted most likely to be voted most likely for'
+    bio: 'Dario was not like the other Italians. Dario didn\'t have a funny accent, he didn\'t use his hands during a conversation. He didn\'t love his mom, didn\'t like good food, the sun or the crystal clear sea. One day he had enough: he packed his backpack, and started seeking new adventures. He ended up in Berlin, where he found what he has always been looking for: rain, cold, Pizza Hawaii and darkness. During the last three years he found his place in the FinTech startup scene, in the sombre shadows of the backend; it is a challenging, stressful place, from which he constantly tries to escape using his most powerful weapon: sarcasm.'
   },
   {
-    portrait: wavyPortrait,
+    portrait: josephTindale,
     name: 'Joseph Tindale',
-    bio: 'Can summon the ancient ones to do his bidding'
+    bio: 'Joe is a European Brit, making him a bit of an outcast in the country of his birth. He moved to Berlin and joined Cookies, a really awesome startup. Unfortunately, the company went insolvent shortly after his arrival, although he is convinced the two events were not connected. Luckily, Wavy emerged from the ashes and he gets to continue working with amazing colleagues. Outside of work, Joe captains a cricket team where he plays with players from all over the world and confuses everyone else in the office with talk of “short legs” and “silly points”. He also satisfies his creative needs by playing classical and jazz piano.'
   },
   {
     portrait: omriYarivPortrait,
