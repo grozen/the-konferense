@@ -41,6 +41,11 @@ const SpeakerList : Speaker[] = [
     bio: 'Made from 100% raw CTOium'
   },
   {
+    portrait: billpayPortrait,
+    name: 'Billpay',
+    bio: 'TBD'
+  },
+  {
     portrait: karaDefriasPortrait,
     name: 'Kara Defrias',
     bio: '50% Kara, 50% Defrias, 100% awesome'

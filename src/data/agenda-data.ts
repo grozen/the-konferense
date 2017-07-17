@@ -244,9 +244,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Billpay / Luke Tuttle',
-        description: 'Man versus company! Only one will emerge victorious!',
-        room: 'C3'
+        title: 'TBA',
+        description: 'To be announced once the aquisition is completed!',
+        room: 'C3',
+        speakers: [Speakers['billpay']]
       },
       {
         id: 1,
