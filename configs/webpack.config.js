@@ -86,7 +86,7 @@ module.exports = createConfig([
         addPlugins([
             new CleanWebpackPlugin(['dist'], {root: appPath()}),
             new webpack.optimize.UglifyJsPlugin(),
-            new CopyWebpackPlugin([{from: '2016/dist', to: '2016'}, {from: 'CNAME'}])
+            new CopyWebpackPlugin([{from: '2016/dist', to: '2016'}, {from: 'CNAME'}, {from: 'public/opengraph.png', to: 'opengraph.png'}])
         ])
     ])
 ])
