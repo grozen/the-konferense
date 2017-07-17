@@ -120,7 +120,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'Screenscraping Browsers',
-        description: 'It\'s a secret!',
+        description: 'TBA',
         room: 'C4',
         speakers: [Speakers['christian diehl']]
       }]
@@ -139,7 +139,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'First Class Error Handling',
-        description: '--REDACTED--',
+        description: 'TBA',
         room: 'C1+C2',
         speakers: [Speakers['adam bergmark']]
       },
@@ -179,7 +179,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'Design for Snap',
-        description: 'Palm tree x3',
+        description: 'TBA',
         room: 'C3',
         speakers: [Speakers['nir aravot']]
       },
@@ -245,7 +245,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'TBA',
-        description: 'To be announced once the aquisition is completed!',
+        description: 'TBA',
         room: 'C3',
         speakers: [Speakers['billpay']]
       },
@@ -278,7 +278,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'UX Design in Context',
-        description: 'This talk is so mysterious, one could only guess what it is about',
+        description: 'TBA',
         room: 'C3',
         speakers: [Speakers['brigitte ringbauer']]
       },
