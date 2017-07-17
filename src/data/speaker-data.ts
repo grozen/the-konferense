@@ -38,22 +38,22 @@ const SpeakerList : Speaker[] = [
   {
     portrait: phillippeVimardPortrait,
     name: 'Phillippe Vimard',
-    bio: 'Made from 100% raw CTOium'
+    bio: 'TBA'
   },
   {
     portrait: billpayPortrait,
     name: 'Billpay',
-    bio: 'TBD'
+    bio: 'TBA'
   },
   {
     portrait: karaDefriasPortrait,
     name: 'Kara Defrias',
-    bio: '50% Kara, 50% Defrias, 100% awesome'
+    bio: 'TBA'
   },
   {
     portrait: davidFockPortrait,
     name: 'David Fock',
-    bio: 'An old wizard once foretold David\'s role as CPO'
+    bio: 'TBA'
   },
   {
     portrait: nadiaMohedanoTroyanoPortrait,
@@ -68,12 +68,12 @@ const SpeakerList : Speaker[] = [
   {
     portrait: christianDiehlPortrait,
     name: 'Christian Diehl',
-    bio: 'Possibly the fifth mutant ninja turtle'
+    bio: 'TBA'
   },
   {
     portrait: adamBergmarkPortrait,
     name: 'Adam Bergmark',
-    bio: 'His village was burned down by angry mice'
+    bio: 'TBA'
   },
   {
     portrait: darioPasquantonio,
@@ -98,7 +98,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: nirAravotPortrait,
     name: 'Nir Aravot',
-    bio: 'Made from freshly squeezed aravot'
+    bio: 'TBA'
   },
   {
     portrait: fernandoViaCanelPortrait,
@@ -143,7 +143,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: brigitteRingbauerPortrait,
     name: 'Brigitte Ringbauer',
-    bio: 'Fastest ring bauer in the west'
+    bio: 'TBA'
   },
   {
     portrait: grzegorzLukaszewiczPortrait,
