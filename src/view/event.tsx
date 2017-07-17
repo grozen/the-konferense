@@ -83,10 +83,10 @@ function Speakers(speakers : SpeakerType[], speakerStates : EventAnimationStates
 export default function Event<T>(event : Event<T>, state : AppState, widthClass : string = '') : VNode {
   const eventMarginClass = style({margin: '0 auto'})
 
-  var titleClass = style({
+  let titleClass = style({
     color: '#fff',
     margin: '0',
-    textAlign: 'center',
+    textAlign: 'center'
   })
 
   if (event.speakers) {

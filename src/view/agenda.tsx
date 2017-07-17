@@ -13,6 +13,7 @@ export default function Agenda(state : AppState) : VNode {
       {specificAgenda(AppData.Agenda.Gathering, state)}
       {specificAgenda(AppData.Agenda.Opening, state)}
       {specificAgenda(AppData.Agenda.Talks, state)}
+      {specificAgenda(AppData.Agenda.LightningEnding, state)}
     </div>
   )
 }

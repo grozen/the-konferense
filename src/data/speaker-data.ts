@@ -33,6 +33,8 @@ import brigitteRingbauerPortrait from '../../public/speakers/brigitte_ringbauer.
 import johannaSimonssonPortrait from '../../public/speakers/johanna_simonsson.jpg'
 import sergeyEvstifeevPortrait from '../../public/speakers/sergey_evstifeev.jpg'
 import nirAravotPortrait from '../../public/speakers/nir_aravot.jpg'
+import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
+import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
 
 const SpeakerList : Speaker[] = [
   {
@@ -149,6 +151,56 @@ const SpeakerList : Speaker[] = [
     portrait: grzegorzLukaszewiczPortrait,
     name: 'Grzegorz Łukaszewicz',
     bio: 'For 11 years I was working as a developer. For 4 years now I am working in Clearcode S.A. as a Project Manager leading an agile team. We are specialized on AdTech/MarTech solutions for our clients utilizing great variety of tool and technologies. I always try to learn new things and improve. I am a big fun of automation everything that is to be automated.'
+  },
+  {
+    portrait: immanuelKuhnlePortrait,
+    name: 'Immanuel Kühnle',
+    bio: 'TBA'
+  },
+  {
+    portrait: linoyZagaPortrait,
+    name: 'Linoy Zaga',
+    bio: 'Linoy studied Software Engineering at the Israeli Defense Forces, serving 4 years as a software engineer in the Navy. During this time she had started studying Psychology at the Open University of Israel for fun, and soon discovered that Computer science and Psychology make a great combination. She now tries to fit the two together in her day-to-day work. Linoy has been working at Klarna since Dec 2016. She is 23 years old, making her the youngest engineer at Klarna TLV site. On her spare time, Linoy enjoys dancing and knitting, and was recently trained as a one-star diver.'
+  },
+  {
+    portrait: benedickKusemannPortrait,
+    name: 'Benedikt Kusemann',
+    bio: 'Benedikt joined SOFORT in early 2016 coming fresh off the university. After taking a dip in the world of Frontend development at the famous “A-Team” he joined the Backend Team “BeeHive”. Right now he is delving deep into the world of Java, MicroServices and Screen Scraping, while sometimes also developing small React Components for the Bank Formulars, which could fill every UX Designers heart with horror and despair.'
+  },
+  {
+    portrait: derekHomerPortrait,
+    name: 'Derek Homer',
+    bio: 'Derek became intrigued by technology at the tender age of six, when he ruined his father\'s laptop by moving its OS to floppy disc (apparently, there wasn\'t a way to restore it). Years later, he decided to learn how to use technology "properly", forging a career that took him from IT Support, through Project Management to Agile Delivery. He is a believer, and is totally fascinated by the interplay between people and their ways of working that makes achieving the impossible possible.'
+  },
+  {
+    portrait: talyaSternPortrait,
+    name: 'Talya Stern',
+    bio: 'From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man\'s Israeli regional event.'
+  },
+  {
+    portrait: meiYangPortrait,
+    name: 'Mei Yang',
+    bio: 'Mei Yang started her career in an agile consultant company as a quality advocator. She is passionate about improving the quality throughout the whole product development lifecycle. Apart from working with different delivery projects, she also went to India as a coach to teach people agile practices and agile testing, where she discovered she loves learning and coaching. After 2 years in Stockholm, Mei still enjoys the weather a lot. She loves traveling and is passionate about cooking and playing board games.'
+  },
+  {
+    portrait: tamirTaubPortrait,
+    name: 'Tamir Taub',
+    bio: 'Tamir started writing software about 10 years ago, juggling high school with Computer Science studies at the The Open University. After his mandatory IDF stint, he decided to abandon his strongly typed roots of Java and .Net and took on a Ruby developer position at Klarna TLV, where he has been working for the past year. He enjoys life\'s simple pleasures - hitting the snooze button, drinking a hot cup o\' joe and experiencing post-lunch comas, and as of late you might also find him bouldering, scuba diving or skiing.'
+  },
+  {
+    portrait: guyIsraeliPortrait,
+    name: 'Guy Israeli',
+    bio: 'He is a guy from Israel, that name he didn\'t choose yet for a fake user people still confuse. In New Jersey Guy was in school Also did some cyber, but before it was cool He would have wanted to write poems in some distant land or play guitar in some esoteric progressive rock band... Had a startup about shopping online, product images and a map suspiciously similar to some features that exist in the new Klapp.'
+  },
+  {
+    portrait: georgiosKryparosPortrait,
+    name: 'Georgios Kryparos',
+    bio: 'Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade...'
+  },
+  {
+    portrait: caseTaintorPortrait,
+    name: 'Case Taintor',
+    bio: 'TBA'
   }
 ]
 

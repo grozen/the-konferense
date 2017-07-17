@@ -68,7 +68,7 @@ export default function Speaker(speaker : Speaker, widthClass : string, speakerS
     position: 'relative',
     $nest: {
       '&:nth-child(2)::before': {
-        content:`'&'`,
+        content: `'&'`,
         color: '#fff',
         fontFamily: 'Bangers, sans-serif',
         fontSize: '4em',

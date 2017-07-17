@@ -301,6 +301,109 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
   ]
 }
 
+export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
+  roomNames: ['C1+C2+C3'],
+  timeSlots: [
+    {
+      startTime: '16:15',
+      endTime: '17:15',
+      events: [{
+        id: 1,
+        title: 'Lightning Talks',
+        room: 'C1+C2+C3'
+      },
+      {
+        id: 1,
+        title: 'How to make things accessible with html5&co?',
+        description: 'TBA',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['immanuel kühnle']]
+      },
+      {
+        id: 1,
+        title: 'A (wo)man\'s world!',
+        description: 'Gender diversity is a hot topic at the moment! Here in Engineering, I\'m one of only two Team Leads that identify as a woman. I would like to share my experience of leading a team of only men. I joined Klarna almost 7 years ago, fresh from university, at a time when there were only 3-4 women in Engineering. I will share how hard (or easy) it has been for me to get to where I am today, what I\'ve heard (and learnt) in the process (good and bad), what helped me get here and what almost made me give up!',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['nadia mohedano troyano']]
+      },
+      {
+        id: 1,
+        title: 'How I hacked Microsoft\'s customer support',
+        description: 'Telephone tech support scams have become very popular. Scammers call unsuspected victims, pretending to be Microsoft Support personnel and try to deceive them in different ways in order to gain some sort of profit. This is a story of what happened when such a group of people called my wife and what they ended up learning.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['georgios kryparos']]
+      },
+      {
+        id: 1,
+        title: 'Color psychology in web design',
+        description: 'Colors have an enormous impact on our mood and emotional state. Although the effects of colors differ from person to person, some effects are universal. What does that mean, and how can we utilize it as developers, designers and product people? Let\'s find out!',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['linoy zaga']]
+      },
+      {
+        id: 1,
+        title: 'Screen Scraping - The Good, the Bad and the Funny',
+        description: 'SOFORTs main product is based on the screen scraping of bank websites. While developing and maintaining such Technology, one comes into contact with an API not expected to be used in that way. This talk centers around common pitfalls, daily boulder rolling and other things Sisyphus would do to escape death another time, while also maintaining sanity when dealing with the craziest errors.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['benedikt kusemann']]
+      },
+      {
+        id: 1,
+        title: 'Juggle Me This, Juggle Me That',
+        description: 'Team "Awesome" seem to have a lot on these days. They have company goals, domain goals, experiments they want to build and tech debt to tied up. Urgent Production Issues seem to pop up out of nowhere... and on top of it all, their Product Manager has just added this-next-great-thing to their backlog! How are they supposed to manage it all? I feel for them; I really do. But it\'s not unlike the situation I face each month: as soon as the paycheck comes in, my significant other always seems to have other ideas as to where that money should go. In my talk, I\'m going to illustrate a lightweight budgeting system that we use to make sure essential bills are paid, commitments are met, surprises are catered for and little luxuries are picked up along the way. It means conversations about what we pay for and when can be clearer and easier, leaving us alot happier as a result. And as they say, a happy wife is a happy life...',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['derek homer']]
+      },
+      {
+        id: 1,
+        title: 'A SOLID grasp on functional programming',
+        description: 'SOLID principles are the golden guidelines of every Object-Oriented programmer. But can they be applicable for Functional Programming as well? Case-specific or a universal truth? The talk will explore these questions.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['talya stern']]
+      },
+      {
+        id: 1,
+        title: 'How China and Brazil worked it out',
+        description: 'Distance makes everything harder. With me and my boyfriend in China and Brazil, the relationship needed special attention. Being on a team spanning two continents, we had to adopt practices to help us perform as ONE team. I will share my two stories, what I learned from them, and how you can use them to be effective in a global world.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['mei yang']]
+      },
+      {
+        id: 1,
+        title: 'Go home Ruby, you\'re drunk',
+        description: 'Ruby is renowned for being one of the most programmer-friendly languages out there. Its feature richness is usually a blessing, but it is also a curse - an abundance of features sets the stage for many, many WTFs. In this short session we\'ll cover some questionable Ruby features, ranging from simple annoyances to monstrous clusters of horror.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['tamir taub']]
+      },
+      {
+        id: 1,
+        title: 'Dashboards Aren’t Boring!',
+        description: 'Data is helping make sense of your service. Yet, it\'s meaningless without context and subsequent actions. In this extremely short talk, you will learn on how would development with the aid of dashboards could assist you in your daily doings.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['guy israeli']]
+      }]
+    },
+    {
+      startTime: '17:15',
+      endTime: '17:20',
+      events: [{
+        id: 1,
+        title: 'Closing words',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['case taintor']]
+      }]
+    },
+    {
+      startTime: '17:20',
+      endTime: '19:00',
+      events: [{
+        id: 1,
+        title: 'Drinks'
+      }]
+    }
+  ]
+}
+
 // Go over all events and give them and their speakers a unique ID
 let eventID : number = 1
 function GenerateEventIDs<T>(agendaData : Agenda<T>) : void {
@@ -315,3 +418,4 @@ function GenerateEventIDs<T>(agendaData : Agenda<T>) : void {
 GenerateEventIDs(AgendaDataGathering)
 GenerateEventIDs(AgendaDataOpening)
 GenerateEventIDs(AgendaDataTalks)
+GenerateEventIDs(AgendaDataLightningEnding)
