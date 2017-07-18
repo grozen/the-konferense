@@ -24,7 +24,8 @@ function eventAnimationStateToDesciptionClass(state : EventAnimationStates) : st
   const baseStyle = {
     fontSize: '0.85em',
     lineHeight: '1.4em',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    marginBottom: 0
   }
 
   const collapsedClass = style({
@@ -71,6 +72,11 @@ function eventAnimationStateToDesciptionClass(state : EventAnimationStates) : st
 }
 
 function eventAnimationStateToExpanderClass(state : EventAnimationStates) : string {
+  const baseClass = {
+    cursor: 'pointer',
+    width: '35px'
+  }
+
   const expandKeyframes = keyframes({
     '0%': {transform: 'scaleY(1)'},
     '100%': {transform: 'scaleY(-1)'}
@@ -81,18 +87,18 @@ function eventAnimationStateToExpanderClass(state : EventAnimationStates) : stri
     '0%': {transform: 'scaleY(-1)'}
   })
 
-  const collapsedClass = style({})
+  const collapsedClass = style(baseClass)
   const expandingClass = style({
     animationName: expandKeyframes,
     animationDuration: '0.5s'
-  })
+  }, baseClass)
 
-  const expandedClass = style({transform: 'scaleY(-1)'})
+  const expandedClass = style({transform: 'scaleY(-1)'}, baseClass)
 
   const collapsingClass = style({
     animationName: collapseKeyframes,
     animationDuration: '0.5s'
-  })
+  }, baseClass)
 
   switch (state) {
     case 'collapsed':
