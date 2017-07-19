@@ -278,7 +278,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'UX Design in Context',
-        description: 'TBA',
+        description: 'Have you ever asked yourself, why you don´t manage to buy a ticket at the ticket machine in a foreign town even though you have an engineering degree? The talk will explain the principles that underlie good UX design and give some background on user and task requirements. You will learn, why UI toolkits are not enough to produce usable UIs and that data and collaboration is key to do a really good job in UX/UI design.',
         room: 'C3',
         speakers: [Speakers['brigitte ringbauer']]
       },

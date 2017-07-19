@@ -145,7 +145,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: brigitteRingbauerPortrait,
     name: 'Brigitte Ringbauer',
-    bio: 'TBA'
+    bio: 'Brigitte likes working at interdisciplinary boundaries and pushing theory to practice. She holds a degree in psychology, specialized in cognitive sciences, and user research. Starting her working life as a usability engineer telling designers and developers what doesn’t work, she is happy having entered UX design and being part of the creative bunch of people to make things happen. She is passionate about the „why“ of human behavior and attitudes and tries hard to translate that into features and good UX design.'
   },
   {
     portrait: grzegorzLukaszewiczPortrait,
