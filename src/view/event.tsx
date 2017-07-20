@@ -147,10 +147,21 @@ export default function Event<T>(event : Event<T>, state : AppState, widthClass 
     })
   }
 
+  let titleHighlightClass = undefined
+  if (event.description) {
+    titleHighlightClass = style({
+      $nest: {
+        [`&:hover .${titleClass}`]: {
+          color: 'moccasin'
+        }
+      }
+    })
+  }
+
   return (
     <div className={classes(eventMarginClass, widthClass)} data-eventid={event.id.toString()}>
       {event.speakers ? Speakers(event.speakers, state.events[event.id].speakerStates) : undefined}
-      <div className='event-description'>
+      <div className={classes('event-description', titleHighlightClass)}>
         <p className={titleClass}>{event.title}</p>
         {event.description ? <p className={eventAnimationStateToDesciptionClass(state.events[event.id].descriptionState)}>{event.description}</p> : undefined}
         {event.description ? <img className={eventAnimationStateToExpanderClass(state.events[event.id].descriptionState)} src={expandImage}></img> : undefined}
