@@ -11,6 +11,15 @@ import { cssRule } from 'typestyle'
 import {normalize, setupPage} from 'csstips'
 import bgImage from '../public/bg.png'
 
+const browser = require('detect-browser')
+
+if (browser.name === 'ie') {
+  const appElement : HTMLElement = document.getElementById('app') as HTMLElement
+  appElement.innerHTML = '<h2>You appear to be using Internet Explorer<br/>This would be a good time to examine the life choices that have led you to this moment in time</h2>'
+  appElement.style.cssText = 'height: 100%; text-align: center; padding-top: 50vh; background-color: black;'
+  appElement.id = 'nope'
+}
+
 normalize()
 setupPage('#app')
 
