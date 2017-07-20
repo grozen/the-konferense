@@ -70,7 +70,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: christianDiehlPortrait,
     name: 'Christian Diehl',
-    bio: 'TBA'
+    bio: 'Christian fulfills the usual stereotypes of a software developer: Hacking on his notebook with headphones on while sitting in the darkest room of the office. This is the usual way he works since he joined Klarna (SOFORT at this time) more than four years ago. He has experience mainly in Java, Javascript and most of the DevOps tools required to run microservices. He likes to learn and use new things which also results in his probably most used phrase: “new is always better”.'
   },
   {
     portrait: adamBergmarkPortrait,
