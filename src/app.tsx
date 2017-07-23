@@ -18,6 +18,7 @@ import venue from './view/venue'
 import team from './view/team'
 import highlights from './view/highlights'
 import how from './view/how'
+import footer from './view/footer'
 
 import backgroundLeft from '../public/bg-l.png'
 import backgroundRight from '../public/bg-r.png'
@@ -61,6 +62,7 @@ function view(state$ : Stream<AppState>) : Stream<VNode> {
           {team(state)}
           {highlights()}
           {how()}
+          {footer()}
         </div>
       </div>
     )
