@@ -1,5 +1,5 @@
 import { AppState } from '../state'
-import { possibleStates as EventAnimationStates } from '../state/event-state'
+import { possibleStates as EventAnimationStates } from '../state'
 import { Event } from '../data/agenda-data'
 import { Speaker as SpeakerType } from '../data/speaker-data'
 import { VNode } from '@cycle/dom'

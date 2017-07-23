@@ -9,11 +9,13 @@ import { Sources, Sinks } from './interfaces'
 import { AppState, Reducer, initialState } from './state'
 
 import eventIntent from './intent/event-intent'
+import teamIntent from './intent/team-intent'
 
 import topBar from './view/top-bar'
 import splash from './view/splash'
 import agenda from './view/agenda'
 import venue from './view/venue'
+import team from './view/team'
 import highlights from './view/highlights'
 import how from './view/how'
 
@@ -36,8 +38,9 @@ export function App(sources : AppSources) : AppSinks {
 function intent(DOM : DOMSource) : Stream<Reducer> {
   const init$ : Stream<Reducer> = xs.of<Reducer>(initialState)
   const eventExpansion$ : Stream<Reducer> = eventIntent(DOM)
+  const teamExpansion$ : Stream<Reducer> = teamIntent(DOM)
 
-  return xs.merge(init$, eventExpansion$)
+  return xs.merge(init$, eventExpansion$, teamExpansion$)
 }
 
 function view(state$ : Stream<AppState>) : Stream<VNode> {
@@ -55,6 +58,7 @@ function view(state$ : Stream<AppState>) : Stream<VNode> {
           {splash()}
           {agenda(state)}
           {venue()}
+          {team(state)}
           {highlights()}
           {how()}
         </div>

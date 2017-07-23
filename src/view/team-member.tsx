@@ -1,7 +1,7 @@
 import { VNode } from '@cycle/dom'
 import { AppState } from '../state'
 import { possibleStates as EventAnimationStates } from '../state'
-import { Speaker } from '../data/speaker-data'
+import { TeamMember } from '../data/team-data'
 
 import { classes, style, keyframes } from 'typestyle'
 
@@ -63,46 +63,36 @@ function eventAnimationStateToClass(state : EventAnimationStates) : string {
   }
 }
 
-export default function Speaker(speaker : Speaker, widthClass : string, speakerState : EventAnimationStates, index : number) : VNode {
-  const speakerNameClass = style({
+export default function Speaker(teamMember : TeamMember, teamMemberState : EventAnimationStates, index : number) : VNode {
+  const teamMemberNameClass = style({
     margin: '10px 0 0 0',
     cursor: 'pointer'
   })
 
-  const speakerImageClass = style({
+  const teamMemberImageClass = style({
     borderRadius: '50%',
     height: '150px',
     boxShadow: '0 0 0 3px #fff, 0 0 0 6px #000, 5px 4px 0 6px #000',
     cursor: 'pointer'
   })
 
-  const speakerClass = style({
-    position: 'relative',
+  const teamMemberClass = style({
+    width: '28%',
     $nest: {
-      '&:nth-child(2)::before': {
-        content: `'&'`,
-        color: '#fff',
-        fontFamily: 'Bangers, sans-serif',
-        fontSize: '4em',
-        textShadow: '4px 4px 0 #000, -1px -1px 0 black, 0 -1px 0 black, -1px 0 0 black',
-        top: '35px',
-        position: 'absolute',
-        left: '-35px'
-      },
-      [`&:hover .${speakerNameClass}`]: {
+      [`&:hover .${teamMemberNameClass}`]: {
         color: 'moccasin'
       },
-      [`&:hover .${speakerImageClass}`]: {
+      [`&:hover .${teamMemberImageClass}`]: {
         boxShadow: '0 0 0 3px moccasin, 0 0 0 6px #000, 5px 4px 0 6px #000'
       }
     }
   })
 
   return (
-    <div className={classes('speaker', widthClass, speakerClass)} data-speakerindex={index.toString()}>
-      <img className={speakerImageClass} src={speaker.portrait}/>
-      <p className={speakerNameClass}>{speaker.name}</p>
-      <p className={eventAnimationStateToClass(speakerState)}>{speaker.bio}</p>
+    <div className={classes('team-member', teamMemberClass)} data-teammemberindex={index.toString()}>
+      <img className={teamMemberImageClass} src={teamMember.portrait}/>
+      <p className={teamMemberNameClass}>{teamMember.name}</p>
+      <p className={eventAnimationStateToClass(teamMemberState)}>{teamMember.bio}</p>
     </div>
   )
 }

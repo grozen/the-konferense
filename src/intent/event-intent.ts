@@ -1,7 +1,7 @@
 import xs, { Stream } from 'xstream'
 import { DOMSource } from '@cycle/dom'
 import { Reducer, initialState, AppState } from '../state'
-import { possibleStates as EventAnimationStates } from '../state/event-state'
+import { possibleStates as EventAnimationStates } from '../state'
 
 function nextStateForAnimationStart(currentState : EventAnimationStates) : EventAnimationStates {
   switch (currentState) {

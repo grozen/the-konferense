@@ -1,13 +1,20 @@
 import { AppData } from './data'
-import { possibleStates, EventState } from './state/event-state'
 import { Agenda, TimeSlot } from './data/agenda-data'
+
+export type possibleStates = 'collapsed' | 'expanding' | 'collapsing' | 'expanded'
+
+export type EventState = {
+  descriptionState : possibleStates
+  speakerStates : possibleStates[]
+}
 
 type EventStates = {[eventID : number] : EventState}
 
 export type Reducer = (prev : AppState) => AppState
 
 export type AppState = {
-  events : EventStates
+  events : EventStates,
+  team : possibleStates[]
 }
 
 function SetCollapsedEvents<T>(agendaData : Agenda<T>) : EventStates {
@@ -29,6 +36,7 @@ export function initialState() : AppState {
   Object.assign(initialEventStates, ...(Object.keys(AppData.Agenda).map<EventStates>(key => SetCollapsedEvents(AppData.Agenda[key]))))
 
   return {
-    events: initialEventStates
+    events: initialEventStates,
+    team: AppData.Team.map<possibleStates>(_ => 'collapsed')
   }
 }
