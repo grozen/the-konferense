@@ -45,7 +45,7 @@ const TeamListUnshuffled : TeamMember[] = [
   {
     portrait: caseTaintorPortrait,
     name: 'Case Taintor',
-    bio: 'Sed sollicitudin pellentesque diam, at tempus tellus congue quis. Maecenas quam augue, sagittis sit amet quam id, fermentum ultricies nunc. Nam aliquet eros felis, a placerat orci placerat nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam viverra ipsum sit amet libero consectetur, sit amet congue nibh maximus. Suspendisse metus ligula, ullamcorper id aliquam vitae, aliquam sed ligula. Fusce ac erat lacinia, congue felis lobortis, egestas libero. Curabitur at mollis nisl, ac interdum dui. Suspendisse potenti. Aenean a lacinia felis, eget aliquam odio.'
+    bio: 'Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.'
   },
   {
     portrait: christianNiehoffPortrait,

@@ -200,7 +200,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: caseTaintorPortrait,
     name: 'Case Taintor',
-    bio: 'TBA'
+    bio: 'Case is an American living abroad who likes to travel, code, and enjoy the outdoors by foot or bike.'
   }
 ]
 
