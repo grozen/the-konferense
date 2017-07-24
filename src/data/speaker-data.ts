@@ -75,7 +75,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: adamBergmarkPortrait,
     name: 'Adam Bergmark',
-    bio: 'TBA'
+    bio: 'Adam travels the world (limited to Europe) to learn how to write robust software which coincidentally also makes it fun. He is currently focusing on functional programming, the new and cool paradigm that was invented in the 30s.'
   },
   {
     portrait: darioPasquantonio,

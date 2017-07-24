@@ -139,7 +139,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'First Class Error Handling',
-        description: 'TBA',
+        description: 'Thinking of all possible errors in a program is almost impossible and it often seems like busy work that doesn\'t get you closer to your business goals. One reason it is hard is that we often push errors to the side, leaving them as an afterthought. In this talk we\'ll look at ways to allow you to stay on the happy path of what you want to achieve without having unexpected errors slip through the cracks.',
         room: 'C1+C2',
         speakers: [Speakers['adam bergmark']]
       },
