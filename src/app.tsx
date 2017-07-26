@@ -11,6 +11,8 @@ import { AppState, Reducer, initialState } from './state'
 import eventIntent from './intent/event-intent'
 import teamIntent from './intent/team-intent'
 
+import Audio from './audio'
+
 import topBar from './view/top-bar'
 import splash from './view/splash'
 import agenda from './view/agenda'
@@ -25,6 +27,9 @@ import backgroundRight from '../public/bg-r.png'
 
 export type AppSources = Sources & { onion : StateSource<AppState> }
 export type AppSinks = Sinks & { onion : Stream<Reducer> }
+
+const audio = new Audio()
+audio.play()
 
 export function App(sources : AppSources) : AppSinks {
   const action$ : Stream<Reducer> = intent(sources.DOM)
