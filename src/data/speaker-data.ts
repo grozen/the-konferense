@@ -50,7 +50,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: karaDefriasPortrait,
     name: 'Kara Defrias',
-    bio: 'TBA'
+    bio: "Kara’s passion for designing engaging experiences has brought her to many exciting places, including the Super Bowl, Oscars, and most recently, the White House as UX Director for Vice President Biden. Previously, Kara was in the first class of Presidential Innovation Fellows, where she served as entrepreneur in residence to reimagine the relationship between the government and the people from a technology perspective. She also spent 4 years at TurboTax and founded TEDxIntuit. Twitter: @KaraDeFrias."
   },
   {
     portrait: davidFockPortrait,
@@ -75,7 +75,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: adamBergmarkPortrait,
     name: 'Adam Bergmark',
-    bio: 'TBA'
+    bio: 'Adam travels the world (limited to Europe) to learn how to write robust software which coincidentally also makes it fun. He is currently focusing on functional programming, the new and cool paradigm that was invented in the 30s.'
   },
   {
     portrait: darioPasquantonio,
@@ -200,7 +200,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: caseTaintorPortrait,
     name: 'Case Taintor',
-    bio: 'TBA'
+    bio: 'Case is an American living abroad who likes to travel, code, and enjoy the outdoors by foot or bike.'
   }
 ]
 
