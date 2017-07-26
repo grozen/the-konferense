@@ -178,8 +178,8 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Design for Snap',
-        description: 'TBA',
+        title: 'Design (and Build) for Snap',
+        description: '“That was easy and quick - done with the snap of a finger!”. Is this how ALL your users perceive your product? If so, you might be better off going to the talk next door... The idea behind this talk began with my dog getting frustrated when failing to get to his delicious treat (I’ll show you exactly why). It made me think about user-centered design and its challenges. How can us product developers build products that actually support this approach? How can we design and build products for all user types when they differ so much from one another? This talk is for all you product developers. It is not focused on visual design styles. It is not focused on new technologies either. This talk maps out practices, supported by real-life examples. Following these practices will help you build products that users will love using.',
         room: 'C3',
         speakers: [Speakers['nir aravot']]
       },
