@@ -100,7 +100,7 @@ const SpeakerList : Speaker[] = [
   {
     portrait: nirAravotPortrait,
     name: 'Nir Aravot',
-    bio: 'TBA'
+    bio: 'Husband, cool uncle, twin, dog owner, animal lover, product manager, industrial engineer, entrepreneur, innovative, technology passionate, lean advocate, data driven, team player, open minded, book worm, tel-avivian, adventurous traveller.'
   },
   {
     portrait: fernandoViaCanelPortrait,
