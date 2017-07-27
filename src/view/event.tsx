@@ -29,7 +29,7 @@ function eventAnimationStateToDesciptionClass(state : EventAnimationStates) : st
   }
 
   const collapsedClass = style({
-    textAlign: 'justify',
+    textAlign: 'center',
     height: '1.3em',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',

@@ -244,10 +244,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'TBA',
-        description: 'TBA',
+        title: 'Mystery Talk',
+        description: 'Shh... it\'s a secret',
         room: 'C3',
-        speakers: [Speakers['billpay']]
+        speakers: [Speakers['a speaker']]
       },
       {
         id: 1,
