@@ -54,7 +54,7 @@ export const AgendaDataOpening : Agenda<RoomsOpening> = {
         id: 1,
         title: 'Opening words',
         room: 'A2',
-        speakers: [Speakers['phillippe vimard']]
+        speakers: [Speakers['case taintor']]
       }]
     },
     {
@@ -410,7 +410,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
         id: 1,
         title: 'Closing words',
         room: 'C1+C2+C3',
-        speakers: [Speakers['case taintor']]
+        speakers: [Speakers['phillippe vimard']]
       }]
     },
     {
