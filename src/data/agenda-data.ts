@@ -336,8 +336,8 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       endTime: '',
       events: [{
         id: 1,
-        title: 'How I hacked Microsoft\'s customer support',
-        description: 'Telephone tech support scams have become very popular. Scammers call unsuspected victims, pretending to be Microsoft Support personnel and try to deceive them in different ways in order to gain some sort of profit. This is a story of what happened when such a group of people called my wife and what they ended up learning.',
+        title: 'Trust me, I work in IT',
+        description: 'Telephone tech support scams are very common. And apparently successful. Why? Trust is the foundation of all human connections and eventually people want to trust people. This is a talk about what happens when such a scammer calls a security guy with free time on his hands.',
         room: 'C1+C2+C3',
         speakers: [Speakers['georgios kryparos']]
       },
