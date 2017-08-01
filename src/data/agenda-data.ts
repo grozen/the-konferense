@@ -372,8 +372,8 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       endTime: '',
       events: [{
         id: 1,
-        title: 'A SOLID grasp on functional programming',
-        description: 'SOLID principles are the golden guidelines of every Object-Oriented programmer. But can they be applicable for Functional Programming as well? Case-specific or a universal truth? The talk will explore these questions.',
+        title: 'Adjust your SOLID grip',
+        description: 'SOLID principles - the golden guidelines set to keep our code clean, readable and maintainable. While code quality is an important factor regardless of your programming paradigm, SOLID is highly focused on Object Oriented programming. Could we apply SOLID principles in a more universal manner? The talk will refresh our memory on SOLID while exploring this question.',
         room: 'C1+C2+C3',
         speakers: [Speakers['talya stern']]
       },
