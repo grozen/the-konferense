@@ -252,7 +252,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'Prototype your idea today!',
-        description: 'Product managers want to materialize their ideas rapidly and test their truths. On the other hand, designers and engineers don\'t like to build something that will be thrown away. Seriously, who would? Prototyping should be a low commitment effort. For the Klarna Payments Direct Debit launch, we came up with a pretty nice setup to swiftly build high-fidelity prototypes using Sagui, the Klarna UI and some more React. In this session, I\'ll show you how to build your own cool prototypes, and tell you why you should do it more often.',
+        description: 'Product managers want to materialize ideas rapidly and test their hypotheses. On the other hand, designers and engineers don\'t like to build something that will be thrown away. Seriously, who would? Prototyping should be a low commitment effort. For the Klarna Payments Direct Debit launch, we came up with a pretty nice setup to swiftly build high-fidelity prototypes using Sagui, the Klarna UI and some more React. In this session I\'ll show you how to build your own cool prototypes, and tell you why you should do it more often.',
         room: 'C4',
         speakers: [Speakers['jonathan trujillo']]
       }]
