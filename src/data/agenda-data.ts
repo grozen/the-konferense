@@ -397,8 +397,8 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       },
       {
         id: 1,
-        title: 'Dashboards Aren’t Boring!',
-        description: 'Data is helping make sense of your service. Yet, it\'s meaningless without context and subsequent actions. In this extremely short talk, you will learn how dashboards can assist you in getting the answer to the answer to life, the universe and everything. And it\'s not a singlestat of 42.',
+        title: 'Dashboard Driven Development',
+        description: 'Data helps making sense of your service, yet, it\'s meaningless without context and subsequent actions. In this life-changing talk, you will learn how dashboards can assist you in getting the answer to your most pressing questions.',
         room: 'C1+C2+C3',
         speakers: [Speakers['guy israeli']]
       }]
