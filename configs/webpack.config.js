@@ -90,7 +90,7 @@ module.exports = createConfig([
                 {from: '2016/dist', to: '2016'},
                 {from: 'CNAME'},
                 {from: 'public/opengraph.png', to: 'opengraph.png'},
-                {from: 'public/code-of-conduct-klarna-events.pdf'}
+                {from: 'public/code-of-conduct-klarna-events.pdf', to: 'public/code-of-conduct-klarna-events.pdf'}
             ])
         ])
     ])
