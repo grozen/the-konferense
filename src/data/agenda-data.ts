@@ -344,7 +344,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       {
         id: 1,
         title: 'Out of the Blue - Color Psychology in Web Design',
-        description: 'Colors have an enormous psychological impact on our subconscious: they affect our mood, our decision making and eventually our behavior. We are going to explore how colors in web design can manipulate the user and control the subconscious.',
+        description: 'Colors have an enormous psychological impact on our subconscious: they affect our mood, our decision making and eventually our behavior. We are going to explore how clever usage of colors in web design can affect our users',
         room: 'C1+C2+C3',
         speakers: [Speakers['linoy zaga']]
       }]
@@ -391,8 +391,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       events: [{
         id: 1,
         title: 'A friend called Ruby?',
-        description: 'After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn\'t take long, though, before I realized the ride won\'t be as smoooth as I had hoped.
-This is the story of my journey with Ruby, for better or worse.',
+        description: 'After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn\'t take long, though, before I realized the ride won\'t be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.',
         room: 'C1+C2+C3',
         speakers: [Speakers['tamir taub']]
       },
