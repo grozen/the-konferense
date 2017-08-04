@@ -410,7 +410,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
         id: 1,
         title: 'Closing words',
         room: 'C1+C2+C3',
-        speakers: [Speakers['phillippe vimard']]
+        speakers: [Speakers['koen köppen']]
       }]
     },
     {

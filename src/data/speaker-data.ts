@@ -23,7 +23,6 @@ import meiYangPortrait from '../../public/speakers/mei_yang.jpg'
 import nadiaMohedanoTroyanoPortrait from '../../public/speakers/nadia_mohedano_troyano.jpg'
 import omriYarivPortrait from '../../public/speakers/omri_yariv.jpg'
 import pauloRagonhaPortrait from '../../public/speakers/paulo_ragonha.jpg'
-import phillippeVimardPortrait from '../../public/speakers/phillippe_vimard.jpg'
 import talyaSternPortrait from '../../public/speakers/talya_stern.jpg'
 import tamirTaubPortrait from '../../public/speakers/tamir_taub.jpg'
 import josephTindale from '../../public/speakers/joseph_tindale.jpg'
@@ -35,11 +34,12 @@ import sergeyEvstifeevPortrait from '../../public/speakers/sergey_evstifeev.jpg'
 import nirAravotPortrait from '../../public/speakers/nir_aravot.jpg'
 import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
 import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
+import koenKoppenPortrait from '../../public/speakers/koen-koppen.jpg'
 
 const SpeakerList : Speaker[] = [
   {
-    portrait: phillippeVimardPortrait,
-    name: 'Phillippe Vimard',
+    portrait: koenKoppenPortrait,
+    name: 'Koen Köppen',
     bio: 'TBA'
   },
   {
