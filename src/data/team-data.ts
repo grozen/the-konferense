@@ -70,7 +70,7 @@ const TeamListUnshuffled : TeamMember[] = [
   {
     portrait: markusMichalskyPortrait,
     name: 'Markus Michalsky',
-    bio: 'Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.'
+    bio: 'Markus is one of the newest additions to the SOFORT Frontend-Team \'Myrddin\' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are \'How can this be done easier?\' and \'How can we make it more fun?\'.'
   },
   {
     portrait: matthiasFeistPortrait,
