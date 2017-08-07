@@ -757,7 +757,7 @@
       "name": "Nadia Mohedano Troyano",
       "profilePic": "assets/img/speakers/nadia_mohedano_troyano.jpg",
       "twitter": "",
-      "about": "Nadia always wanted to be a math teacher but, decided to go for Telecommunications Engineering since it sounded more challenging. She was not wrong! She thinks life is better with a smile, and that\'s why you might recognise her by her loud laugh. But it\'s all a trick! She is part of LiveOps, those mean people that wake you up in the middle of the night and ask for Incident Reports when things break! She likes to keep herself busy and loves to give back by being part of initiatives such as ClojureBridge, GeekGirlMeetup, and PinkProgramming Summer Camps. She also likes to talk, and what better place to do it than at the KonferenSE?",
+      "about": "Nadia always wanted to be a math teacher but, decided to go for Telecommunications Engineering since it sounded more challenging. She was not wrong! She thinks life is better with a smile, and that's why you might recognise her by her loud laugh. But it's all a trick! She is part of LiveOps, those mean people that wake you up in the middle of the night and ask for Incident Reports when things break! She likes to keep herself busy and loves to give back by being part of initiatives such as ClojureBridge, GeekGirlMeetup, and PinkProgramming Summer Camps. She also likes to talk, and what better place to do it than at the KonferenSE?",
       "talkPic": "assets/img/konferense-logo.png",
       "location": "Stockholm"
     },
@@ -789,7 +789,7 @@
       "name": "Dario Pasquantonio",
       "profilePic": "assets/img/speakers/dario_pasquantonio.jpg",
       "twitter": "",
-      "about": "Dario was not like the other Italians. Dario didn't have a funny accent, he didn't use his hands during a conversation. He didn\'t love his mom, didn\'t like good food, the sun or the crystal clear sea. One day he had enough: he packed his backpack, and started seeking new adventures. He ended up in Berlin, where he found what he has always been looking for: rain, cold, Pizza Hawaii and darkness. During the last three years he found his place in the FinTech startup scene, in the sombre shadows of the backend; it is a challenging, stressful place, from which he constantly tries to escape using his most powerful weapon: sarcasm.",
+      "about": "Dario was not like the other Italians. Dario didn't have a funny accent, he didn't use his hands during a conversation. He didn't love his mom, didn't like good food, the sun or the crystal clear sea. One day he had enough: he packed his backpack, and started seeking new adventures. He ended up in Berlin, where he found what he has always been looking for: rain, cold, Pizza Hawaii and darkness. During the last three years he found his place in the FinTech startup scene, in the sombre shadows of the backend; it is a challenging, stressful place, from which he constantly tries to escape using his most powerful weapon: sarcasm.",
       "talkPic": "assets/img/konferense-logo.png",
       "location": "Berlin"
     },
@@ -861,7 +861,7 @@
       "name": "Maja Kontrec",
       "profilePic": "assets/img/speakers/maja_kontrec.jpg",
       "twitter": "",
-      "about": "Maja is a passionate (functional) programmer and a musician. As an artist in engineers body, she is always curious about finding unusual solutions to usual problems. Growing up surrounded by computers her dad would bring home, she managed to greet the world through a program for the first time at the age of 11. Little did she know that one day, she would do something similar for living. So here she is now, hacking her days away as an Erlang Solution\'s consultant at Klarna.",
+      "about": "Maja is a passionate (functional) programmer and a musician. As an artist in engineers body, she is always curious about finding unusual solutions to usual problems. Growing up surrounded by computers her dad would bring home, she managed to greet the world through a program for the first time at the age of 11. Little did she know that one day, she would do something similar for living. So here she is now, hacking her days away as an Erlang Solution's consultant at Klarna.",
       "talkPic": "assets/img/konferense-logo.png",
       "location": "Stockholm"
     },
@@ -869,7 +869,7 @@
       "name": "Johanna Simonsson",
       "profilePic": "assets/img/speakers/johanna_simonsson.jpg",
       "twitter": "",
-      "about": "After 3 years at university studying Mechanical Engineering, Johanna discovered she didn\'t like machines at all. In fact, the more abstract the concept, the better. Fortunately, coding seemed to be just that. She steered her career away from anything tangible, and ended up at Klarna as a System Engineer herding non-tangible machines in the cloud. As she succeeded abstracting her world at work, in private Johanna likes everything low-tech, old and manual. This includes cross-stitching, reading fantasy fiction and pre-enlightenment history.",
+      "about": "After 3 years at university studying Mechanical Engineering, Johanna discovered she didn't like machines at all. In fact, the more abstract the concept, the better. Fortunately, coding seemed to be just that. She steered her career away from anything tangible, and ended up at Klarna as a System Engineer herding non-tangible machines in the cloud. As she succeeded abstracting her world at work, in private Johanna likes everything low-tech, old and manual. This includes cross-stitching, reading fantasy fiction and pre-enlightenment history.",
       "talkPic": "assets/img/konferense-logo.png",
       "location": "Stockholm"
     },
@@ -885,7 +885,7 @@
       "name": "Sergey Evstifeev",
       "profilePic": "assets/img/speakers/sergey_evstifeev.jpg",
       "twitter": "",
-      "about": "Sergey is a software engineer at Klarna for more than 6 years, having worked with Erlang, Java, Ruby and Javascript. He\'s developing product features but tends to also focus a lot on the infrastructure. Among the things he likes are continuous delivery, Docker and immutable infrastructure. Previously he worked with mobile Java implementations at Sun Microsystems.",
+      "about": "Sergey is a software engineer at Klarna for more than 6 years, having worked with Erlang, Java, Ruby and Javascript. He's developing product features but tends to also focus a lot on the infrastructure. Among the things he likes are continuous delivery, Docker and immutable infrastructure. Previously he worked with mobile Java implementations at Sun Microsystems.",
       "talkPic": "assets/img/konferense-logo.png",
       "location": "Stockholm"
     },
