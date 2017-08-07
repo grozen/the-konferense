@@ -4,7 +4,7 @@ export type Speaker = Person
 
 import benedickKusemannPortrait from '../../public/speakers/benedick_kusemann.jpg'
 import billpayPortrait from '../../public/speakers/unknown.png'
-import christianDiehlPortrait from '../../public/speakers/christian_diehl.jpg'
+import bjornRathjensPortrait from '../../public/speakers/bjorn_rathjens.jpg'
 import davidFockPortrait from '../../public/speakers/david_fock.jpg'
 import eranManorPortrait from '../../public/speakers/eran_manor.jpg'
 import fernandoViaCanelPortrait from '../../public/speakers/fernando_via_canel.jpg'
@@ -68,9 +68,9 @@ const SpeakerList : Speaker[] = [
     bio: 'Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.'
   },
   {
-    portrait: christianDiehlPortrait,
-    name: 'Christian Diehl',
-    bio: 'Christian fulfills the usual stereotypes of a software developer: Hacking on his notebook with headphones on while sitting in the darkest room of the office. This is the usual way he works since he joined Klarna (SOFORT at this time) more than four years ago. He has experience mainly in Java, Javascript and most of the DevOps tools required to run microservices. He likes to learn and use new things which also results in his probably most used phrase: “new is always better”.'
+    portrait: bjornRathjensPortrait,
+    name: 'Björn Rathjens',
+    bio: 'Björn is the guy sitting in the corner of the office from where weird sounds emerge. He is convinced that those sounds are most often called metal or medieval rock. Inside and outside the office he works in team BeeHive and is always happy to help wherever he can. When out of the office his hobbies include gardening and his Ninja ZX-10R. For more fun around the house he started to be interested in house automation but on the other side he is afraid to live in an Ultrahouse 3000.'
   },
   {
     portrait: adamBergmarkPortrait,
