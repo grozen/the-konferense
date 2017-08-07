@@ -122,7 +122,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
         title: 'Headless But Not Brainless',
         description: 'Browsers support more and more web features everyday. If you are using web automation for either testing or scraping you don’t want to rely on frameworks that only support half of those features or do not behave like real browsers. Luckily chromium just introduced their headless mode and with chrome being one of the most used browsers it supports all web features and also behaves like a real browser. In this session I will introduce you to chromium, the headless mode and how to work with it. Furthermore I will go through changes that we made in our scraping infrastructure to use this technology and features that chromium does not offer so that we had to fork it.',
         room: 'C4',
-        speakers: [Speakers['christian diehl']]
+        speakers: [Speakers['björn rathjens']]
       }]
     },
     {
