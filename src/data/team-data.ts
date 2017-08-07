@@ -50,7 +50,7 @@ const TeamListUnshuffled : TeamMember[] = [
   {
     portrait: christianNiehoffPortrait,
     name: 'Christian Niehoff',
-    bio: 'Nam ut ipsum commodo, sollicitudin erat sed, pulvinar leo. Curabitur quis aliquam lectus. Nullam posuere ligula in bibendum accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi ut est et ipsum iaculis rutrum. Cras libero massa, finibus et urna quis, sodales condimentum libero. Fusce lobortis luctus nisl, sed varius neque iaculis fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi ut ligula aliquet, faucibus velit non, volutpat lacus. Nam a sollicitudin metus, eget elementum odio. Duis fringilla lectus at egestas aliquam.'
+    bio: 'Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.'
   },
   {
     portrait: elspethAndrellPortrait,
@@ -70,7 +70,7 @@ const TeamListUnshuffled : TeamMember[] = [
   {
     portrait: markusMichalskyPortrait,
     name: 'Markus Michalsky',
-    bio: 'Praesent tincidunt, nibh a pulvinar rutrum, neque ipsum congue dui, ultrices imperdiet tortor sem in ante. Sed at sem dapibus, cursus felis non, ultricies ex. Donec condimentum lacus nibh. Aenean purus eros, hendrerit sed aliquet nec, tincidunt sit amet dolor. Proin diam lacus, porttitor sodales mi quis, varius molestie tortor. Nullam tincidunt dictum velit, quis vehicula quam placerat non. Nulla ut neque auctor, semper magna non, malesuada eros.'
+    bio: 'Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.'
   },
   {
     portrait: matthiasFeistPortrait,
