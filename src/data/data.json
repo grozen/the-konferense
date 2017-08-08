@@ -1005,7 +1005,7 @@
     },
     {
       "name": "Manuel Braun",
-      "profilePic": "assets/img/speakers/manuel.jpg",
+      "profilePic": "assets/img/team/manuel.jpg",
       "twitter": "",
       "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1013,7 +1013,7 @@
     },
     {
       "name": "Matthias Feist",
-      "profilePic": "assets/img/speakers/matthias.jpg",
+      "profilePic": "assets/img/team/matthias.jpg",
       "twitter": "",
       "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1021,7 +1021,7 @@
     },
     {
       "name": "Josh Glover",
-      "profilePic": "assets/img/speakers/josh.jpg",
+      "profilePic": "assets/img/team/josh.jpg",
       "twitter": "",
       "about": "Aliquam et purus id felis vehicula dignissim eu id elit. Suspendisse augue odio, iaculis id orci vel, dignissim dictum urna. Mauris tincidunt pharetra dui, id dapibus lorem ullamcorper ut. Ut eu metus eu nibh hendrerit suscipit. Curabitur id sollicitudin nulla, in sollicitudin lacus. Nam viverra urna nunc, vitae porttitor sapien mattis placerat. Sed ut ullamcorper lectus. Suspendisse vestibulum mauris nisl, ac volutpat neque cursus vitae. Sed quis tortor a ligula tempus varius non id lectus. Suspendisse tellus est, aliquam id mi vitae, posuere ornare leo.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1029,7 +1029,7 @@
     },
     {
       "name": "Alexander Lindholm",
-      "profilePic": "assets/img/speakers/alexander.jpg",
+      "profilePic": "assets/img/team/alexander.jpg",
       "twitter": "",
       "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1037,7 +1037,7 @@
     },
     {
       "name": "Markus Michalsky",
-      "profilePic": "assets/img/speakers/markus.jpg",
+      "profilePic": "assets/img/team/markus.jpg",
       "twitter": "",
       "about": "Praesent tincidunt, nibh a pulvinar rutrum, neque ipsum congue dui, ultrices imperdiet tortor sem in ante. Sed at sem dapibus, cursus felis non, ultricies ex. Donec condimentum lacus nibh. Aenean purus eros, hendrerit sed aliquet nec, tincidunt sit amet dolor. Proin diam lacus, porttitor sodales mi quis, varius molestie tortor. Nullam tincidunt dictum velit, quis vehicula quam placerat non. Nulla ut neque auctor, semper magna non, malesuada eros",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1045,7 +1045,7 @@
     },
     {
       "name": "Moria Ahi Mordehai",
-      "profilePic": "assets/img/speakers/moria.jpg",
+      "profilePic": "assets/img/team/moria.jpg",
       "twitter": "",
       "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1053,7 +1053,7 @@
     },
     {
       "name": "Christian Niehoff",
-      "profilePic": "assets/img/speakers/christian.jpg",
+      "profilePic": "assets/img/team/christian.jpg",
       "twitter": "",
       "about": "Praesent tincidunt, nibh a pulvinar rutrum, neque ipsum congue dui, ultrices imperdiet tortor sem in ante. Sed at sem dapibus, cursus felis non, ultricies ex. Donec condimentum lacus nibh. Aenean purus eros, hendrerit sed aliquet nec, tincidunt sit amet dolor. Proin diam lacus, porttitor sodales mi quis, varius molestie tortor. Nullam tincidunt dictum velit, quis vehicula quam placerat non. Nulla ut neque auctor, semper magna non, malesuada eros",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1061,7 +1061,7 @@
     },
     {
       "name": "Kim Öberg",
-      "profilePic": "assets/img/speakers/kim.jpg",
+      "profilePic": "assets/img/team/kim.jpg",
       "twitter": "",
       "about": "Kim is originally a robotics engineer born and raised in Stockholm. She studied at KTH and also spent time abroad in both Sydney and Berlin. Her favourite tool at the moment is Docker and when she's not working you can usually find her baking (cupcakes mostly) or gaming (last played: Fallout).",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1069,7 +1069,7 @@
     },
     {
       "name": "Guy Rozen",
-      "profilePic": "assets/img/speakers/guy.jpg",
+      "profilePic": "assets/img/team/guy.jpg",
       "twitter": "",
       "about": "Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1077,7 +1077,7 @@
     },
     {
       "name": "Talya Stern",
-      "profilePic": "assets/img/speakers/talia.jpg",
+      "profilePic": "assets/img/team/talia.jpg",
       "twitter": "",
       "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
       "talkPic": "assets/img/konferense-logo.png",
@@ -1085,7 +1085,7 @@
     },
     {
       "name": "Case Taintor",
-      "profilePic": "assets/img/speakers/case.jpg",
+      "profilePic": "assets/img/team/case.jpg",
       "twitter": "",
       "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
       "talkPic": "assets/img/konferense-logo.png",
