@@ -31,8 +31,8 @@ const tsIfDef = production => ifdef(preprocessor(production), typescript({
 
 const appPath = (...names) => path.join(process.cwd(), ...names);
 
-const customConfig = fs.existsSync(appPath('webpack.config.js')) ?
-    require(appPath('webpack.config.js')) :
+const customConfig = fs.existsSync(appPath('webpack.config.appjson.js')) ?
+    require(appPath('webpack.config.appjson.js')) :
     {};
 
 function imageHandler () {
@@ -61,17 +61,6 @@ module.exports = createConfig([
     defineConstants({
         'process.env.NODE_ENV': process.env.NODE_ENV
     }),
-    addPlugins([
-        new HtmlWebpackPlugin({
-            template: './index.ejs',
-            inject: true,
-            favicon: 'public/favicon.png',
-            hash: true
-        }),
-        new webpack.ProvidePlugin({
-            Snabbdom: 'snabbdom-pragma'
-        })
-    ]),
     env('development', [
         tsIfDef(false),
         devServer(),
@@ -84,15 +73,7 @@ module.exports = createConfig([
         tsIfDef(true),
         imageHandler(),
         addPlugins([
-            new CleanWebpackPlugin(['dist'], {root: appPath()}),
-            new webpack.optimize.UglifyJsPlugin(),
-            new CopyWebpackPlugin([
-                {from: '2016/dist', to: '2016'},
-                {from: 'CNAME'},
-                {from: 'public/data.json'},
-                {from: 'public/opengraph.png', to: 'opengraph.png'},
-                {from: 'public/code-of-conduct-klarna-events.pdf', to: 'public/code-of-conduct-klarna-events.pdf'}
-            ])
+            new CleanWebpackPlugin(['tmp'], {root: appPath()}),
         ])
     ])
 ])

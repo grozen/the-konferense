@@ -413,6 +413,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       endTime: '19:00',
       events: [{
         id: 1,
+        room: 'C1+C2+C3',
         title: 'Drinks'
       }]
     }

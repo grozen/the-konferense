@@ -36,7 +36,7 @@ import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
 import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
 import koenKoppenPortrait from '../../public/speakers/koen-koppen.jpg'
 
-const SpeakerList : Speaker[] = [
+export const SpeakerList : Speaker[] = [
   {
     portrait: koenKoppenPortrait,
     name: 'Koen Köppen',
