@@ -25,20 +25,15 @@ export type Agenda<T> = {
 }
 
 export const AgendaDataGathering : Agenda<RoomsGathering> = {
-  roomNames: ['C halls', 'A2'],
+  roomNames: ['C halls'],
   timeSlots: [
     {
-      startTime: '08:30',
+      startTime: '08:00',
       endTime: '09:00',
       events: [{
         id: 1,
-        title: 'Registration',
+        title: 'Registration & Breakfast',
         room: 'C halls'
-      },
-      {
-        id: 1,
-        title: 'Breakfast',
-        room: 'A2'
       }]
     }
   ]
@@ -88,10 +83,10 @@ export const AgendaDataOpening : Agenda<RoomsOpening> = {
     },
     {
       startTime: '10:35',
-      endTime: '10:45',
+      endTime: '11:00',
       events: [{
         id: 1,
-        title: 'Break & move downstairs (10m)'
+        title: 'Move downstairs to C & Fika (25m)'
       }]
     }
   ]
@@ -101,8 +96,8 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
   roomNames: ['C1+C2', 'C3', 'C4'],
   timeSlots: [
     {
-      startTime: '10:45',
-      endTime: '11:15',
+      startTime: '11:00',
+      endTime: '11:30',
       events: [{
         id: 1,
         title: 'LiveOps Darkest Secrets',
@@ -126,16 +121,16 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '11:15',
-      endTime: '11:30',
+      startTime: '11:30',
+      endTime: '11:45',
       events: [{
         id: 1,
-        title: 'Transition'
+        title: 'Transition (15m)'
       }]
     },
     {
-      startTime: '11:30',
-      endTime: '12:00',
+      startTime: '11:45',
+      endTime: '12:15',
       events: [{
         id: 1,
         title: 'First Class Error Handling',
@@ -159,16 +154,16 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '12:00',
-      endTime: '13:00',
+      startTime: '12:15',
+      endTime: '13:15',
       events: [{
         id: 1,
-        title: 'Lunch'
+        title: 'Lunch (60m)'
       }]
     },
     {
-      startTime: '13:00',
-      endTime: '13:30',
+      startTime: '13:15',
+      endTime: '13:45',
       events: [{
         id: 1,
         title: 'When You Know Better, You Do Better',
@@ -192,16 +187,16 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '13:30',
-      endTime: '13:45',
+      startTime: '13:45',
+      endTime: '14:00',
       events: [{
         id: 1,
-        title: 'Transition'
+        title: 'Transition (15m)'
       }]
     },
     {
-      startTime: '13:45',
-      endTime: '14:15',
+      startTime: '14:00',
+      endTime: '14:30',
       events: [{
         id: 1,
         title: 'Machine Learning For The Masses',
@@ -225,16 +220,16 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '14:15',
-      endTime: '14:30',
+      startTime: '14:30',
+      endTime: '14:45',
       events: [{
         id: 1,
-        title: 'Transition'
+        title: 'Transition (15m)'
       }]
     },
     {
-      startTime: '14:30',
-      endTime: '15:00',
+      startTime: '14:45',
+      endTime: '15:15',
       events: [{
         id: 1,
         title: 'War Stories: A Journey of Implementing Kubernetes',
@@ -258,16 +253,16 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '15:00',
-      endTime: '15:15',
+      startTime: '15:15',
+      endTime: '15:30',
       events: [{
         id: 1,
-        title: 'Transition'
+        title: 'Transition (15m)'
       }]
     },
     {
-      startTime: '15:15',
-      endTime: '15:45',
+      startTime: '15:30',
+      endTime: '16:00',
       events: [{
         id: 1,
         title: 'Software Erosion Resistance',
@@ -291,11 +286,11 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       }]
     },
     {
-      startTime: '15:45',
-      endTime: '16:15',
+      startTime: '16:00',
+      endTime: '16:30',
       events: [{
         id: 1,
-        title: 'Fika'
+        title: 'Fika (30m)'
       }]
     }
   ]
@@ -305,8 +300,8 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
   roomNames: ['C1+C2+C3'],
   timeSlots: [
     {
-      startTime: '16:15',
-      endTime: '17:15',
+      startTime: '16:30',
+      endTime: '17:30',
       events: [{
         id: 1,
         title: 'Lightning Talks',
@@ -318,7 +313,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       endTime: '',
       events: [{
         id: 1,
-        title: 'How to make things accessible with html5&co?',
+        title: 'How to make things accessible with html5 & co?',
         description: 'TBA',
         room: 'C1+C2+C3',
         speakers: [Speakers['immanuel kühnle']]
@@ -404,8 +399,8 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       }]
     },
     {
-      startTime: '17:15',
-      endTime: '17:20',
+      startTime: '17:30',
+      endTime: '17:40',
       events: [{
         id: 1,
         title: 'Closing words',
@@ -414,7 +409,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       }]
     },
     {
-      startTime: '17:20',
+      startTime: '17:40',
       endTime: '19:00',
       events: [{
         id: 1,
