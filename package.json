@@ -52,8 +52,10 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --config configs/webpack.config.js",
     "test": "cross-env NODE_ENV=test nyc mocha-webpack --timeout=100000 --colors --webpack-config configs/webpack.config.test.js test/**/*.test.*",
     "build": "cross-env NODE_ENV=production webpack --config configs/webpack.config.js",
-    "clean": "rimraf dist .tmp .nyc_output",
-    "deploy": "npm run build && gh-pages -d dist"
+    "clean": "rimraf dist tmp .tmp .nyc_output",
+    "deploy": "npm run appjson && npm run build && gh-pages -d dist",
+    "appjson": "npm run appjson:compile && node tmp/generateappjson.js",
+    "appjson:compile": "cross-env NODE_ENV=production webpack --config configs/webpack.config.appjson.js"
   },
   "nyc": {
     "include": [
