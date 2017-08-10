@@ -1,0 +1,1090 @@
+{
+  "schedule": [
+    {
+      "date": "2017-09-14",
+      "groups": [
+        {
+          "time": "08:00",
+          "sessions": [
+            {
+              "name": "Registration & Breakfast",
+              "location": "C halls",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "08:00",
+              "timeEnd": "09:00",
+              "trackId": "C halls",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "09:00",
+          "sessions": [
+            {
+              "name": "Opening words",
+              "location": "A2",
+              "description": "",
+              "speakerNames": [
+                "Case Taintor"
+              ],
+              "timeStart": "09:00",
+              "timeEnd": "09:15",
+              "trackId": "A2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "09:15",
+          "sessions": [
+            {
+              "name": "Keynote - The Art of Reinvention",
+              "location": "A2",
+              "description": "The world's a big place, with lots of exciting things to do and try. Yet as a society we pressure folks to pigeonhole themselves into silos: pick a major at university, choose an industry to work in, buy a house and settle down. Nowhere is this more true than in the world of tech, where there is often no clear path from engineer or product manager to leader. But what if you want to move around, especially at work? In this talk, Kara shares three key lessons gleaned from over a decade moving seamlessly between the highest levels tech, entertainment, and sports and how you can apply those strategies to your career.",
+              "speakerNames": [
+                "Kara Defrias"
+              ],
+              "timeStart": "09:15",
+              "timeEnd": "10:05",
+              "trackId": "A2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:05",
+          "sessions": [
+            {
+              "name": "Break (10m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "10:05",
+              "timeEnd": "10:15",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:15",
+          "sessions": [
+            {
+              "name": "Product Vision",
+              "location": "A2",
+              "description": "",
+              "speakerNames": [
+                "David Fock"
+              ],
+              "timeStart": "10:15",
+              "timeEnd": "10:35",
+              "trackId": "A2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:35",
+          "sessions": [
+            {
+              "name": "Move downstairs to C & Fika (25m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "10:35",
+              "timeEnd": "11:00",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "sessions": [
+            {
+              "name": "LiveOps Darkest Secrets",
+              "location": "C1+C2",
+              "description": "What is LiveOps? What do we do? Why do we even need a LiveOps team? How can you benefit from our existence? Those are some of the questions I will be answering during this talk. I will also share some cool numbers and graphs that you might not even know existed; one of the benefits of being a team that has been around since before Engineering existed. Actually, even before Klarna existed!",
+              "speakerNames": [
+                "Nadia Mohedano Troyano"
+              ],
+              "timeStart": "11:00",
+              "timeEnd": "11:30",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "The (inter)view From Over Here",
+              "location": "C3",
+              "description": "The TLV site has changed quite a bit in form and function during its six years of existence. This is possibly most evident in the site's hiring process, which was constantly honed to ensure we have the right people for the challenges ahead. We will examine the process's evolution, its strong ties to our office culture and the challenges we faced along the way. Not only will this journey expose a unique perspective of the TLV site's history, it will also offer our insights into hiring people you would love to work with.",
+              "speakerNames": [
+                "Guy Rozen"
+              ],
+              "timeStart": "11:00",
+              "timeEnd": "11:30",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Headless But Not Brainless",
+              "location": "C4",
+              "description": "Browsers support more and more web features everyday. If you are using web automation for either testing or scraping you don’t want to rely on frameworks that only support half of those features or do not behave like real browsers. Luckily chromium just introduced their headless mode and with chrome being one of the most used browsers it supports all web features and also behaves like a real browser. In this session I will introduce you to chromium, the headless mode and how to work with it. Furthermore I will go through changes that we made in our scraping infrastructure to use this technology and features that chromium does not offer so that we had to fork it.",
+              "speakerNames": [
+                "Björn Rathjens"
+              ],
+              "timeStart": "11:00",
+              "timeEnd": "11:30",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:30",
+          "sessions": [
+            {
+              "name": "Transition (15m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "11:30",
+              "timeEnd": "11:45",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "11:45",
+          "sessions": [
+            {
+              "name": "First Class Error Handling",
+              "location": "C1+C2",
+              "description": "Thinking of all possible errors in a program is almost impossible and it often seems like busy work that doesn't get you closer to your business goals. One reason it is hard is that we often push errors to the side, leaving them as an afterthought. In this talk we'll look at ways to allow you to stay on the happy path of what you want to achieve without having unexpected errors slip through the cracks.",
+              "speakerNames": [
+                "Adam Bergmark"
+              ],
+              "timeStart": "11:45",
+              "timeEnd": "12:15",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "WTF is Wavy? A story from zero to something",
+              "location": "C3",
+              "description": "How do you take 14 people from an insolvent company, a Swedish payment giant and an office dog and make a p2p payment app for Europe in half a year? In this session we will talk about the past six months at Wavy - how we work, what mistakes we made, which best practices we ignored and how we plug into Klarna. We will also show the best (and worst) parts of the complex system beneath the elegant surface.",
+              "speakerNames": [
+                "Dario Pasquantonio",
+                "Joseph Tindale"
+              ],
+              "timeStart": "11:45",
+              "timeEnd": "12:15",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Adobe Flash: Post-mortem",
+              "location": "C4",
+              "description": "Flash is dead, but it didn't go down without a fight. I'll be taking you on a journey from the early days of Flash as an animation tool to when it became a rich software development suite. I'll be pointing out some interesting similarities between Flash and recent web technologies: SVG, JSX, Typescript, AJAX streams, video manipulation - Flash was the hipster kid who liked them before they were cool.",
+              "speakerNames": [
+                "Omri Yariv"
+              ],
+              "timeStart": "11:45",
+              "timeEnd": "12:15",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:15",
+          "sessions": [
+            {
+              "name": "Lunch (60m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "12:15",
+              "timeEnd": "13:15",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "13:15",
+          "sessions": [
+            {
+              "name": "When You Know Better, You Do Better",
+              "location": "C1+C2",
+              "description": "We are all in the product business, either directly or indirectly. Some teams in engineering build products that reach external customers, and some serve internal support functions. No matter which role we play we can always strive to do better, and data is key to that. I will explain a mindset where data is seen as an integral part of the product, and how this can be leveraged to create more value and better products. As a way to achieve this I'll introduce the Business Intelligence team and present the mutual benefits with a partnership. We will also go into some examples on how to use our data, and you might learn a few things about our products that you didn't know before!",
+              "speakerNames": [
+                "Karin Kullman"
+              ],
+              "timeStart": "13:15",
+              "timeEnd": "13:45",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Design (and Build) for Snap",
+              "location": "C3",
+              "description": "“That was easy and quick - done with the snap of a finger!”. Is this how ALL your users perceive your product? If so, you might be better off going to the talk next door... The idea behind this talk began with my dog getting frustrated when failing to get to his delicious treat (I’ll show you exactly why). It made me think about user-centered design and its challenges. How can us product developers build products that actually support this approach? How can we design and build products for all user types when they differ so much from one another? This talk is for all you product developers. It is not focused on visual design styles. It is not focused on new technologies either. This talk maps out practices, supported by real-life examples. Following these practices will help you build products that users will love using.",
+              "speakerNames": [
+                "Nir Aravot"
+              ],
+              "timeStart": "13:15",
+              "timeEnd": "13:45",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "The Least Painful Way to Build a Web App",
+              "location": "C4",
+              "description": "Server calls, user interactions, cross iframe communication... there's a lot happening in web apps. Trying to reason about all the conditions in the application logic is tricky and without some guidelines to keep it simple it can easily get out of hand.",
+              "speakerNames": [
+                "Fernando Vía Canel",
+                "Paulo Ragonha"
+              ],
+              "timeStart": "13:15",
+              "timeEnd": "13:45",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "13:45",
+          "sessions": [
+            {
+              "name": "Transition (15m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "13:45",
+              "timeEnd": "14:00",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "sessions": [
+            {
+              "name": "Machine Learning For The Masses",
+              "location": "C1+C2",
+              "description": "Machine Learning seems to be on everyone's lips these days. In fact there is so much information out there that it is hard to really understand what it is and why you would want to use it. Never fear, when you come to my talk you will get an overview of the types of machine learning and different ways in which people are using it! The first step is demystifying the math. All you need to know is what the terms mean so you know which functions to call to start getting results! Now that you know the what let's explore the how! You will learn to identify good problems and I will walk you through my own learning experience. Finally, I will give you some tips on how to solve the problems you have today and the ones you will encounter tomorrow (or maybe just let your robot do those too).",
+              "speakerNames": [
+                "Mariana Bocoi"
+              ],
+              "timeStart": "14:00",
+              "timeEnd": "14:30",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Cashless Society and the Impact on Klarna and Beggary",
+              "location": "C3",
+              "description": "With a push from governments, banks and consumers, becoming a cashless society is closer than ever. In this session I will talk about the efforts done in different countries to move away from cash, the benefits and challenges in a no cash society and new opportunities for Klarna. Will we become a cashless society in the foreseeable future? If you are an engineer or a product manager who wants to learn more about this important change that will impact each and everyone of us, this talk is for you.",
+              "speakerNames": [
+                "Eran Manor"
+              ],
+              "timeStart": "14:00",
+              "timeEnd": "14:30",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Evolution Through Genetic Algorithms",
+              "location": "C4",
+              "description": "Have you ever wondered about how evolution did such a good job in creating us, humans, even though billion years ago Earth was populated exclusively by simple, single celled organisms? Isn't that amazing? What is even cooler about it is that it can be used to solve all kinds of other problems! This talk will show you how evolution can be used as an all purpose algorithm to solve some optimisation problems you might run into. It will show you how to model your own evolution by teaching you how to tailor your own, specific crossover and mutation operators and how to choose the fittest individuals to drive forward your search of a solution. To prove that all of this is true and working, we are going to play with some usual and unusual applications of the evolution - from a small world with animals trying to evolve to get more food and mates, to usage of evolution in music composition and medicine.",
+              "speakerNames": [
+                "Maja Kontrec"
+              ],
+              "timeStart": "14:00",
+              "timeEnd": "14:30",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:30",
+          "sessions": [
+            {
+              "name": "Transition (15m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "14:30",
+              "timeEnd": "14:45",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "14:45",
+          "sessions": [
+            {
+              "name": "War Stories: A Journey of Implementing Kubernetes",
+              "location": "C1+C2",
+              "description": "This is the story of how Kubernetes became the platform for the Klarna build farm. Back in 2016, an idea for solving the problems of slow feedback loops and stagnant structures of running Jenkins in KCloud, was born. This was the beginning. In this session I will tell you the story of this Dawn of Joy, full of promises of new, cool features. I will also tell you about the Days of Improvement, during which we were blissfully unaware of the impending D-Day, the KCloud Decommission, the day which put everything to the test. But how did it end? Did it end? Did we solve our initial problem? Did we learn anything by implementing a cool, new, bleeding edge technology? By digging through post mortems and the shared team memory, I'll share the war stories of porting our entire service portfolio to a new platform, and teach you what you need to know if you ever want to go to war.",
+              "speakerNames": [
+                "Johanna Simonsson"
+              ],
+              "timeStart": "14:45",
+              "timeEnd": "15:15",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Mystery Talk",
+              "location": "C3",
+              "description": "Shh... it's a secret",
+              "speakerNames": [
+                "A speaker"
+              ],
+              "timeStart": "14:45",
+              "timeEnd": "15:15",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Prototype your idea today!",
+              "location": "C4",
+              "description": "Product managers want to materialize ideas rapidly and test their hypotheses. On the other hand, designers and engineers don't like to build something that will be thrown away. Seriously, who would? Prototyping should be a low commitment effort. For the Klarna Payments Direct Debit launch, we came up with a pretty nice setup to swiftly build high-fidelity prototypes using Sagui, the Klarna UI and some more React. In this session I'll show you how to build your own cool prototypes, and tell you why you should do it more often.",
+              "speakerNames": [
+                "Jonathan Trujillo"
+              ],
+              "timeStart": "14:45",
+              "timeEnd": "15:15",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "15:15",
+          "sessions": [
+            {
+              "name": "Transition (15m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "15:15",
+              "timeEnd": "15:30",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "15:30",
+          "sessions": [
+            {
+              "name": "The secret sauce of high performance",
+              "location": "C1+C2",
+              "description": "TBA",
+              "speakerNames": [
+                "Anton Fenske"
+              ],
+              "timeStart": "15:30",
+              "timeEnd": "16:00",
+              "trackId": "C1+C2",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "UX Design in Context",
+              "location": "C3",
+              "description": "Have you ever asked yourself, why you don´t manage to buy a ticket at the ticket machine in a foreign town even though you have an engineering degree? The talk will explain the principles that underlie good UX design and give some background on user and task requirements. You will learn, why UI toolkits are not enough to produce usable UIs and that data and collaboration is key to do a really good job in UX/UI design.",
+              "speakerNames": [
+                "Brigitte Ringbauer"
+              ],
+              "timeStart": "15:30",
+              "timeEnd": "16:00",
+              "trackId": "C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Connecting the Dots - How Cookie Syncing Works",
+              "location": "C4",
+              "description": "Internet advertising is one of the fastest growing market on the planet. The goal in most cases is to maximize revenue from the ads. One of the way to go towards this goal is to narrow the target audience to people that actually may be interested in the product/service. To help with that advertisers utilizing cookie syncing to collect and properly activate user data.",
+              "speakerNames": [
+                "Grzegorz Łukaszewicz"
+              ],
+              "timeStart": "15:30",
+              "timeEnd": "16:00",
+              "trackId": "C4",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "sessions": [
+            {
+              "name": "Fika (30m)",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "16:00",
+              "timeEnd": "16:30",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "16:30",
+          "sessions": [
+            {
+              "name": "Lightning Talks",
+              "location": "C1+C2+C3",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "16:30",
+              "timeEnd": "17:30",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "",
+          "sessions": [
+            {
+              "name": "How to make things accessible with html5 & co?",
+              "location": "C1+C2+C3",
+              "description": "TBA",
+              "speakerNames": [
+                "Immanuel Kühnle"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "A (wo)man's world!",
+              "location": "C1+C2+C3",
+              "description": "Gender diversity is a hot topic at the moment! Here in Engineering, I'm one of only two Team Leads that identify as a woman. I would like to share my experience of leading a team of only men. I joined Klarna almost 7 years ago, fresh from university, at a time when there were only 3-4 women in Engineering. I will share how hard (or easy) it has been for me to get to where I am today, what I've heard (and learnt) in the process (good and bad), what helped me get here and what almost made me give up!",
+              "speakerNames": [
+                "Nadia Mohedano Troyano"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "",
+          "sessions": [
+            {
+              "name": "Trust me, I work in IT",
+              "location": "C1+C2+C3",
+              "description": "Telephone tech support scams are very common. And apparently successful. Why? Trust is the foundation of all human connections and eventually people want to trust people. This is a talk about what happens when such a scammer calls a security guy with free time on his hands.",
+              "speakerNames": [
+                "Georgios Kryparos"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Out of the Blue - Color Psychology in Web Design",
+              "location": "C1+C2+C3",
+              "description": "Colors have an enormous psychological impact on our subconscious: they affect our mood, our decision making and eventually our behavior. We are going to explore how clever usage of colors in web design can affect our users",
+              "speakerNames": [
+                "Linoy Zaga"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "",
+          "sessions": [
+            {
+              "name": "Screen Scraping - The Good, the Bad and the Funny",
+              "location": "C1+C2+C3",
+              "description": "SOFORTs main product is based on the screen scraping of bank websites. While developing and maintaining such Technology, one comes into contact with an API not expected to be used in that way. This talk centers around common pitfalls, daily boulder rolling and other things Sisyphus would do to escape death another time, while also maintaining sanity when dealing with the craziest errors.",
+              "speakerNames": [
+                "Benedikt Kusemann"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Jiggle Me This, Juggle Me That",
+              "location": "C1+C2+C3",
+              "description": "Team \"Awesome\" seem to have a lot on these days. They have company goals, domain goals, experiments they want to build and tech debt to tied up. Urgent Production Issues seem to pop up out of nowhere... and on top of it all, their Product Manager has just added this-next-great-thing to their backlog! How are they supposed to manage it all? I feel for them; I really do. But it's not unlike the situation I face each month: as soon as the paycheck comes in, my significant other always seems to have other ideas as to where that money should go. In my talk, I'm going to illustrate a lightweight budgeting system that we use to make sure essential bills are paid, commitments are met, surprises are catered for and little luxuries are picked up along the way. It means conversations about what we pay for and when can be clearer and easier, leaving us alot happier as a result. And as they say, a happy wife is a happy life...",
+              "speakerNames": [
+                "Derek Homer"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "",
+          "sessions": [
+            {
+              "name": "Adjust your SOLID grip",
+              "location": "C1+C2+C3",
+              "description": "SOLID principles - the golden guidelines set to keep our code clean, readable and maintainable. While code quality is an important factor regardless of your programming paradigm, SOLID is highly focused on Object Oriented programming. Could we apply SOLID principles in a more universal manner? The talk will refresh our memory on SOLID while exploring this question.",
+              "speakerNames": [
+                "Talya Stern"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "How China and Brazil worked it out",
+              "location": "C1+C2+C3",
+              "description": "Distance makes everything harder. With me and my boyfriend in China and Brazil, the relationship needed special attention. Being on a team spanning two continents, we had to adopt practices to help us perform as ONE team. I will share my two stories, what I learned from them, and how you can use them to be effective in a global world.",
+              "speakerNames": [
+                "Mei Yang"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "",
+          "sessions": [
+            {
+              "name": "A friend called Ruby?",
+              "location": "C1+C2+C3",
+              "description": "After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn't take long, though, before I realized the ride won't be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.",
+              "speakerNames": [
+                "Tamir Taub"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            },
+            {
+              "name": "Dashboard Driven Development",
+              "location": "C1+C2+C3",
+              "description": "Data helps making sense of your service, yet, it's meaningless without context and subsequent actions. In this life-changing talk, you will learn how dashboards can assist you in getting the answer to your most pressing questions.",
+              "speakerNames": [
+                "Guy Israeli"
+              ],
+              "timeStart": "",
+              "timeEnd": "",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "17:30",
+          "sessions": [
+            {
+              "name": "Closing words",
+              "location": "C1+C2+C3",
+              "description": "",
+              "speakerNames": [
+                "Koen Köppen"
+              ],
+              "timeStart": "17:30",
+              "timeEnd": "17:40",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        },
+        {
+          "time": "17:40",
+          "sessions": [
+            {
+              "name": "Drinks",
+              "location": "C1+C2+C3",
+              "description": "",
+              "speakerNames": [],
+              "timeStart": "17:40",
+              "timeEnd": "19:00",
+              "trackId": "C1+C2+C3",
+              "tracks": [
+                "KonferenSE"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "map": [
+    {
+      "name": "Stockholm Waterfront Conference Centre",
+      "lat": 59.329586,
+      "lng": 18.057054,
+      "center": true
+    },
+    {
+      "name": "Klarna HQ",
+      "lat": 59.3371687,
+      "lng": 18.0619308
+    }
+  ],
+  "speakers": [
+    {
+      "name": "Koen Köppen",
+      "twitter": "",
+      "about": "TBA",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/koen-koppen.jpg",
+      "talkPic": "assets/img/speakers/koen-koppen.jpg"
+    },
+    {
+      "name": "A speaker",
+      "twitter": "",
+      "about": "Maybe several speakers? The air of mystery is indeed thick.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/unknown.png",
+      "talkPic": "assets/img/speakers/unknown.png"
+    },
+    {
+      "name": "Kara Defrias",
+      "twitter": "",
+      "about": "Kara's passion for designing engaging experiences has brought her to many exciting places, including the Super Bowl, Oscars, and most recently, the White House as UX Director for Vice President Biden. Previously, Kara was in the first class of Presidential Innovation Fellows, where she served as entrepreneur in residence to reimagine the relationship between the government and the people from a technology perspective. She also spent 4 years at TurboTax and founded TEDxIntuit. Twitter: @KaraDeFrias.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/kara_defrias.jpg",
+      "talkPic": "assets/img/speakers/kara_defrias.jpg"
+    },
+    {
+      "name": "David Fock",
+      "twitter": "",
+      "about": "TBA",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/david_fock.jpg",
+      "talkPic": "assets/img/speakers/david_fock.jpg"
+    },
+    {
+      "name": "Nadia Mohedano Troyano",
+      "twitter": "",
+      "about": "Nadia always wanted to be a math teacher but, decided to go for Telecommunications Engineering since it sounded more challenging. She was not wrong! She thinks life is better with a smile, and that's why you might recognise her by her loud laugh. But it's all a trick! She is part of LiveOps, those mean people that wake you up in the middle of the night and ask for Incident Reports when things break! She likes to keep herself busy and loves to give back by being part of initiatives such as ClojureBridge, GeekGirlMeetup, and PinkProgramming Summer Camps. She also likes to talk, and what better place to do it than at the KonferenSE?",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/nadia_mohedano_troyano.jpg",
+      "talkPic": "assets/img/speakers/nadia_mohedano_troyano.jpg"
+    },
+    {
+      "name": "Guy Rozen",
+      "twitter": "",
+      "about": "Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/guy_rozen.jpg",
+      "talkPic": "assets/img/speakers/guy_rozen.jpg"
+    },
+    {
+      "name": "Björn Rathjens",
+      "twitter": "",
+      "about": "Björn is the guy sitting in the corner of the office from where weird sounds emerge. He is convinced that those sounds are most often called metal or medieval rock. Inside and outside the office he works in team BeeHive and is always happy to help wherever he can. When out of the office his hobbies include gardening and his Ninja ZX-10R. For more fun around the house he started to be interested in house automation but on the other side he is afraid to live in an Ultrahouse 3000.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/bjorn_rathjens.jpg",
+      "talkPic": "assets/img/speakers/bjorn_rathjens.jpg"
+    },
+    {
+      "name": "Adam Bergmark",
+      "twitter": "",
+      "about": "Adam travels the world (limited to Europe) to learn how to write robust software which coincidentally also makes it fun. He is currently focusing on functional programming, the new and cool paradigm that was invented in the 30s.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/adam_bergmark.jpg",
+      "talkPic": "assets/img/speakers/adam_bergmark.jpg"
+    },
+    {
+      "name": "Dario Pasquantonio",
+      "twitter": "",
+      "about": "Dario was not like the other Italians. Dario didn't have a funny accent, he didn't use his hands during a conversation. He didn't love his mom, didn't like good food, the sun or the crystal clear sea. One day he had enough: he packed his backpack, and started seeking new adventures. He ended up in Berlin, where he found what he has always been looking for: rain, cold, Pizza Hawaii and darkness. During the last three years he found his place in the FinTech startup scene, in the sombre shadows of the backend; it is a challenging, stressful place, from which he constantly tries to escape using his most powerful weapon: sarcasm.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/dario_pasquantonio.jpg",
+      "talkPic": "assets/img/speakers/dario_pasquantonio.jpg"
+    },
+    {
+      "name": "Joseph Tindale",
+      "twitter": "",
+      "about": "Joe is a European Brit, making him a bit of an outcast in the country of his birth. He moved to Berlin and joined Cookies, a really awesome startup. Unfortunately, the company went insolvent shortly after his arrival, although he is convinced the two events were not connected. Luckily, Wavy emerged from the ashes and he gets to continue working with amazing colleagues. Outside of work, Joe captains a cricket team where he plays with players from all over the world and confuses everyone else in the office with talk of “short legs” and “silly points”. He also satisfies his creative needs by playing classical and jazz piano.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/joseph_tindale.jpg",
+      "talkPic": "assets/img/speakers/joseph_tindale.jpg"
+    },
+    {
+      "name": "Omri Yariv",
+      "twitter": "",
+      "about": "Omri started playing around with building websites as a teenager thinking he could become a Graphic Designer. When he understood he sucks at Graphic Design he moved on to focus on programming. Since then throughout his career he stayed close to the Frontend. His first real-world job was building Flash banners and landing pages for the advertising industry - for this he asks your forgiveness.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/omri_yariv.jpg",
+      "talkPic": "assets/img/speakers/omri_yariv.jpg"
+    },
+    {
+      "name": "Karin Kullman",
+      "twitter": "",
+      "about": "Karin set out with big dreams in life, but not much of a plan. She attended one year at Karlstad uni and one day at KTH, acquired a medieval jousting team, apprenticed in a smithy, got herself a six shooter and founded a toy weapons store. Thanks to the webshop she decided to study software development, and joined the Klarna Erlang crew one glorious day in May. Karin now resides in the data warehouse team, creating sense and meaning from data where there seem to be none. She loves the puzzles she faces at work, and also really enjoys playing boardgames with friends.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/karin_kullman.jpg",
+      "talkPic": "assets/img/speakers/karin_kullman.jpg"
+    },
+    {
+      "name": "Nir Aravot",
+      "twitter": "",
+      "about": "Husband, cool uncle, twin, dog owner, animal lover, product manager, industrial engineer, entrepreneur, innovative, technology passionate, lean advocate, data driven, team player, open minded, book worm, tel-avivian, adventurous traveller.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/nir_aravot.jpg",
+      "talkPic": "assets/img/speakers/nir_aravot.jpg"
+    },
+    {
+      "name": "Fernando Vía Canel",
+      "twitter": "",
+      "about": "Fernando tried to be a wizard, a warrior and a bard at the same time, so he ended up not being good at anything. As a last measure, to avoid imminent dishonor, he took after his parents and their parents before them and joined the programmer's guild as an apprentice. Through toil and sweat he found out that it's way easier to make management happy by pushing a couple of pixels than by building rockets, so he slyly turned into a con-art... front-end developer. Totally serious job, and not at all the reason why he is no longer allowed in his ancestor's shrine.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/fernando_via_canel.jpg",
+      "talkPic": "assets/img/speakers/fernando_via_canel.jpg"
+    },
+    {
+      "name": "Paulo Ragonha",
+      "twitter": "",
+      "about": "Paulo woke up one day and realised he had to write a bio for himself, unaware of what to do, he wrote down this long sentence in attempt to catch the reader's imagination into thinking he is a great software developer that enjoys doing open-source and biking.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/paulo_ragonha.jpg",
+      "talkPic": "assets/img/speakers/paulo_ragonha.jpg"
+    },
+    {
+      "name": "Mariana Bocoi",
+      "twitter": "",
+      "about": "Mariana is a passionate software developer by day and a graphic designer by night. Some of the teams at Klarna have logos created by Mariana.&nbsp;What you might not know is that she studied human computer interaction and usability. Then she had a short stint in a german fabLab learning and having fun with laser cutters and electronics where Mariana manufactured her own small batch of arduino clones. &nbsp;The thing Mariana enjoys the most is learning new things! One of her learning journeys led her to discover clojure well enough to teach it to beginners. Now she is developing in clojure with her current team. Her next learning challenge became Machine learning...",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/mariana_bocoi.jpg",
+      "talkPic": "assets/img/speakers/mariana_bocoi.jpg"
+    },
+    {
+      "name": "Eran Manor",
+      "twitter": "",
+      "about": "Eran started working at Klarna in 2013. He is the Product manager for Personas and Preferences at Klarna TLV, Eran is passionate about simplifying complex problems and building intuitive, easy to use and valuable services. He has over 15 years of Product Management experience in various companies from small to big size corporates. In his free time Eran likes to run and play on different musical instruments (with little success though). Recently he became addicted to Chess and plays Blitz games with people around the world.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/eran_manor.jpg",
+      "talkPic": "assets/img/speakers/eran_manor.jpg"
+    },
+    {
+      "name": "Maja Kontrec",
+      "twitter": "",
+      "about": "Maja is a passionate (functional) programmer and a musician. As an artist in engineers body, she is always curious about finding unusual solutions to usual problems. Growing up surrounded by computers her dad would bring home, she managed to greet the world through a program for the first time at the age of 11. Little did she know that one day, she would do something similar for living. So here she is now, hacking her days away as an Erlang Solution's consultant at Klarna.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/maja_kontrec.jpg",
+      "talkPic": "assets/img/speakers/maja_kontrec.jpg"
+    },
+    {
+      "name": "Johanna Simonsson",
+      "twitter": "",
+      "about": "After 3 years at university studying Mechanical Engineering, Johanna discovered she didn't like machines at all. In fact, the more abstract the concept, the better. Fortunately, coding seemed to be just that. She steered her career away from anything tangible, and ended up at Klarna as a System Engineer herding non-tangible machines in the cloud. As she succeeded abstracting her world at work, in private Johanna likes everything low-tech, old and manual. This includes cross-stitching, reading fantasy fiction and pre-enlightenment history.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/johanna_simonsson.jpg",
+      "talkPic": "assets/img/speakers/johanna_simonsson.jpg"
+    },
+    {
+      "name": "Jonathan Trujillo",
+      "twitter": "",
+      "about": "Jonathan Trujillo is a Software Engineer and Front-end Developer from Caracas, Venezuela, where he started making websites in some form or other since he was 13 years old. In 2015, he left behind the tropical heat and moved to Stockholm to join Klarna, where he has been working on Klarna Checkout and Payments. Jonathan likes building applications that humans can actually use. Also enjoys punk rock, black coffee and vinyl records.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/jonathan_trujillo.jpg",
+      "talkPic": "assets/img/speakers/jonathan_trujillo.jpg"
+    },
+    {
+      "name": "Anton Fenske",
+      "twitter": "",
+      "about": "At some point of his professional career, after working at a banking corporation, transferring money between different continents, Anton decided that he couldn't be part of that evil any longer, and his eagerness of proper FinTech has brought him to a Scandinavian payment disruptor called Klarna. Over the course of the last 2 years, Anton has been involved in multiple initiatives aimed at improving risk assessment processes, working together with brilliant individuals on different challenges, such as consumer identification, risk variable modelling and the like. In September he is starting another adventure in the purchase domain to make the checkout experience even smooother.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/anton_fenske.jpg",
+      "talkPic": "assets/img/speakers/anton_fenske.jpg"
+    },
+    {
+      "name": "Brigitte Ringbauer",
+      "twitter": "",
+      "about": "Brigitte likes working at interdisciplinary boundaries and pushing theory to practice. She holds a degree in psychology, specialized in cognitive sciences, and user research. Starting her working life as a usability engineer telling designers and developers what doesn’t work, she is happy having entered UX design and being part of the creative bunch of people to make things happen. She is passionate about the „why“ of human behavior and attitudes and tries hard to translate that into features and good UX design.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/brigitte_ringbauer.jpg",
+      "talkPic": "assets/img/speakers/brigitte_ringbauer.jpg"
+    },
+    {
+      "name": "Grzegorz Łukaszewicz",
+      "twitter": "",
+      "about": "For 11 years I was working as a developer. For 4 years now I am working in Clearcode S.A. as a Project Manager leading an agile team. We are specialized on AdTech/MarTech solutions for our clients utilizing great variety of tool and technologies. I always try to learn new things and improve. I am a big fun of automation everything that is to be automated.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/grzegorz_lukaszewicz.jpg",
+      "talkPic": "assets/img/speakers/grzegorz_lukaszewicz.jpg"
+    },
+    {
+      "name": "Immanuel Kühnle",
+      "twitter": "",
+      "about": "TBA",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/immanuel_kuhnle.jpg",
+      "talkPic": "assets/img/speakers/immanuel_kuhnle.jpg"
+    },
+    {
+      "name": "Linoy Zaga",
+      "twitter": "",
+      "about": "Linoy studied Software Engineering at the Israeli Defense Forces, serving 4 years as a software engineer in the Navy. During this time she had started studying Psychology at the Open University of Israel for fun, and soon discovered that Computer science and Psychology make a great combination. She now tries to fit the two together in her day-to-day work. Linoy has been working at Klarna since Dec 2016. She is 23 years old, making her the youngest engineer at Klarna TLV site. On her spare time, Linoy enjoys dancing and knitting, and was recently trained as a one-star diver.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/linoy_zaga.jpg",
+      "talkPic": "assets/img/speakers/linoy_zaga.jpg"
+    },
+    {
+      "name": "Benedikt Kusemann",
+      "twitter": "",
+      "about": "Benedikt joined SOFORT in early 2016 coming fresh off the university. After taking a dip in the world of Frontend development at the famous “A-Team” he joined the Backend Team “BeeHive”. Right now he is delving deep into the world of Java, MicroServices and Screen Scraping, while sometimes also developing small React Components for the Bank Formulars, which could fill every UX Designers heart with horror and despair.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/benedick_kusemann.jpg",
+      "talkPic": "assets/img/speakers/benedick_kusemann.jpg"
+    },
+    {
+      "name": "Derek Homer",
+      "twitter": "",
+      "about": "Derek became intrigued by technology at the tender age of six, when he ruined his father's laptop by moving its OS to floppy disc (apparently, there wasn't a way to restore it). Years later, he decided to learn how to use technology \"properly\", forging a career that took him from IT Support, through Project Management to Agile Delivery. He is a believer, and is totally fascinated by the interplay between people and their ways of working that makes achieving the impossible possible.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/derek_homer.jpg",
+      "talkPic": "assets/img/speakers/derek_homer.jpg"
+    },
+    {
+      "name": "Talya Stern",
+      "twitter": "",
+      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/talya_stern.jpg",
+      "talkPic": "assets/img/speakers/talya_stern.jpg"
+    },
+    {
+      "name": "Mei Yang",
+      "twitter": "",
+      "about": "Mei Yang started her career in an agile consultant company as a quality advocator. She is passionate about improving the quality throughout the whole product development lifecycle. Apart from working with different delivery projects, she also went to India as a coach to teach people agile practices and agile testing, where she discovered she loves learning and coaching. After 2 years in Stockholm, Mei still enjoys the weather a lot. She loves traveling and is passionate about cooking and playing board games.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/mei_yang.jpg",
+      "talkPic": "assets/img/speakers/mei_yang.jpg"
+    },
+    {
+      "name": "Tamir Taub",
+      "twitter": "",
+      "about": "Tamir started writing software about 10 years ago, juggling high school with Computer Science studies at the The Open University. After his mandatory IDF stint, he decided to abandon his strongly typed roots of Java and .Net and took on a Ruby developer position at Klarna TLV, where he has been working for the past year. He enjoys life's simple pleasures - hitting the snooze button, drinking a hot cup o' joe and experiencing post-lunch comas, and as of late you might also find him bouldering, scuba diving or skiing.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/tamir_taub.jpg",
+      "talkPic": "assets/img/speakers/tamir_taub.jpg"
+    },
+    {
+      "name": "Guy Israeli",
+      "twitter": "",
+      "about": "He is a guy from Israel, that name he didn't choose; yet for a fake user people still confuse; In New Jersey Guy was in school; Also did some cyber, but before it was cool; He would have wanted to write poems in some distant land; or play guitar in some esoteric progressive rock band... Had a startup about shopping online, product images and a map; suspiciously similar to some features that exist in the new Klapp;",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/guy_israeli.jpg",
+      "talkPic": "assets/img/speakers/guy_israeli.jpg"
+    },
+    {
+      "name": "Georgios Kryparos",
+      "twitter": "",
+      "about": "Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade...",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/georgios_kryparos.jpg",
+      "talkPic": "assets/img/speakers/georgios_kryparos.jpg"
+    },
+    {
+      "name": "Case Taintor",
+      "twitter": "",
+      "about": "Case is an American living abroad who likes to travel, code, and enjoy the outdoors by foot or bike.",
+      "location": "Klarna",
+      "profilePic": "assets/img/speakers/case_taintor.jpg",
+      "talkPic": "assets/img/speakers/case_taintor.jpg"
+    }
+  ],
+  "team": [
+    {
+      "name": "Moria Ahi Mordehai",
+      "twitter": "",
+      "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/moria.jpg",
+      "talkPic": "assets/img/team/moria.jpg"
+    },
+    {
+      "name": "Josh Glover",
+      "twitter": "",
+      "about": "Josh is doing his meta-programming on the Meta team here at Klarna. Other than meta-circular interpreters, he loves football, reading, board games, teaching (functional) programming to kids and adults, and making dad jokes.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/josh.jpg",
+      "talkPic": "assets/img/team/josh.jpg"
+    },
+    {
+      "name": "Matthias Feist",
+      "twitter": "",
+      "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/matthias.jpg",
+      "talkPic": "assets/img/team/matthias.jpg"
+    },
+    {
+      "name": "Guy Rozen",
+      "twitter": "",
+      "about": "Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/guy_rozen.jpg",
+      "talkPic": "assets/img/team/guy_rozen.jpg"
+    },
+    {
+      "name": "Adi Bartal",
+      "twitter": "",
+      "about": "Adi is part of the HR team in the TLV site and has been at Klarna since the beginning of 2016. She started as an office coordinator and 7 months ago moved to be HR Coordinator. Part of her role is to make sure the recruitment process is running smoothly, to manage the onboarding process, to build a great PR for Klarna TLV and to help produce all Klarna TLV events. Nowadays, she’s enjoying the summer and the beach of TLV, spending time with her friends and doing lots of Pilates!",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/adi.jpg",
+      "talkPic": "assets/img/team/adi.jpg"
+    },
+    {
+      "name": "Markus Michalsky",
+      "twitter": "",
+      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/markus.jpg",
+      "talkPic": "assets/img/team/markus.jpg"
+    },
+    {
+      "name": "Alexander Lindholm",
+      "twitter": "",
+      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/alexander.jpg",
+      "talkPic": "assets/img/team/alexander.jpg"
+    },
+    {
+      "name": "Christian Niehoff",
+      "twitter": "",
+      "about": "Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/christian.jpg",
+      "talkPic": "assets/img/team/christian.jpg"
+    },
+    {
+      "name": "Case Taintor",
+      "twitter": "",
+      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/case_taintor.jpg",
+      "talkPic": "assets/img/team/case_taintor.jpg"
+    },
+    {
+      "name": "Elspeth Andrell",
+      "twitter": "",
+      "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/elspeth.jpg",
+      "talkPic": "assets/img/team/elspeth.jpg"
+    },
+    {
+      "name": "Kim Öberg",
+      "twitter": "",
+      "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/kim.jpg",
+      "talkPic": "assets/img/team/kim.jpg"
+    },
+    {
+      "name": "Manuel Braun",
+      "twitter": "",
+      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/manuel.jpg",
+      "talkPic": "assets/img/team/manuel.jpg"
+    },
+    {
+      "name": "Talya Stern",
+      "twitter": "",
+      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
+      "location": "Klarna",
+      "profilePic": "assets/img/team/talya_stern.jpg",
+      "talkPic": "assets/img/team/talya_stern.jpg"
+    }
+  ]
+}
