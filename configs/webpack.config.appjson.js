@@ -41,7 +41,11 @@ function imageHandler () {
       loaders: [
         {
           test: context.fileType('image'),
-          loaders: [ 'file-loader' ]
+          loader: 'file-loader',
+          options: {
+            emitFile: false,
+            name: '[name].[ext]',
+          }
         }
       ]
     }
