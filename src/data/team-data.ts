@@ -16,7 +16,7 @@ import markusMichalskyPortrait from '../../public/team/markus.jpg'
 import matthiasFeistPortrait from '../../public/team/matthias.jpg'
 import talyaSternPortrait from '../../public/speakers/talya_stern.jpg'
 
-const TeamListUnshuffled : TeamMember[] = [
+export const TeamListUnshuffled : TeamMember[] = [
   {
     portrait: alexanderLindholmPortrait,
     name: 'Alexander Lindholm',

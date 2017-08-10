@@ -1,5 +1,5 @@
 import { AgendaDataGathering, AgendaDataOpening, AgendaDataTalks, AgendaDataLightningEnding } from './agenda-data'
-import teamList from './team-data'
+import { TeamListUnshuffled } from './team-data'
 import { SpeakerList } from './speaker-data'
 
 var groups = []
@@ -48,7 +48,7 @@ function processSpeaker() {
 function processTeam() {
   var result = []
 
-  for (var speaker of teamList) {
+  for (var speaker of TeamListUnshuffled) {
     result.push({
       name: speaker.name,
       twitter: '',
@@ -88,6 +88,8 @@ var result = {
   team: processTeam()
 }
 
+const filePath = process.cwd() + '/public/data.json'
 var fs = require('fs');
-fs.writeFileSync(process.cwd() + '/public/data.json', JSON.stringify(result, null, 2))
+fs.unlinkSync(filePath)
+fs.writeFileSync(filePath, JSON.stringify(result, null, 2))
 console.log('\nApp json file written')
