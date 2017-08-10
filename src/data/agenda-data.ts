@@ -265,10 +265,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       endTime: '16:00',
       events: [{
         id: 1,
-        title: 'Software Erosion Resistance',
-        description: 'Most developers are familiar with the concept of “technical debt”. Technical debt comes in many forms: it\'s constant library updates, security patches, changing contracts with other tools and systems, and many other. All of these become a “tax” on working software. It may be possible to ignore this tax for certain amount of time but after a while either the software stops working or the changes to it become really hard to perform. Many developers participated in rewriting some existing legacy system from scratch. When does software become “legacy” and how can its lifetime be prolonged? Can we avoid rewriting everything from scratch every 5 years? Do microservices change things? How will containerisation affect this? What about serverless infrastructure? Why some tools like Heroku call themselves “erosion resistant”? I don\'t aim to provide ready-made answers, but I hope to raise awareness and bring up discussions about ways of building maintainable software systems at Klarna.',
+        title: 'The secret sauce of high performance',
+        description: 'TBA',
         room: 'C1+C2',
-        speakers: [Speakers['sergey evstifeev']]
+        speakers: [Speakers['anton fenske']]
       },
       {
         id: 1,

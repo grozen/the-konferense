@@ -30,7 +30,7 @@ import darioPasquantonio from '../../public/speakers/dario_pasquantonio.jpg'
 import adamBergmarkPortrait from '../../public/speakers/adam_bergmark.jpg'
 import brigitteRingbauerPortrait from '../../public/speakers/brigitte_ringbauer.jpg'
 import johannaSimonssonPortrait from '../../public/speakers/johanna_simonsson.jpg'
-import sergeyEvstifeevPortrait from '../../public/speakers/sergey_evstifeev.jpg'
+import antonFenskePortrait from '../../public/speakers/anton_fenske.jpg'
 import nirAravotPortrait from '../../public/speakers/nir_aravot.jpg'
 import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
 import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
@@ -138,9 +138,9 @@ const SpeakerList : Speaker[] = [
     bio: 'Jonathan Trujillo is a Software Engineer and Front-end Developer from Caracas, Venezuela, where he started making websites in some form or other since he was 13 years old. In 2015, he left behind the tropical heat and moved to Stockholm to join Klarna, where he has been working on Klarna Checkout and Payments. Jonathan likes building applications that humans can actually use. Also enjoys punk rock, black coffee and vinyl records.'
   },
   {
-    portrait: sergeyEvstifeevPortrait,
-    name: 'Sergey Evstifeev',
-    bio: 'Sergey is a software engineer at Klarna for more than 6 years, having worked with Erlang, Java, Ruby and Javascript. He\'s developing product features but tends to also focus a lot on the infrastructure. Among the things he likes are continuous delivery, Docker and immutable infrastructure. Previously he worked with mobile Java implementations at Sun Microsystems.'
+    portrait: antonFenskePortrait,
+    name: 'Anton Fenske',
+    bio: 'At some point of his professional career, after working at a banking corporation, transferring money between different continents, Anton decided that he couldn\'t be part of that evil any longer, and his eagerness of proper FinTech has brought him to a Scandinavian payment disruptor called Klarna. Over the course of the last 2 years, Anton has been involved in multiple initiatives aimed at improving risk assessment processes, working together with brilliant individuals on different challenges, such as consumer identification, risk variable modelling and the like. In September he is starting another adventure in the purchase domain to make the checkout experience even smooother.'
   },
   {
     portrait: brigitteRingbauerPortrait,
