@@ -38,8 +38,7 @@ function processSpeaker() {
       twitter: '',
       about: speaker.bio,
       location: 'Klarna',
-      profilePic: 'assets/img/speakers/' + speaker.portrait,
-      talkPic: 'assets/img/speakers/' + speaker.portrait
+      profilePic: 'assets/img/' + speaker.portrait
     })
   }
 
@@ -55,8 +54,7 @@ function processTeam() {
       twitter: '',
       about: speaker.bio,
       location: 'Klarna',
-      profilePic: 'assets/img/team/' + speaker.portrait,
-      talkPic: 'assets/img/team/' + speaker.portrait
+      profilePic: 'assets/img/' + speaker.portrait
     })
   }
 
