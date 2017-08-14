@@ -266,7 +266,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [{
         id: 1,
         title: 'The secret sauce of high performance',
-        description: 'TBA',
+        description: 'High performance is what most teams strive for. But how can it be sustained? The secret is a combination of smart technology choices, great development habits and a powerful team dynamic. In this talk Anton describes a number of useful techniques that he\'s identified working with different teams and analysing the results of the study that he conducted. You\'ll gain a fresh perspective on what you can do to improve the performance of your team.',
         room: 'C1+C2',
         speakers: [Speakers['anton fenske']]
       },
