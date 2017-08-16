@@ -42,9 +42,11 @@ export default function splash() : VNode {
       <div className={dateClass}>
         {AppData['The KonferenSE'].date}
       </div>
+      {/*
       <div className={signupClass}>
         <a href='https://goo.gl/forms/1WD8m5g0S0MleRjr1' target='_blank'>sign up now !!!</a>
       </div>
+      */}
     </div>
   )
 }
