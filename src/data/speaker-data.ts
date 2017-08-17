@@ -55,7 +55,7 @@ export const SpeakerList : Speaker[] = [
   {
     portrait: davidFockPortrait,
     name: 'David Fock',
-    bio: 'TBA'
+    bio: 'David serves as Chief Product Officer and is part of Klarna’s Management Team. David was the product manager and designer for the original version of Klarna Checkout. Since then he has been involved in all major Klarna products. He is a product leader developing products + product teams with focus on design and time to market, who spends his spare time with his wife and two kids.'
   },
   {
     portrait: nadiaMohedanoTroyanoPortrait,
