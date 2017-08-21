@@ -23,7 +23,6 @@ import meiYangPortrait from '../../public/speakers/mei_yang.jpg'
 import nadiaMohedanoTroyanoPortrait from '../../public/speakers/nadia_mohedano_troyano.jpg'
 import omriYarivPortrait from '../../public/speakers/omri_yariv.jpg'
 import pauloRagonhaPortrait from '../../public/speakers/paulo_ragonha.jpg'
-import talyaSternPortrait from '../../public/speakers/talya_stern.jpg'
 import tamirTaubPortrait from '../../public/speakers/tamir_taub.jpg'
 import josephTindale from '../../public/speakers/joseph_tindale.jpg'
 import darioPasquantonio from '../../public/speakers/dario_pasquantonio.jpg'
@@ -171,11 +170,6 @@ export const SpeakerList : Speaker[] = [
     portrait: derekHomerPortrait,
     name: 'Derek Homer',
     bio: 'Derek became intrigued by technology at the tender age of six, when he ruined his father\'s laptop by moving its OS to floppy disc (apparently, there wasn\'t a way to restore it). Years later, he decided to learn how to use technology "properly", forging a career that took him from IT Support, through Project Management to Agile Delivery. He is a believer, and is totally fascinated by the interplay between people and their ways of working that makes achieving the impossible possible.'
-  },
-  {
-    portrait: talyaSternPortrait,
-    name: 'Talya Stern',
-    bio: 'From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man\'s Israeli regional event.'
   },
   {
     portrait: meiYangPortrait,

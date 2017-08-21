@@ -365,12 +365,13 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
     {
       startTime: '',
       endTime: '',
-      events: [{
+      events: [
+      {
         id: 1,
-        title: 'Adjust your SOLID grip',
-        description: 'SOLID principles - the golden guidelines set to keep our code clean, readable and maintainable. While code quality is an important factor regardless of your programming paradigm, SOLID is highly focused on Object Oriented programming. Could we apply SOLID principles in a more universal manner? The talk will refresh our memory on SOLID while exploring this question.',
+        title: 'A friend called Ruby?',
+        description: 'After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn\'t take long, though, before I realized the ride won\'t be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.',
         room: 'C1+C2+C3',
-        speakers: [Speakers['talya stern']]
+        speakers: [Speakers['tamir taub']]
       },
       {
         id: 1,
@@ -383,13 +384,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
     {
       startTime: '',
       endTime: '',
-      events: [{
-        id: 1,
-        title: 'A friend called Ruby?',
-        description: 'After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn\'t take long, though, before I realized the ride won\'t be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.',
-        room: 'C1+C2+C3',
-        speakers: [Speakers['tamir taub']]
-      },
+      events: [
       {
         id: 1,
         title: 'Dashboard Driven Development',

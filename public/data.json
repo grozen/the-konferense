@@ -425,7 +425,7 @@
             {
               "name": "The secret sauce of high performance",
               "location": "C1+C2",
-              "description": "TBA",
+              "description": "High performance is what most teams strive for. But how can it be sustained? The secret is a combination of smart technology choices, great development habits and a powerful team dynamic. In this talk Anton describes a number of useful techniques that he's identified working with different teams and analysing the results of the study that he conducted. You'll gain a fresh perspective on what you can do to improve the performance of your team.",
               "speakerNames": [
                 "Anton Fenske"
               ],
@@ -601,11 +601,11 @@
           "time": "",
           "sessions": [
             {
-              "name": "Adjust your SOLID grip",
+              "name": "A friend called Ruby?",
               "location": "C1+C2+C3",
-              "description": "SOLID principles - the golden guidelines set to keep our code clean, readable and maintainable. While code quality is an important factor regardless of your programming paradigm, SOLID is highly focused on Object Oriented programming. Could we apply SOLID principles in a more universal manner? The talk will refresh our memory on SOLID while exploring this question.",
+              "description": "After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn't take long, though, before I realized the ride won't be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.",
               "speakerNames": [
-                "Talya Stern"
+                "Tamir Taub"
               ],
               "timeStart": "",
               "timeEnd": "",
@@ -633,20 +633,6 @@
         {
           "time": "",
           "sessions": [
-            {
-              "name": "A friend called Ruby?",
-              "location": "C1+C2+C3",
-              "description": "After years of working with various programming languages, I crossed paths with Ruby. Its reputation of being one of the most programmer-friendly languages out there preceded it, and I was eager to board the Ruby train and happily ride into the sunset. It didn't take long, though, before I realized the ride won't be as smoooth as I had hoped. This is the story of my journey with Ruby, for better or worse.",
-              "speakerNames": [
-                "Tamir Taub"
-              ],
-              "timeStart": "",
-              "timeEnd": "",
-              "trackId": "C1+C2+C3",
-              "tracks": [
-                "KonferenSE"
-              ]
-            },
             {
               "name": "Dashboard Driven Development",
               "location": "C1+C2+C3",
@@ -740,7 +726,7 @@
     {
       "name": "David Fock",
       "twitter": "",
-      "about": "TBA",
+      "about": "David serves as Chief Product Officer and is part of Klarna’s Management Team. David was the product manager and designer for the original version of Klarna Checkout. Since then he has been involved in all major Klarna products. He is a product leader developing products + product teams with focus on design and time to market, who spends his spare time with his wife and two kids.",
       "location": "Klarna",
       "profilePic": "assets/img/david_fock.jpg"
     },
@@ -906,13 +892,6 @@
       "profilePic": "assets/img/derek_homer.jpg"
     },
     {
-      "name": "Talya Stern",
-      "twitter": "",
-      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
-      "location": "Klarna",
-      "profilePic": "assets/img/talya_stern.jpg"
-    },
-    {
       "name": "Mei Yang",
       "twitter": "",
       "about": "Mei Yang started her career in an agile consultant company as a quality advocator. She is passionate about improving the quality throughout the whole product development lifecycle. Apart from working with different delivery projects, she also went to India as a coach to teach people agile practices and agile testing, where she discovered she loves learning and coaching. After 2 years in Stockholm, Mei still enjoys the weather a lot. She loves traveling and is passionate about cooking and playing board games.",
@@ -950,18 +929,11 @@
   ],
   "team": [
     {
-      "name": "Elspeth Andrell",
+      "name": "Manuel Braun",
       "twitter": "",
-      "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
+      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
       "location": "Klarna",
-      "profilePic": "assets/img/elspeth.jpg"
-    },
-    {
-      "name": "Talya Stern",
-      "twitter": "",
-      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
-      "location": "Klarna",
-      "profilePic": "assets/img/talya_stern.jpg"
+      "profilePic": "assets/img/manuel.jpg"
     },
     {
       "name": "Guy Rozen",
@@ -971,27 +943,6 @@
       "profilePic": "assets/img/guy_rozen.jpg"
     },
     {
-      "name": "Matthias Feist",
-      "twitter": "",
-      "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
-      "location": "Klarna",
-      "profilePic": "assets/img/matthias.jpg"
-    },
-    {
-      "name": "Manuel Braun",
-      "twitter": "",
-      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
-      "location": "Klarna",
-      "profilePic": "assets/img/manuel.jpg"
-    },
-    {
-      "name": "Moria Ahi Mordehai",
-      "twitter": "",
-      "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
-      "location": "Klarna",
-      "profilePic": "assets/img/moria.jpg"
-    },
-    {
       "name": "Kim Öberg",
       "twitter": "",
       "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
@@ -999,32 +950,11 @@
       "profilePic": "assets/img/kim.jpg"
     },
     {
-      "name": "Christian Niehoff",
+      "name": "Alexander Lindholm",
       "twitter": "",
-      "about": "Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.",
+      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
       "location": "Klarna",
-      "profilePic": "assets/img/christian.jpg"
-    },
-    {
-      "name": "Josh Glover",
-      "twitter": "",
-      "about": "Josh is doing his meta-programming on the Meta team here at Klarna. Other than meta-circular interpreters, he loves football, reading, board games, teaching (functional) programming to kids and adults, and making dad jokes.",
-      "location": "Klarna",
-      "profilePic": "assets/img/josh.jpg"
-    },
-    {
-      "name": "Markus Michalsky",
-      "twitter": "",
-      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
-      "location": "Klarna",
-      "profilePic": "assets/img/markus.jpg"
-    },
-    {
-      "name": "Case Taintor",
-      "twitter": "",
-      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
-      "location": "Klarna",
-      "profilePic": "assets/img/case_taintor.jpg"
+      "profilePic": "assets/img/alexander.jpg"
     },
     {
       "name": "Adi Bartal",
@@ -1034,11 +964,60 @@
       "profilePic": "assets/img/adi.jpg"
     },
     {
-      "name": "Alexander Lindholm",
+      "name": "Christian Niehoff",
       "twitter": "",
-      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
+      "about": "Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.",
       "location": "Klarna",
-      "profilePic": "assets/img/alexander.jpg"
+      "profilePic": "assets/img/christian.jpg"
+    },
+    {
+      "name": "Markus Michalsky",
+      "twitter": "",
+      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
+      "location": "Klarna",
+      "profilePic": "assets/img/markus.jpg"
+    },
+    {
+      "name": "Matthias Feist",
+      "twitter": "",
+      "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
+      "location": "Klarna",
+      "profilePic": "assets/img/matthias.jpg"
+    },
+    {
+      "name": "Moria Ahi Mordehai",
+      "twitter": "",
+      "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
+      "location": "Klarna",
+      "profilePic": "assets/img/moria.jpg"
+    },
+    {
+      "name": "Josh Glover",
+      "twitter": "",
+      "about": "Josh is doing his meta-programming on the Meta team here at Klarna. Other than meta-circular interpreters, he loves football, reading, board games, teaching (functional) programming to kids and adults, and making dad jokes.",
+      "location": "Klarna",
+      "profilePic": "assets/img/josh.jpg"
+    },
+    {
+      "name": "Talya Stern",
+      "twitter": "",
+      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
+      "location": "Klarna",
+      "profilePic": "assets/img/talya_stern.jpg"
+    },
+    {
+      "name": "Elspeth Andrell",
+      "twitter": "",
+      "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
+      "location": "Klarna",
+      "profilePic": "assets/img/elspeth.jpg"
+    },
+    {
+      "name": "Case Taintor",
+      "twitter": "",
+      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
+      "location": "Klarna",
+      "profilePic": "assets/img/case_taintor.jpg"
     }
   ]
 }
