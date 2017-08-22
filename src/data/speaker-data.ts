@@ -129,7 +129,7 @@ export const SpeakerList : Speaker[] = [
   {
     portrait: johannaSimonssonPortrait,
     name: 'Johanna Simonsson',
-    bio: 'After 3 years at university studying Mechanical Engineering, Johanna discovered she didn\'t like machines at all. In fact, the more abstract the concept, the better. Fortunately, coding seemed to be just that. She steered her career away from anything tangible, and ended up at Klarna as a System Engineer herding non-tangible machines in the cloud. As she succeeded abstracting her world at work, in private Johanna likes everything low-tech, old and manual. This includes cross-stitching, reading fantasy fiction and pre-enlightenment history.'
+    bio: 'After 5 years at university studying Mechanical Engineering, Johanna discovered she didn\'t like machines at all. In fact, the more abstract the concept, the better. Fortunately, coding seemed to be just that. She steered her career away from anything tangible, and ended up at Klarna as a System Engineer herding non-tangible machines in the cloud. As she succeeded abstracting her world at work, in private Johanna likes everything low-tech, old and manual. This includes cross-stitching, reading fantasy fiction and pre-enlightenment history.'
   },
   {
     portrait: jonathanTrujilloPortrait,

@@ -232,8 +232,8 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       endTime: '15:15',
       events: [{
         id: 1,
-        title: 'War Stories: A Journey of Implementing Kubernetes',
-        description: 'This is the story of how Kubernetes became the platform for the Klarna build farm. Back in 2016, an idea for solving the problems of slow feedback loops and stagnant structures of running Jenkins in KCloud, was born. This was the beginning. In this session I will tell you the story of this Dawn of Joy, full of promises of new, cool features. I will also tell you about the Days of Improvement, during which we were blissfully unaware of the impending D-Day, the KCloud Decommission, the day which put everything to the test. But how did it end? Did it end? Did we solve our initial problem? Did we learn anything by implementing a cool, new, bleeding edge technology? By digging through post mortems and the shared team memory, I\'ll share the war stories of porting our entire service portfolio to a new platform, and teach you what you need to know if you ever want to go to war.',
+        title: 'War stories implementing Kubernetes',
+        description: 'What happens when you take one of those new, hip technologies out there and actually implement it into production? In this session, I will tell you the war stories of how Kubernetes became the platform for the Klarna build farm. Do to that, we will go through post mortems and the shared team memory exploring how everything happened. You will learn about our mistakes and lessons porting an entire service portfolio to a new platform and teach you what you need to know if you ever want to go to war.',
         room: 'C1+C2',
         speakers: [Speakers['johanna simonsson']]
       },
