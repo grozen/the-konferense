@@ -349,7 +349,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       endTime: '',
       events: [{
         id: 1,
-        title: 'Screen Scraping - The Good, the Bad and the Funny',
+        title: 'What has screenscraping ever done for us?',
         description: 'SOFORTs main product is based on the screen scraping of bank websites. While developing and maintaining such Technology, one comes into contact with an API not expected to be used in that way. This talk centers around common pitfalls, daily boulder rolling and other things Sisyphus would do to escape death another time, while also maintaining sanity when dealing with the craziest errors.',
         room: 'C1+C2+C3',
         speakers: [Speakers['benedikt kusemann']]
