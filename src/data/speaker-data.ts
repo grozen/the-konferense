@@ -34,6 +34,7 @@ import nirAravotPortrait from '../../public/speakers/nir_aravot.jpg'
 import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
 import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
 import koenKoppenPortrait from '../../public/speakers/koen-koppen.jpg'
+import leslieWittigQuintanillaPortrait from '../../public/speakers/leslie_wittig_quintanilla.jpg'
 
 export const SpeakerList : Speaker[] = [
   {
@@ -190,6 +191,11 @@ export const SpeakerList : Speaker[] = [
     portrait: georgiosKryparosPortrait,
     name: 'Georgios Kryparos',
     bio: 'Georgios is a farmer at heart who gave up his dreams when his grandparents told him that farming requires waking up really early in the morning. Many years later, he started as a UNIX sysadmin while studying Computer Engineering. He soon realised this is too hard when his mail server got hacked and he had to postpone sleeping for some days until the server was back online. “Life would be so much easier if I were a web developer instead”, he thought but when a senior colleague demoed an SQL injection he had introduced, he despaired and decided to join the dark side. And there he roams for the last decade...'
+  },
+  {
+    portrait: leslieWittigQuintanillaPortrait,
+    name: 'Leslie Wittig Quintanilla',
+    bio: 'From law office receptionist to troubleshooting virtual machines is a long journey. Luckily, Leslie loves travelling, both literally and figuratively! She has visited many countries, met many new people and cultures, and experienced amazing things. She has also visited many new technologies, programming languages, and ideas. And when she's not travelling, she likes to hang out with her cats and robots.'
   },
   {
     portrait: caseTaintorPortrait,
