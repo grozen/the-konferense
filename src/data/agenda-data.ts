@@ -391,6 +391,13 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
         description: 'Data helps making sense of your service, yet, it\'s meaningless without context and subsequent actions. In this life-changing talk, you will learn how dashboards can assist you in getting the answer to your most pressing questions.',
         room: 'C1+C2+C3',
         speakers: [Speakers['guy israeli']]
+      },
+      {
+        id: 1,
+        title: 'Bringing Software to the Physical World',
+        description: '3D printers are more accessible these days, and when I got one, it opened up a whole new world of ideas and possibilities. A few months later, when I started learning the Clojure programming language, I had the idea of visualising my code in the physical world to help me understand it. Plus, it was a good excuse to remember some maths! I'll show you where this quest led.',
+        room: 'C1+C2+C3',
+        speakers: [Speakers['leslie wittig quintanilla']]
       }]
     },
     {
