@@ -195,7 +195,7 @@ export const SpeakerList : Speaker[] = [
   {
     portrait: leslieWittigQuintanillaPortrait,
     name: 'Leslie Wittig Quintanilla',
-    bio: 'From law office receptionist to troubleshooting virtual machines is a long journey. Luckily, Leslie loves travelling, both literally and figuratively! She has visited many countries, met many new people and cultures, and experienced amazing things. She has also visited many new technologies, programming languages, and ideas. And when she's not travelling, she likes to hang out with her cats and robots.'
+    bio: 'From law office receptionist to troubleshooting virtual machines is a long journey. Luckily, Leslie loves travelling, both literally and figuratively! She has visited many countries, met many new people and cultures, and experienced amazing things. She has also visited many new technologies, programming languages, and ideas. And when she\'s not travelling, she likes to hang out with her cats and robots.'
   },
   {
     portrait: caseTaintorPortrait,
