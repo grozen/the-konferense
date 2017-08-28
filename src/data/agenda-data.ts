@@ -166,7 +166,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       endTime: '13:45',
       events: [{
         id: 1,
-        title: 'When You Know Better, You Do Better',
+        title: 'Smart, Intelligent, and Informed',
         description: 'We are all in the product business, either directly or indirectly. Some teams in engineering build products that reach external customers, and some serve internal support functions. No matter which role we play we can always strive to do better, and data is key to that. I will explain a mindset where data is seen as an integral part of the product, and how this can be leveraged to create more value and better products. As a way to achieve this I\'ll introduce the Business Intelligence team and present the mutual benefits with a partnership. We will also go into some examples on how to use our data, and you might learn a few things about our products that you didn\'t know before!',
         room: 'C1+C2',
         speakers: [Speakers['karin kullman']]
