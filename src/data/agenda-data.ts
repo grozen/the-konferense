@@ -206,10 +206,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Cashless Society and the Impact on Klarna and Beggary',
-        description: 'With a push from governments, banks and consumers, becoming a cashless society is closer than ever. In this session I will talk about the efforts done in different countries to move away from cash, the benefits and challenges in a no cash society and new opportunities for Klarna. Will we become a cashless society in the foreseeable future? If you are an engineer or a product manager who wants to learn more about this important change that will impact each and everyone of us, this talk is for you.',
+        title: 'Asynchronous Javascript',
+        description: 'Mastering asynchronous code is key in JavaScript. Therefore, we’ll walkthrough some common problems and patterns and learn along the way. I’ll only assume you have a general idea of what is a Promise, so this talk will [hopefully] be helpful for developers in all learning stages.',
         room: 'C3',
-        speakers: [Speakers['eran manor']]
+        speakers: [Speakers['juan lulkin']]
       },
       {
         id: 1,

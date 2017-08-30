@@ -6,7 +6,7 @@ import benedickKusemannPortrait from '../../public/speakers/benedick_kusemann.jp
 import billpayPortrait from '../../public/speakers/unknown.png'
 import bjornRathjensPortrait from '../../public/speakers/bjorn_rathjens.jpg'
 import davidFockPortrait from '../../public/speakers/david_fock.jpg'
-import eranManorPortrait from '../../public/speakers/eran_manor.jpg'
+import juanLulkinPortrait from '../../public/speakers/juan_lulkin.jpg'
 import fernandoViaCanelPortrait from '../../public/speakers/fernando_via_canel.jpg'
 import georgiosKryparosPortrait from '../../public/speakers/georgios_kryparos.jpg'
 import grzegorzLukaszewiczPortrait from '../../public/speakers/grzegorz_lukaszewicz.jpg'
@@ -118,9 +118,9 @@ export const SpeakerList : Speaker[] = [
     bio: 'Mariana is a passionate software developer by day and a graphic designer by night. Some of the teams at Klarna have logos created by Mariana.&nbsp;What you might not know is that she studied human computer interaction and usability. Then she had a short stint in a german fabLab learning and having fun with laser cutters and electronics where Mariana manufactured her own small batch of arduino clones. &nbsp;The thing Mariana enjoys the most is learning new things! One of her learning journeys led her to discover clojure well enough to teach it to beginners. Now she is developing in clojure with her current team. Her next learning challenge became Machine learning...'
   },
   {
-    portrait: eranManorPortrait,
-    name: 'Eran Manor',
-    bio: 'Eran started working at Klarna in 2013. He is the Product manager for Personas and Preferences at Klarna TLV, Eran is passionate about simplifying complex problems and building intuitive, easy to use and valuable services. He has over 15 years of Product Management experience in various companies from small to big size corporates. In his free time Eran likes to run and play on different musical instruments (with little success though). Recently he became addicted to Chess and plays Blitz games with people around the world.'
+    portrait: juanLulkinPortrait,
+    name: 'Juan Lulkin',
+    bio: 'Juan was just a regular kid until one day he bet his soul in a game with the devil and lost. Then, he suddenly learned to play blues and started working with software development, making fortunes in the dotcom bubble. He mastered many open source technologies while studying physics – which he couldn’t find any evidence for – and philosophy – where he could’t find any good argument for the existence of souls. Given the approaching deadline set by the Dark Lord, he decided to move to Israel and learn Hebrew, in order to read God’s words and to seek atonement for his sins. Nowadays he works at Klarna Stockholm, mainly with React and other front end technologies, since he couldn’t find anything more self-flagellating to do.'
   },
   {
     portrait: majaKontrecPortrait,
