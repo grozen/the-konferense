@@ -356,7 +356,7 @@ export const AgendaDataLightningEnding : Agenda<RoomsLightningEnding> = {
       },
       {
         id: 1,
-        title: 'Jiggle Me This, Juggle Me That',
+        title: 'Juggle Me This, Juggle Me That',
         description: 'Team "Awesome" seem to have a lot on these days. They have company goals, domain goals, experiments they want to build and tech debt to tied up. Urgent Production Issues seem to pop up out of nowhere... and on top of it all, their Product Manager has just added this-next-great-thing to their backlog! How are they supposed to manage it all? I feel for them; I really do. But it\'s not unlike the situation I face each month: as soon as the paycheck comes in, my significant other always seems to have other ideas as to where that money should go. In my talk, I\'m going to illustrate a lightweight budgeting system that we use to make sure essential bills are paid, commitments are met, surprises are catered for and little luxuries are picked up along the way. It means conversations about what we pay for and when can be clearer and easier, leaving us alot happier as a result. And as they say, a happy wife is a happy life...',
         room: 'C1+C2+C3',
         speakers: [Speakers['derek homer']]
