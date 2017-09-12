@@ -936,13 +936,6 @@
   ],
   "team": [
     {
-      "name": "Kim Öberg",
-      "twitter": "",
-      "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
-      "location": "Klarna",
-      "profilePic": "assets/img/kim.jpg"
-    },
-    {
       "name": "Moria Ahi Mordehai",
       "twitter": "",
       "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
@@ -950,25 +943,11 @@
       "profilePic": "assets/img/moria.jpg"
     },
     {
-      "name": "Christian Niehoff",
+      "name": "Kim Öberg",
       "twitter": "",
-      "about": "Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.",
+      "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
       "location": "Klarna",
-      "profilePic": "assets/img/christian.jpg"
-    },
-    {
-      "name": "Adi Bartal",
-      "twitter": "",
-      "about": "Adi is part of the HR team in the TLV site and has been at Klarna since the beginning of 2016. She started as an office coordinator and 7 months ago moved to be HR Coordinator. Part of her role is to make sure the recruitment process is running smoothly, to manage the onboarding process, to build a great PR for Klarna TLV and to help produce all Klarna TLV events. Nowadays, she’s enjoying the summer and the beach of TLV, spending time with her friends and doing lots of Pilates!",
-      "location": "Klarna",
-      "profilePic": "assets/img/adi.jpg"
-    },
-    {
-      "name": "Case Taintor",
-      "twitter": "",
-      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
-      "location": "Klarna",
-      "profilePic": "assets/img/case_taintor.jpg"
+      "profilePic": "assets/img/kim.jpg"
     },
     {
       "name": "Talya Stern",
@@ -978,11 +957,18 @@
       "profilePic": "assets/img/talya_stern.jpg"
     },
     {
-      "name": "Alexander Lindholm",
+      "name": "Adi Bartal",
       "twitter": "",
-      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
+      "about": "Adi is part of the HR team in the TLV site and has been at Klarna since the beginning of 2016. She started as an office coordinator and 7 months ago moved to be HR Coordinator. Part of her role is to make sure the recruitment process is running smoothly, to manage the onboarding process, to build a great PR for Klarna TLV and to help produce all Klarna TLV events. Nowadays, she’s enjoying the summer and the beach of TLV, spending time with her friends and doing lots of Pilates!",
       "location": "Klarna",
-      "profilePic": "assets/img/alexander.jpg"
+      "profilePic": "assets/img/adi.jpg"
+    },
+    {
+      "name": "Manuel Braun",
+      "twitter": "",
+      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
+      "location": "Klarna",
+      "profilePic": "assets/img/manuel.jpg"
     },
     {
       "name": "Matthias Feist",
@@ -999,18 +985,11 @@
       "profilePic": "assets/img/guy_rozen.jpg"
     },
     {
-      "name": "Markus Michalsky",
+      "name": "Alexander Lindholm",
       "twitter": "",
-      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
+      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
       "location": "Klarna",
-      "profilePic": "assets/img/markus.jpg"
-    },
-    {
-      "name": "Manuel Braun",
-      "twitter": "",
-      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
-      "location": "Klarna",
-      "profilePic": "assets/img/manuel.jpg"
+      "profilePic": "assets/img/alexander.jpg"
     },
     {
       "name": "Josh Glover",
@@ -1020,11 +999,32 @@
       "profilePic": "assets/img/josh.jpg"
     },
     {
+      "name": "Case Taintor",
+      "twitter": "",
+      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
+      "location": "Klarna",
+      "profilePic": "assets/img/case_taintor.jpg"
+    },
+    {
       "name": "Elspeth Andrell",
       "twitter": "",
       "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
       "location": "Klarna",
       "profilePic": "assets/img/elspeth.jpg"
+    },
+    {
+      "name": "Markus Michalsky",
+      "twitter": "",
+      "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
+      "location": "Klarna",
+      "profilePic": "assets/img/markus.jpg"
+    },
+    {
+      "name": "Christian Niehoff",
+      "twitter": "",
+      "about": "Christian Niehoff studied Computer Sience at the University of Applied Siences in Middle Hesse. After studies he started 8.5 years before as engineer at SOFORT GmbH (former Payment Network AG) as one of the first engineers. Later he become senior and team lead, his current position at SOFORT is Engineering Manager. He started as maid-of-all-work in the startup phase and was part of the team responsible for the product development. In his free time he likes high strategic board games like Twilight Imperium, Civilisation or Twilight Struggle. He is also an ambitious badminton player and hiker.",
+      "location": "Klarna",
+      "profilePic": "assets/img/christian.jpg"
     }
   ]
 }
