@@ -3,7 +3,8 @@ import { Person } from './person'
 export type Speaker = Person
 
 import benedickKusemannPortrait from '../../public/speakers/benedick_kusemann.jpg'
-import billpayPortrait from '../../public/speakers/unknown.png'
+import janWehrsPortait from '../../public/speakers/jan_wehrs.jpg'
+import svenBrauerPortrait from '../../public/speakers/sven_brauer.jpg'
 import bjornRathjensPortrait from '../../public/speakers/bjorn_rathjens.jpg'
 import davidFockPortrait from '../../public/speakers/david_fock.jpg'
 import juanLulkinPortrait from '../../public/speakers/juan_lulkin.jpg'
@@ -43,9 +44,14 @@ export const SpeakerList : Speaker[] = [
     bio: 'TBA'
   },
   {
-    portrait: billpayPortrait,
-    name: 'A speaker',
-    bio: 'Maybe several speakers? The air of mystery is indeed thick.'
+    portrait: janWehrsPortait,
+    name: 'Jan Wehrs',
+    bio: ''
+  },
+  {
+    portrait: svenBrauerPortrait,
+    name: 'Sven Brauer',
+    bio: ''
   },
   {
     portrait: karaDefriasPortrait,

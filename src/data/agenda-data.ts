@@ -233,10 +233,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       events: [
       {
         id: 1,
-        title: 'Mystery Talk',
-        description: 'Shh... it\'s a secret',
+        title: 'Local adaption: "Never tell me the odds"',
+        description: 'We will briefly introduce BillPay, who we are, what we do, how we do it, where we do it... We\'ll also be about the challenges of bringing a product to a new market and the importance of adapting it to the local needs. This we will be exemplified with our own experience when launching BillPay in Switzerland.',
         room: 'C1+C2',
-        speakers: [Speakers['a speaker']]
+        speakers: [Speakers['jan wehrs'], Speakers['sven brauer']]
       },
       {
         id: 1,
