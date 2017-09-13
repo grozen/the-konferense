@@ -230,25 +230,19 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
     {
       startTime: '14:45',
       endTime: '15:15',
-      events: [{
-        id: 1,
-        title: 'War stories implementing Kubernetes',
-        description: 'What happens when you take one of those new, hip technologies out there and actually implement it into production? In this session, I will tell you the war stories of how Kubernetes became the platform for the Klarna build farm. Do to that, we will go through post mortems and the shared team memory exploring how everything happened. You will learn about our mistakes and lessons porting an entire service portfolio to a new platform and teach you what you need to know if you ever want to go to war.',
-        room: 'C1+C2',
-        speakers: [Speakers['johanna simonsson']]
-      },
+      events: [
       {
         id: 1,
         title: 'Mystery Talk',
         description: 'Shh... it\'s a secret',
-        room: 'C3',
+        room: 'C1+C2',
         speakers: [Speakers['a speaker']]
       },
       {
         id: 1,
         title: 'Prototype your idea today!',
         description: 'Product managers want to materialize ideas rapidly and test their hypotheses. On the other hand, designers and engineers don\'t like to build something that will be thrown away. Seriously, who would? Prototyping should be a low commitment effort. For the Klarna Payments Direct Debit launch, we came up with a pretty nice setup to swiftly build high-fidelity prototypes using Sagui, the Klarna UI and some more React. In this session I\'ll show you how to build your own cool prototypes, and tell you why you should do it more often.',
-        room: 'C4',
+        room: 'C3',
         speakers: [Speakers['jonathan trujillo']]
       }]
     },
