@@ -361,11 +361,12 @@
           "time": "14:45",
           "sessions": [
             {
-              "name": "Mystery Talk",
+              "name": "Local adaption: \"Never tell me the odds\"",
               "location": "C1+C2",
-              "description": "Shh... it's a secret",
+              "description": "We will briefly introduce BillPay, who we are, what we do, how we do it, where we do it... We'll also be about the challenges of bringing a product to a new market and the importance of adapting it to the local needs. This we will be exemplified with our own experience when launching BillPay in Switzerland.",
               "speakerNames": [
-                "A speaker"
+                "Jan Wehrs",
+                "Sven Brauer"
               ],
               "timeStart": "14:45",
               "timeEnd": "15:15",
@@ -696,11 +697,18 @@
       "profilePic": "assets/img/koen-koppen.jpg"
     },
     {
-      "name": "A speaker",
+      "name": "Jan Wehrs",
       "twitter": "",
-      "about": "Maybe several speakers? The air of mystery is indeed thick.",
+      "about": "",
       "location": "Klarna",
-      "profilePic": "assets/img/unknown.png"
+      "profilePic": "assets/img/jan_wehrs.jpg"
+    },
+    {
+      "name": "Sven Brauer",
+      "twitter": "",
+      "about": "",
+      "location": "Klarna",
+      "profilePic": "assets/img/sven_brauer.jpg"
     },
     {
       "name": "Kara Defrias",
@@ -922,74 +930,11 @@
   ],
   "team": [
     {
-      "name": "Josh Glover",
-      "twitter": "",
-      "about": "Josh is doing his meta-programming on the Meta team here at Klarna. Other than meta-circular interpreters, he loves football, reading, board games, teaching (functional) programming to kids and adults, and making dad jokes.",
-      "location": "Klarna",
-      "profilePic": "assets/img/josh.jpg"
-    },
-    {
       "name": "Moria Ahi Mordehai",
       "twitter": "",
       "about": "Moria is a proud web developer who believes good code should be written for human beings first, robots second. Moria has experience with GIS technologies, the gaming industry and Fintech. In 2015 she won an award in the annual GameIS contest (The Digital Games Industry Association in Israel).",
       "location": "Klarna",
       "profilePic": "assets/img/moria.jpg"
-    },
-    {
-      "name": "Kim Öberg",
-      "twitter": "",
-      "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
-      "location": "Klarna",
-      "profilePic": "assets/img/kim.jpg"
-    },
-    {
-      "name": "Alexander Lindholm",
-      "twitter": "",
-      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
-      "location": "Klarna",
-      "profilePic": "assets/img/alexander.jpg"
-    },
-    {
-      "name": "Elspeth Andrell",
-      "twitter": "",
-      "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
-      "location": "Klarna",
-      "profilePic": "assets/img/elspeth.jpg"
-    },
-    {
-      "name": "Matthias Feist",
-      "twitter": "",
-      "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
-      "location": "Klarna",
-      "profilePic": "assets/img/matthias.jpg"
-    },
-    {
-      "name": "Manuel Braun",
-      "twitter": "",
-      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
-      "location": "Klarna",
-      "profilePic": "assets/img/manuel.jpg"
-    },
-    {
-      "name": "Talya Stern",
-      "twitter": "",
-      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
-      "location": "Klarna",
-      "profilePic": "assets/img/talya_stern.jpg"
-    },
-    {
-      "name": "Guy Rozen",
-      "twitter": "",
-      "about": "Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.",
-      "location": "Klarna",
-      "profilePic": "assets/img/guy_rozen.jpg"
-    },
-    {
-      "name": "Case Taintor",
-      "twitter": "",
-      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
-      "location": "Klarna",
-      "profilePic": "assets/img/case_taintor.jpg"
     },
     {
       "name": "Christian Niehoff",
@@ -999,6 +944,69 @@
       "profilePic": "assets/img/christian.jpg"
     },
     {
+      "name": "Adi Bartal",
+      "twitter": "",
+      "about": "Adi is part of the HR team in the TLV site and has been at Klarna since the beginning of 2016. She started as an office coordinator and 7 months ago moved to be HR Coordinator. Part of her role is to make sure the recruitment process is running smoothly, to manage the onboarding process, to build a great PR for Klarna TLV and to help produce all Klarna TLV events. Nowadays, she’s enjoying the summer and the beach of TLV, spending time with her friends and doing lots of Pilates!",
+      "location": "Klarna",
+      "profilePic": "assets/img/adi.jpg"
+    },
+    {
+      "name": "Alexander Lindholm",
+      "twitter": "",
+      "about": "Alexander is working for the Payments domain in Stockholm and has been at Klarna for 2.5 years. He started in team Wallstreet when there was only three people and are now at the team Ironbank writing Scala. Alexander is born and raised in Stockholm. Before joining Klarna Alexander has been working a lot with PKI and systems for managing that infrastructure. When he is not working he enjoys going to the gym and listens a lot to music.",
+      "location": "Klarna",
+      "profilePic": "assets/img/alexander.jpg"
+    },
+    {
+      "name": "Guy Rozen",
+      "twitter": "",
+      "about": "Naturally drawn to smoothness, Guy manifested at the TLV office nearly six years ago and has since refused to leave. Enjoys writing beautiful code that makes sense, quick feedback cycles and long walks on the beach. Vehemently dislikes WordPress. In his spare time, Guy is an avid gamer and family man who desperately attempts to maintain too many additional hobbies.",
+      "location": "Klarna",
+      "profilePic": "assets/img/guy_rozen.jpg"
+    },
+    {
+      "name": "Kim Öberg",
+      "twitter": "",
+      "about": "Despite being a robotics engineer at heart, these days Kim prefer to keep the hardware integrations to a minimum. Instead she’s putting her efforts into writing increasingly functional code (in Scala) and optimising the team’s deployment and testing practises (through Docker mostly). Before becoming a robotics engineer she lived abroad in both Sydney and Berlin and when she’s not working you’re bound to find her either in the kitchen baking (cupcakes mostly) or in front of her PS4 (currently playing Horizon Zero Dawn and Destiny).",
+      "location": "Klarna",
+      "profilePic": "assets/img/kim.jpg"
+    },
+    {
+      "name": "Matthias Feist",
+      "twitter": "",
+      "about": "Matthias is working for the Merchant domain in Stockholm where he moved about two years ago from Germany. Originally having studied some weird stuff called “Media Production” he worked in a lot of different jobs and companies (e.g. as a ambulance driver, for a TV production, in a studio recording music, as a wedding photographer and as a photo retoucher in an advertising agency) before finally settling with programming. Now he enjoys life in Stockholm with a lot of fika, awesome colleagues and of course the KonferenSE.",
+      "location": "Klarna",
+      "profilePic": "assets/img/matthias.jpg"
+    },
+    {
+      "name": "Elspeth Andrell",
+      "twitter": "",
+      "about": "Elspeth has been at Klarna for a year as Engineering Department Coordinator, making sure everything runs smooothly. She’s a jack of all trades, helping out with a wide range of things like the engineering newsletter, tech talks, meetups, managing Safari, you name it! She moved to Stockholm from the UK and spends her free time baking, spoiling her dogs, and re-reading Harry Potter.",
+      "location": "Klarna",
+      "profilePic": "assets/img/elspeth.jpg"
+    },
+    {
+      "name": "Case Taintor",
+      "twitter": "",
+      "about": "Case is an American living abroad who like to travel, code, and enjoy the outdoors by foot or bike.",
+      "location": "Klarna",
+      "profilePic": "assets/img/case_taintor.jpg"
+    },
+    {
+      "name": "Talya Stern",
+      "twitter": "",
+      "about": "From a young age, Talya has taken into math and linguistics. During her 1st degree in Mathematics she accidentally stumbled upon software engineering, a passion she continues to pursue in the decade since. Talya has been part of Klarna TLV for over 3 years, finding joy in well-crafted code, teamwork, slick process and constant improvement. She is the editor of the engineering management book Leading Snowflakes. In her spare time Talya might be found West Coast Swing dancing, or working on a project for Burning Man's Israeli regional event.",
+      "location": "Klarna",
+      "profilePic": "assets/img/talya_stern.jpg"
+    },
+    {
+      "name": "Josh Glover",
+      "twitter": "",
+      "about": "Josh is doing his meta-programming on the Meta team here at Klarna. Other than meta-circular interpreters, he loves football, reading, board games, teaching (functional) programming to kids and adults, and making dad jokes.",
+      "location": "Klarna",
+      "profilePic": "assets/img/josh.jpg"
+    },
+    {
       "name": "Markus Michalsky",
       "twitter": "",
       "about": "Markus is one of the newest additions to the SOFORT Frontend-Team 'Myrddin' which maintains and improves the Desktop-Web-App of the SOFORT Online Payment Service. Most of his nearly 10 years of work experience as a software developer specialized in web applications were focused on optimizing and improving internal workflows, especially under a more human-oriented point of view. Questions he asks himself every day are 'How can this be done easier?' and 'How can we make it more fun?'.",
@@ -1006,11 +1014,11 @@
       "profilePic": "assets/img/markus.jpg"
     },
     {
-      "name": "Adi Bartal",
+      "name": "Manuel Braun",
       "twitter": "",
-      "about": "Adi is part of the HR team in the TLV site and has been at Klarna since the beginning of 2016. She started as an office coordinator and 7 months ago moved to be HR Coordinator. Part of her role is to make sure the recruitment process is running smoothly, to manage the onboarding process, to build a great PR for Klarna TLV and to help produce all Klarna TLV events. Nowadays, she’s enjoying the summer and the beach of TLV, spending time with her friends and doing lots of Pilates!",
+      "about": "Manuel passed 16+ years of working experience in various companies. He is Scrum Master and Developer at Office Linden. Develops with pleasure software and hardware. His heart beats for podcasts, photo and sound.",
       "location": "Klarna",
-      "profilePic": "assets/img/adi.jpg"
+      "profilePic": "assets/img/manuel.jpg"
     }
   ]
 }
