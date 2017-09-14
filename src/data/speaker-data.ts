@@ -36,12 +36,18 @@ import derekHomerPortrait from '../../public/speakers/derek_homer.jpg'
 import caseTaintorPortrait from '../../public/speakers/case_taintor.jpg'
 import koenKoppenPortrait from '../../public/speakers/koen-koppen.jpg'
 import leslieWittigQuintanillaPortrait from '../../public/speakers/leslie_wittig_quintanilla.jpg'
+import brandanEvery from '../../public/speakers/brandan_every.jpg'
 
 export const SpeakerList : Speaker[] = [
   {
     portrait: koenKoppenPortrait,
     name: 'Koen Köppen',
     bio: 'TBA'
+  },
+  {
+    portrait: brandanEvery,
+    name: 'Brandan Every',
+    bio: ''
   },
   {
     portrait: janWehrsPortait,

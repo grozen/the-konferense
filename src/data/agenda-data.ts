@@ -141,6 +141,13 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
+        title: 'Perceived performance',
+        description: 'Last minute talks',
+        room: 'C4',
+        speakers: [Speakers['brandan every']]
+      },
+      {
+        id: 1,
         title: 'The Rise and Fall of Adobe Flash',
         description: 'Flash is dead, but it didn\'t go down without a fight. I\'ll be taking you on a journey from the early days of Flash as an animation tool to when it became a rich software development suite. I\'ll be pointing out some interesting similarities between Flash and recent web technologies: SVG, JSX, Typescript, AJAX streams, video manipulation - Flash was the hipster kid who liked them before they were cool.',
         room: 'C3',
