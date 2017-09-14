@@ -131,25 +131,19 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
     {
       startTime: '11:45',
       endTime: '12:15',
-      events: [{
-        id: 1,
-        title: 'First Class Error Handling',
-        description: 'Thinking of all possible errors in a program is almost impossible and it often seems like busy work that doesn\'t get you closer to your business goals. One reason it is hard is that we often push errors to the side, leaving them as an afterthought. In this talk we\'ll look at ways to allow you to stay on the happy path of what you want to achieve without having unexpected errors slip through the cracks.',
-        room: 'C1+C2',
-        speakers: [Speakers['adam bergmark']]
-      },
+      events: [
       {
         id: 1,
         title: 'WTF is Wavy? A story from zero to something',
         description: 'How do you take 14 people from an insolvent company, a Swedish payment giant and an office dog and make a p2p payment app for Europe in half a year? In this session we will talk about the past six months at Wavy - how we work, what mistakes we made, which best practices we ignored and how we plug into Klarna. We will also show the best (and worst) parts of the complex system beneath the elegant surface.',
-        room: 'C3',
+        room: 'C1+C2',
         speakers: [Speakers['dario pasquantonio'], Speakers['joseph tindale']]
       },
       {
         id: 1,
         title: 'The Rise and Fall of Adobe Flash',
         description: 'Flash is dead, but it didn\'t go down without a fight. I\'ll be taking you on a journey from the early days of Flash as an animation tool to when it became a rich software development suite. I\'ll be pointing out some interesting similarities between Flash and recent web technologies: SVG, JSX, Typescript, AJAX streams, video manipulation - Flash was the hipster kid who liked them before they were cool.',
-        room: 'C4',
+        room: 'C3',
         speakers: [Speakers['omri yariv']]
       }]
     },
