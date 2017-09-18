@@ -42,6 +42,7 @@ export default function splash() : VNode {
       <div className={dateClass}>
         {AppData['The KonferenSE'].date}
       </div>
+      {/*
       <div className={signupClass}>
          Get the offical app now!
          <br />
@@ -49,7 +50,6 @@ export default function splash() : VNode {
          &nbsp;
          <a target='_blank' href='https://itunes.apple.com/us/app/konferense/id1269110146?l=de&ls=1&mt=8'> iOS</a>
       </div>
-      {/*
       <div className={signupClass}>
         <a href='https://goo.gl/forms/1WD8m5g0S0MleRjr1' target='_blank'>sign up now !!!</a>
       </div>
