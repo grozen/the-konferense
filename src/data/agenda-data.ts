@@ -141,10 +141,10 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       },
       {
         id: 1,
-        title: 'Perceived performance',
-        description: 'Last minute talks',
+        title: 'Fake it til you make it render with Perceived Performance',
+        description: 'You optimize your bundle, minimize requests, reduce waste, etc. all to get better performance. But have you ever asked... "Do our users even notice?" Lets look into how users perceive wait times and some ways we can make users think we\'re even faster.',
         room: 'C4',
-        speakers: [Speakers['brandan every']]
+        speakers: [Speakers['brandon every']]
       },
       {
         id: 1,
