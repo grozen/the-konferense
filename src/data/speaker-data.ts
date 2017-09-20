@@ -46,8 +46,8 @@ export const SpeakerList : Speaker[] = [
   },
   {
     portrait: brandanEvery,
-    name: 'Brandan Every',
-    bio: ''
+    name: 'Brandon Every',
+    bio: 'Brandon is a software engineer who has worked for Klarna US for 2.5 years ago. Concentrating mainly on frontend of KCO, KP, and ID-Module. Brandon is passionate about web development, collaborative work environments that empower teams to make great products, his 2 boys (aka his secret, NERF gun fighting, ninja, spy sidekicks), and remodeling his house which often involves tearing down walls and annoying his very patient wife. Brandon holds a Bachelor of Science in Game and Simulation Programming from DeVry University and an Associates of Applied Science in Electro-Mechanical Engineering Technology from Zane State College.'
   },
   {
     portrait: janWehrsPortait,
