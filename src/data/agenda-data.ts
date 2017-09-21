@@ -249,7 +249,7 @@ export const AgendaDataTalks : Agenda<RoomsTalks> = {
       {
         id: 1,
         title: 'Smoooth-ening security',
-        description: 'Last minute emergency talk :)',
+        description: 'How we work with Application Security in Klarna and what the future holds.',
         room: 'C4',
         speakers: [Speakers['georgios kryparos']]
       }]
