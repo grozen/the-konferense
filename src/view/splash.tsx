@@ -39,8 +39,11 @@ export default function splash() : VNode {
     <div id={titleToAnchor('The KonferenSE')}>
       <div className={splashImageClass}>
       </div>
-      <div className={dateClass}>
+      {/* <div className={dateClass}>
         {AppData['The KonferenSE'].date}
+      </div> */}
+      <div className={signupClass}>
+      We thank all of you<br />for having<br/>such a lovely KonferenSE
       </div>
       {/*
       <div className={signupClass}>
